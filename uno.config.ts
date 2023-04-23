@@ -2,23 +2,41 @@ import {
   defineConfig,
   presetAttributify,
   presetIcons,
+  presetMini,
   presetTypography,
   presetUno,
   presetWebFonts,
+  presetWind,
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
+import { presetAnu, presetIconExtraProperties } from 'anu-vue'
+import { presetExtra } from 'unocss-preset-extra'
+import { presetScrollbar } from 'unocss-preset-scrollbar'
+import { presetScrollbarHide } from 'unocss-preset-scrollbar-hide'
+import { presetThemeDefault } from '@anu-vue/preset-theme-default'
 
 export default defineConfig({
+  include: [/.*\/anu-vue\.js(.*)?$/, './**/*.vue', './**/*.md'],
   shortcuts: [
-    ['btn', 'px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50'],
-    ['icon-btn', 'inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100 hover:text-teal-600'],
   ],
   presets: [
+    presetAnu(),
+    // default theme preset
+    presetThemeDefault({
+      shortcutOverrides: {
+        'a-btn': 'ring-3 ring-primary',
+        'a-base-input-root': 'ring-3',
+      },
+    }),
     presetUno(),
+    presetMini(),
+    presetWind(),
     presetAttributify(),
     presetIcons({
       scale: 1.2,
+      cdn: 'https://esm.sh/',
+      extraProperties: presetIconExtraProperties,
     }),
     presetTypography(),
     presetWebFonts({
@@ -28,6 +46,9 @@ export default defineConfig({
         mono: 'DM Mono',
       },
     }),
+    presetExtra(),
+    presetScrollbar(),
+    presetScrollbarHide(),
   ],
   transformers: [
     transformerDirectives(),

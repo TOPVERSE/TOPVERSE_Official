@@ -3,6 +3,8 @@ const online = useOnline()
 </script>
 
 <template>
+  <Carousel />
+  <Divider />
   <div>
     <Logos mb-6 />
     <Suspense>

@@ -1,0 +1,8 @@
+
+:root{
+  --a-spacing:0.9
+}
+
+.a-btn{
+  --uno:'shadow-primary/80 ease-in-out transition-transform hover:scale-105 active:scale-98';
+}
