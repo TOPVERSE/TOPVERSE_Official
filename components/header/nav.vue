@@ -1,4 +1,6 @@
 <script setup>
+const { x, y } = useWindowScroll()
+
 const navs = [
   {
     title: 'home',
@@ -28,7 +30,11 @@ const navs = [
 </script>
 
 <template>
-  <nav>
+  <nav
+    :class="{
+      hidden: y > 10,
+    }"
+  >
     <NuxtLink v-for="(nav, i) in navs" :key="i" class="mx-2 border-primary p-1 pb-5 transition-all" :to="nav.href" active-class="border-b-3px">
       <ABtn variant="text" color="white">
         <AMenu v-if="nav.child" color="white" trigger="hover" z-1000 mt-5 placement="bottom">
