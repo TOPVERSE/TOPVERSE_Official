@@ -1,24 +1,3 @@
 {
-  "hint": {
-    "input": "请输入",
-    "refresh": "刷新",
-    "add": "添加"
-  },
-  "login": {
-    "text": "登录",
-    "user": "用户名",
-    "pwd": "密码",
-    "code": "验证码"
-  },
-  "register": {
-    "text": "注册"
-  },
-  "nav": {
-    "dashboard": "概览",
-    "server": "服务器",
-    "datacenter": "数据中心",
-    "filer": "文件网关",
-    "cdn": "CDN",
-    "management": "管理"
-  }
+
 }

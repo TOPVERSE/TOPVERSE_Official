@@ -1,82 +1,64 @@
-<script setup>
-// Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from 'swiper/vue'
+<script setup lang="ts">
+const { state: pages, next, prev } = useCycleList(Array(4).fill('').map((_, i) => i), {
+  initialValue: 1,
+})
+const transitionPages = ref('view-next')
+const carousels = [
+  {
+    title: 'carousel.one.topic',
+    description: 'carousel.one.description',
+    entry: 'carousel.one.entry',
+    img: '/imgs/1 (1).jpg',
+  },
+  {
+    title: 'carousel.two.topic',
+    description: 'carousel.two.description',
+    entry: 'carousel.two.entry',
+    img: '/imgs/1 (2).jpg',
+  },
+  {
+    title: 'carousel.third.topic',
+    description: 'carousel.third.description',
+    entry: 'carousel.third.entry',
+    img: '/imgs/1 (3).jpg',
+  },
+  {
+    title: 'carousel.four.topic',
+    description: 'carousel.four.description',
+    entry: 'carousel.four.entry',
+    img: '/imgs/1 (4).jpg',
+  },
+]
 
-// Import Swiper styles
-import 'swiper/css'
-
-import 'swiper/css/effect-fade'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
-
-// import required modules
-import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper'
-
-const modules = [Autoplay, EffectFade, Navigation, Pagination]
+useIntervalFn(() => {
+  next()
+}, 2500)
 </script>
 
 <template>
-  <Swiper
-    :space-between="30"
-    effect="fade"
-    :navigation="true"
-    :pagination="{
-      clickable: true,
-    }"
-    :autoplay="{
-      delay: 2500,
-      disableOnInteraction: false,
-    }"
-    :modules="modules"
-    loop
+  <AViews
+    v-model="pages"
   >
-    <SwiperSlide>
-      <img src="https://swiperjs.com/demos/images/nature-1.jpg">
-    </SwiperSlide>
-    <SwiperSlide>
-      <img
-        src="https://swiperjs.com/demos/images/nature-2.jpg"
-      >
-    </SwiperSlide>
-    <SwiperSlide>
-      <img
-        src="https://swiperjs.com/demos/images/nature-3.jpg"
-      >
-    </SwiperSlide>
-    <SwiperSlide>
-      <img src="https://swiperjs.com/demos/images/nature-4.jpg">
-    </SwiperSlide>
-
-    <div className="absolute z-1 h-1/3 w-full top-0 from-[hsl(var(--a-body-bg-c))]  bg-gradient-to-b w-full bg-opacity-30 " />
-    <div className="absolute z-1 h-1/2 w-full bottom-0 from-[hsl(var(--a-body-bg-c))]  bg-gradient-to-t w-full bg-opacity-30 " />
-  </Swiper>
+    <AView v-for="(item, i) in carousels" :key="i" :value="i">
+      <div class="relative h-full max-h-700px min-h-500px w-full flex items-center justify-center bg-transparent">
+        <div class="absolute absolute z-10 text-white text-shadow">
+          <h2 class="text-h2 text-start text-white">
+            {{ $t(item.title) }}
+          </h2>
+          <p class="text-h3 text-start">
+            {{ $t(item.description) }}
+          </p>
+          <ABtn class="text-xl">
+            {{ $t(item.entry) }}
+          </ABtn>
+        </div>
+        <img style="mask-image:linear-gradient(0deg,transparent ,#000 80%, transparent 190%)" :src="item.img">
+      </div>
+      <!-- <ACard
+        :title="item.title"
+        class="h-300px shadow-none"
+        :text="item.description"
+      /> -->
+    </AView>
+  </AViews>
 </template>
-
-<style scoped>
-.swiper {
-  --uno:'w-full h-500px lg:h-600px 2xl:h-700px relative';
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.swiper {
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
