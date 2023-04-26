@@ -52,7 +52,7 @@ useIntervalFn(() => {
             {{ $t(item.entry) }}
           </ABtn>
         </div>
-        <img style="mask-image:linear-gradient(0deg,transparent ,#000 80%, transparent 190%)" :src="item.img">
+        <img style="-webkit-mask-image:linear-gradient(0deg,transparent ,#000 80%, transparent 190%)" :src="item.img">
       </div>
       <!-- <ACard
         :title="item.title"

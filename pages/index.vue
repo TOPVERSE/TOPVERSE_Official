@@ -112,7 +112,7 @@ const imgs = [
   <Section
     relative h-380px md:h-400px xl:h-450px
   >
-    <div absolute left-0 top-0 z-0 h-full w-full bg-cover bg-center bg-no-repeat style="background-image: url(https://landvault.io/img/asset/YXNzZXRzL2ltYWdlcy9vdGhlcnNpZGUuanBn?w=1920&h=480&fit=crop&fm=webp&s=a53969e9e8ddeda15dab9b724a6af3f6);mask-image:linear-gradient(0deg, transparent, #000);" />
+    <div absolute left-0 top-0 z-0 h-full w-full bg-cover bg-center bg-no-repeat style="background-image: url(https://landvault.io/img/asset/YXNzZXRzL2ltYWdlcy9vdGhlcnNpZGUuanBn?w=1920&h=480&fit=crop&fm=webp&s=a53969e9e8ddeda15dab9b724a6af3f6);-webkit-mask-image:linear-gradient(0deg, transparent, #000);" />
     <Section absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center text-white text-shadow>
       <h2 class="text-h2">
         {{ $t('home.sectionFour.topic') }}
@@ -186,7 +186,7 @@ const imgs = [
   <Section
     relative h-380px md:h-400px xl:h-450px
   >
-    <div absolute left-0 top-0 z-0 h-full w-full bg-cover bg-center bg-no-repeat style="background-image: url(https://landvault.io/img/asset/YXNzZXRzL2ltYWdlcy9vdGhlcnNpZGUuanBn?w=1920&h=480&fit=crop&fm=webp&s=a53969e9e8ddeda15dab9b724a6af3f6);mask-image:linear-gradient(0deg, transparent, #000);" />
+    <div absolute left-0 top-0 z-0 h-full w-full bg-cover bg-center bg-no-repeat style="background-image: url(https://landvault.io/img/asset/YXNzZXRzL2ltYWdlcy9vdGhlcnNpZGUuanBn?w=1920&h=480&fit=crop&fm=webp&s=a53969e9e8ddeda15dab9b724a6af3f6);-webkit-mask-image:linear-gradient(0deg, transparent, #000);" />
     <Section absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center text-white text-shadow>
       <p class="text-title">
         {{ $t('home.sectionSeven.title') }}
