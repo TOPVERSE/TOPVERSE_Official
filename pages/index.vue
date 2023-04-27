@@ -1,4 +1,8 @@
 <script setup lang="ts">
+import { useSectionOne } from '~/config/pages/home/use-section-one'
+import { useSectionThree } from '~/config/pages/home/use-section-three'
+import { useSectionTwo } from '~/config/pages/home/use-section-two'
+
 const imgs = [
   {
     img: 'https://landvault.io/img/asset/YXNzZXRzL2ltYWdlcy9tYXAuanBn?w=581&h=358&fit=crop&fm=webp&s=1eeea55d816b6b9fb182d2a469db110c',
@@ -44,70 +48,131 @@ const imgs = [
     },
   },
 ]
+
+const sectionOne = useSectionOne()
+const sectionTwo = useSectionTwo()
+const sectionThree = useSectionThree()
 </script>
 
 <template>
   <Carousel class="mb-5" />
   <Divider />
+  <!-- Section One -->
   <Section>
-    <h2 class="text-h2">
-      {{ $t('home.sectionOne.topic') }}
+    <h2 class="text-h2" :title="$t(sectionOne.topic)">
+      {{ $t(sectionOne.topic) }}
     </h2>
-    <div class="grid-row lg:(grid-cols-3) md:(grid-cols-2)">
+    <div class="grid-row md:(grid-cols-2)" :class="`lg:grid-cols-${sectionOne.content.length}`">
       <div
-        v-for="col in 3"
-        :key="col"
-        class="h-10 w-full rounded-lg bg-primary bg-opacity-35"
-      />
+        v-for="(col, i) in sectionOne.content"
+        :key="i"
+        class="w-full overflow-hidden text-center"
+      >
+        <h2 :title="$t(col.title)" class="break-words from-pink-500 to-violet-500 bg-gradient-to-r bg-clip-text text-h3 font-bold text-transparent">
+          {{ $t(col.title) }}
+        </h2>
+        <Divider />
+        <h5 :title="$t(col.subtext)" class="mt-3 break-words text-h4 text-h5">
+          {{ $t(col.subtext) }}
+        </h5>
+        <Divider />
+        <p :title="$t(col.description)" class="mt-1 break-words text-h6 !line-clamp-3">
+          {{ $t(col.description) }}
+        </p>
+      </div>
     </div>
   </Section>
+
+  <!-- Section Two -->
   <Section class="border-b-2 border-light-50/10 border-b-solid from-light/5 bg-gradient-to-t">
     <p class="text-title">
-      {{ $t('home.sectionTwo.title') }}
+      {{ $t(sectionTwo.title) }}
     </p>
-    <div class="grid-row grid-cols-2 py-10 lg:(grid-cols-7) md:(grid-cols-3)">
-      <div
-        v-for="col in 7"
-        :key="col"
-        class="h-10 w-full rounded-lg bg-primary bg-opacity-35"
-      />
+    <div class="grid-row grid-cols-2 py-10 md:grid-cols-3" :class="`lg:grid-cols-${sectionTwo.content.length}`">
+      <NuxtLink
+        v-for="(content, i) in sectionTwo.content"
+        :key="i"
+        class="h-10 w-full flex justify-center"
+        :href="content.href"
+        :title="$t(content.title)"
+      >
+        <img :src="content.img">
+      </NuxtLink>
     </div>
   </Section>
+
+  <!-- Section Three -->
   <Section text-center>
     <p class="text-title">
-      {{ $t('home.sectionThird.title') }}
+      {{ $t(sectionThree.title) }}
     </p>
     <h2 class="text-h2">
-      {{ $t('home.sectionThird.topic') }}
+      {{ $t(sectionThree.topic) }}
     </h2>
     <p class="text-h6">
-      {{ $t('home.sectionThird.description') }}
+      {{ $t(sectionThree.description) }}
     </p>
 
     <div>
-      <div class="grid-row py-10 pb-20 lg:(grid-cols-2) md:(grid-cols-2)">
-        <div
-          v-for="col in 2"
-          :key="col"
-          class="h-10 w-full rounded-lg bg-primary bg-opacity-35"
-        />
+      <div class="grid-row py-10 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionThree.contentFirst.length}`">
+        <NuxtLink
+          v-for="(content, i) in sectionThree.contentFirst"
+          :key="i"
+          :href="content.href"
+          class="relative w-full overflow-hidden rounded-lg bg-primary bg-opacity-35"
+        >
+          <img :src="content.img">
+          <div class="absolute left-0 top-0 z-1 h-full w-full from-transparent to-dark-800 bg-gradient-to-b" />
+          <div class="absolute bottom-0 z-10 w-full flex items-center justify-center stroke-3 p-2 px-10">
+            <div class="w-full text-h4">
+              <p :title="content.topic" class="w-90% truncate">
+                {{ content.topic }}
+              </p>
+            </div>
+            <div i-solar-arrow-right-linear stroke-3 font-bold />
+          </div>
+        </NuxtLink>
       </div>
-      <div class="grid-row pb-20 lg:(grid-cols-3) md:(grid-cols-2)">
-        <div
-          v-for="col in 3"
-          :key="col"
-          class="h-10 w-full rounded-lg bg-primary bg-opacity-35"
-        />
+      <div class="grid-row pb-10 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionThree.contentSecondary.length}`">
+        <NuxtLink
+          v-for="(content, i) in sectionThree.contentSecondary"
+          :key="i"
+          :href="content.href"
+          class="relative w-full overflow-hidden rounded-lg bg-primary bg-opacity-35"
+        >
+          <img :src="content.img">
+          <div class="absolute left-0 top-0 z-1 h-full w-full from-transparent to-dark-800 bg-gradient-to-b" />
+          <div class="absolute bottom-0 z-10 w-full flex items-center justify-center stroke-3 p-2 px-10">
+            <div class="w-full text-h4">
+              <p :title="content.topic" class="w-90% truncate">
+                {{ content.topic }}
+              </p>
+            </div>
+            <div i-solar-arrow-right-linear stroke-3 font-bold />
+          </div>
+        </NuxtLink>
       </div>
-      <div class="grid-row pb-20 lg:(grid-cols-4) md:(grid-cols-2)">
-        <div
-          v-for="col in 4"
-          :key="col"
-          class="h-10 w-full rounded-lg bg-primary bg-opacity-35"
-        />
+      <div class="grid-row pb-20 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionThree.contentThird.length}`">
+        <NuxtLink
+          v-for="(content, i) in sectionThree.contentThird"
+          :key="i"
+          :href="content.href"
+          class="relative w-full overflow-hidden rounded-lg bg-primary bg-opacity-35"
+        >
+          <img :src="content.img">
+          <div class="absolute left-0 top-0 z-1 h-full w-full from-transparent to-dark-800 bg-gradient-to-b" />
+          <div class="absolute bottom-0 z-10 w-full flex items-center justify-center stroke-3 p-2 px-10">
+            <div class="w-full text-h4">
+              <p :title="content.topic" class="w-90% truncate">
+                {{ content.topic }}
+              </p>
+            </div>
+            <div i-solar-arrow-right-linear stroke-3 font-bold />
+          </div>
+        </NuxtLink>
       </div>
     </div>
-    <ABtn>{{ $t('home.sectionThird.entry') }}</ABtn>
+    <ABtn>{{ $t(sectionThree.entry) }}</ABtn>
   </Section>
   <Section
     relative h-380px md:h-400px xl:h-450px

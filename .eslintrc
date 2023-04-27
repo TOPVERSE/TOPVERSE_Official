@@ -2,5 +2,8 @@
   "extends": [
     "@antfu",
     "@unocss"
-  ]
+  ],
+  "rules": {
+    "@typescript-eslint/ban-ts-comment":"off"
+  }
 }

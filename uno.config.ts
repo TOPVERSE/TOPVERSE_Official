@@ -22,13 +22,17 @@ export default defineConfig({
     'text-title': 'text font-bold opacity-90 text-center uppercase',
     'text-body': 'text-base text-center  tracking-normal',
     'text-description': 'text-md text-stone text-center',
-    'text-h2': 'text-5xl text-center leading-20 font-bold',
-    'text-h3': 'text-4xl text-center leading-18',
-    'text-h4': 'text-2xl text-center leading-14',
-    'text-h5': 'text-xl text-center leading-10',
-    'text-h6': 'text-lg text-center leading-6',
-    'text-h7': 'text text-center',
+    'text-h2': 'line-clamp-2 text-5xl text-center leading-20 font-bold',
+    'text-h3': 'line-clamp-2 text-4xl text-center leading-13',
+    'text-h4': 'line-clamp-2 text-2xl text-center leading-10',
+    'text-h5': 'line-clamp-2 text-xl text-center leading-8',
+    'text-h6': 'line-clamp-2 text-lg text-center leading-6',
+    'text-h7': 'line-clamp-3 text text-center',
   },
+  safelist: [
+    ...Array(10).fill('').map((_, i) => `grid-cols-${i + 1}`),
+    ...Array(10).fill('').map((_, i) => `lg:grid-cols-${i + 1}`),
+  ],
   presets: [
     presetAnu(),
     // default theme preset

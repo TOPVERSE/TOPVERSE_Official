@@ -1,7 +1,9 @@
 <template>
-  <div text="xl gray4" m-5 flex="~ gap3" justify-center>
-    <NuxtLink i-carbon-campsite to="/" />
-    <a i-carbon-logo-github href="https://github.com/antfu/vitesse-nuxt3" target="_blank" />
-    <DarkToggle />
+  <div class="grid-row py-10 lg:(grid-cols-3) md:(grid-cols-2)">
+    <div
+      v-for="col in 3"
+      :key="col"
+      class="h-10 w-full rounded-lg bg-primary bg-opacity-35"
+    />
   </div>
 </template>

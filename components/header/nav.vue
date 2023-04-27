@@ -1,32 +1,7 @@
-<script setup>
-const { x, y } = useWindowScroll()
+<script setup lang="ts">
+import { useNav } from '~/config/use-nav'
 
-const navs = [
-  {
-    title: 'home',
-    href: '/',
-  },
-  {
-    title: 'solutions.t',
-    child: [
-      {
-        title: 'solutions.child.land.t',
-        subtitle: 'solutions.child.land.description',
-        href: '/land',
-        icon: 'i-solar-accumulator-bold-duotone',
-        iconColor: 'red',
-      },
-      {
-        title: 'solutions.child.land.t',
-        subtitle: 'solutions.child.land.description sdfdsfasdf ',
-        href: '/landa',
-        icon: 'i-solar-airbuds-case-open-line-duotone text-amber',
-        iconColor: 'amber',
-        // avatarProps: { icon: 'i-solar-airbuds-case-open-line-duotone' },
-      },
-    ],
-  },
-]
+const navs = useNav()
 </script>
 
 <template>
@@ -48,7 +23,6 @@ const navs = [
                 :title="item.title"
                 :subtitle="item.subtitle"
                 :icon="item.icon"
-                :disabled="item.disabled"
               />
             </NuxtLink>
           </AList>

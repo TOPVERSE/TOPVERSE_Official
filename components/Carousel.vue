@@ -1,34 +1,10 @@
 <script setup lang="ts">
+import { useCarousel } from '~/config/pages/home/use-carousel'
+
 const { state: pages, next, prev } = useCycleList(Array(4).fill('').map((_, i) => i), {
   initialValue: 1,
 })
-const transitionPages = ref('view-next')
-const carousels = [
-  {
-    title: 'carousel.one.topic',
-    description: 'carousel.one.description',
-    entry: 'carousel.one.entry',
-    img: '/imgs/1 (1).jpg',
-  },
-  {
-    title: 'carousel.two.topic',
-    description: 'carousel.two.description',
-    entry: 'carousel.two.entry',
-    img: '/imgs/1 (2).jpg',
-  },
-  {
-    title: 'carousel.third.topic',
-    description: 'carousel.third.description',
-    entry: 'carousel.third.entry',
-    img: '/imgs/1 (3).jpg',
-  },
-  {
-    title: 'carousel.four.topic',
-    description: 'carousel.four.description',
-    entry: 'carousel.four.entry',
-    img: '/imgs/1 (4).jpg',
-  },
-]
+const carousels = useCarousel()
 
 useIntervalFn(() => {
   next()
@@ -52,8 +28,8 @@ useIntervalFn(() => {
             {{ $t(item.entry) }}
           </ABtn>
         </div>
-        <div class="h-full w-full absolute top-0 left-0" style="background-image: linear-gradient(0deg,hsl(var(--a-body-bg-c)),transparent 80%, hsl(var(--a-body-bg-c)) 101%);" ></div>
-        <img  :src="item.img">
+        <div class="absolute left-0 top-0 h-full w-full" style="background-image: linear-gradient(0deg,hsl(var(--a-body-bg-c)),transparent 75%, hsl(var(--a-body-bg-c)) 99%);" />
+        <img :src="item.img">
       </div>
       <!-- <ACard
         :title="item.title"
