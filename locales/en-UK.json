@@ -1,6 +1,6 @@
 {
   "nav": {
-    "home": "home",
+    "home": "HOME",
     "solutions": {
       "t": "solutions",
       "child": {
@@ -18,10 +18,10 @@
   "scrolldown": "Scroll down to learn more",
   "home": {
     "sectionOne": {
-      "topic": "Your End-To-End Metaverse Builders",
+      "topic": "Your End-To-End Metaverse Developers",
       "figure": [
         {
-          "title": "120+",
+          "title": "50+",
           "body": "Completed Builds",
           "description": "We have been developing in web3 since 2017"
         },
