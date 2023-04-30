@@ -40,27 +40,21 @@
     "sectionOne": {
       "topic": "Your End-To-End Metaverse Developers",
       "one":{
-        "title":"50+",
+        "title":"80+",
         "subtext":"Metaverse Experts & Engineers",
         "description":"Architects, Developers, Producers, amd more"
       },
-      "figure": [
-        {
-          "title": "50+",
-          "body": "Completed Builds",
-          "description": "We have been developing in web3 since 2017"
-        },
-        {
-          "title": "120+",
-          "body": "Completed Builds",
-          "description": "We have been developing in web3 since 2017"
-        },
-        {
-          "title": "120+",
-          "body": "Completed Builds",
-          "description": "We have been developing in web3 since 2017"
-        }
-      ]
+      "two":{
+        "title":"20+",
+        "subtext":"Completed Builds & Inventions",
+        "description":"We have been developing in metaverse since 2021"
+      },
+      "three":{
+        "title":"2 Million+",
+        "subtext":"Square Meters Developed",
+        "description":"in both virtual and IRL scales"
+      }
+  
     },
     "sectionTwo": {
       "title": "some of our clients"
