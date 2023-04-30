@@ -20,14 +20,14 @@ const navs = useNav()
           >
             <NuxtLink v-for="(item, index) in nav.child" :key="index" :href="item.href" class="mx-2 my-1 max-w-250px overflow-hidden rounded py-2 hover:bg-light-50/5" active-class="bg-light-50/5">
               <AListItem
-                :title="item.title"
-                :subtitle="item.subtitle"
+                :title="$t(item.title)"
+                :subtitle="$(item.subtitle)"
                 :icon="item.icon"
               />
             </NuxtLink>
           </AList>
         </AMenu>
-        <span>{{ nav.title }}</span>
+        <span>{{ $t(nav.title) }}</span>
       </ABtn>
     </NuxtLink>
   </nav>
