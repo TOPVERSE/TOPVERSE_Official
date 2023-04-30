@@ -1,7 +1,73 @@
 {
-"home": {
+  "nav": {
+    "home": "首页",
+    "test":"社区",
+    "solutions": {
+      "t": "解决方案",
+      "child": {
+        "land": {
+          "t": "land",
+          "description": "The quick brown fox jumps over the lazy dog."
+        }
+      }
+    },
+    "portfolio": "portfolio",
+    "learn": "learn",
+    "check": "check app",
+    "touch": "get in touch"
+  },
+  "scrolldown": "Scroll down to learn more",
+  "home": {
+    "carousel":{
+      "one":{
+        "topic":"Never Drink Alone 元宇宙酒吧",
+        "description":"The Bar Symphony: 在元宇宙中找到共鸣"
+      }
+    },
     "sectionOne": {
-      "topic": "帮助元宇宙登陆者找到奇点坐标"
+      "topic": "帮助元宇宙登陆者找到奇点坐标",
+      "figure": [
+        {
+          "title": "50+",
+          "body": "Completed Builds",
+          "description": "We have been developing in web3 since 2017"
+        },
+        {
+          "title": "120+",
+          "body": "Completed Builds",
+          "description": "We have been developing in web3 since 2017"
+        },
+        {
+          "title": "120+",
+          "body": "Completed Builds",
+          "description": "We have been developing in web3 since 2017"
+        }
+      ]
+    },
+    "sectionTwo": {
+      "title": "some of our clients"
+    },
+    "sectionThree": {
+      "title": "案例展示",
+      "topic": "元宇宙空间设计及技术开发",
+      "description": "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
+      "imgsDes": [
+        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
+        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
+        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
+        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
+        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
+        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
+        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
+        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
+        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
+        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse"
+      ]
+    },
+    "sectionFour": {
+      "topic": "The Metaverse Made Simple",
+      "description": "LandVault helps brands build a unique metaverse experience and drive engagement in a meaningful way",
+      "entry": " Check Out Our Solutions"
     }
-}
+  }
 }

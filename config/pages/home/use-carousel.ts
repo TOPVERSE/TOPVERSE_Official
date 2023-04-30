@@ -13,9 +13,9 @@ export function useCarousel() {
       img: '/imgs/1 (2).jpg',
     },
     {
-      title: 'home.carousel.third.topic',
-      description: 'home.carousel.third.description',
-      entry: 'home.carousel.third.entry',
+      title: 'home.carousel.three.topic',
+      description: 'home.carousel.three.description',
+      entry: 'home.carousel.three.entry',
       img: '/imgs/1 (3).jpg',
     },
     {

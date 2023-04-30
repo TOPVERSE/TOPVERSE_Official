@@ -1,8 +1,9 @@
 {
   "nav": {
-    "home": "HOME",
+    "test":"Community",
+    "home": "Home",
     "solutions": {
-      "t": "solutions",
+      "t": "Solutions",
       "child": {
         "land": {
           "t": "land",
@@ -14,11 +15,35 @@
     "learn": "learn",
     "check": "check app",
     "touch": "get in touch"
+    
   },
   "scrolldown": "Scroll down to learn more",
+  
   "home": {
+    "carousel":{
+      "one":{
+        "topic":"Never Drink Alone",
+        "description":"The Bar Symphony in Decentraland",
+        "entry":"Details"
+      },
+      "two":{
+        "topic":"Metaverse Congress Hall",
+        "description":"One should never ignore the power of nature",
+        "entry":"Details"
+      },
+      "three":{
+        "topic":"Metaverse Congress Hall",
+        "description":"One should never ignore the power of nature",
+        "entry":"Details"
+      }
+    },
     "sectionOne": {
       "topic": "Your End-To-End Metaverse Developers",
+      "one":{
+        "title":"50+",
+        "subtext":"Metaverse Experts & Engineers",
+        "description":"Architects, Developers, Producers, amd more"
+      },
       "figure": [
         {
           "title": "50+",
