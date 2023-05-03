@@ -10,10 +10,14 @@ interface NavMenu {
 }
 
 export function useNav(): NavMenu[] {
+  const { locale } = useI18n()
+
+  const path = locale.value === 'zh' ? '/' : `/${locale.value}`
+
   return [
     {
       title: 'nav.home',
-      href: '/',
+      href: `${path}`,
     },
     {
       title: 'nav.solutions.t',
@@ -21,23 +25,22 @@ export function useNav(): NavMenu[] {
         {
           title: 'nav.solutions.child.land.t',
           subtitle: 'nav.solutions.child.land.description',
-          href: '/land',
+          href: `${path}/land`,
           icon: 'i-solar-accumulator-bold-duotone',
           iconColor: 'red',
         },
         {
           title: 'nav.solutions.child.land.t',
           subtitle: 'nav.solutions.child.land.description',
-          href: '/landa',
-          icon: 'i-solar-airbuds-case-open-line-duotone text-amber',
+          href: `${path}/landa`,
+          icon: 'i-solar-airbuds-case-open-line-duotone',
           iconColor: 'amber',
-          // avatarProps: { icon: 'i-solar-airbuds-case-open-line-duotone' },
         },
       ],
     },
     {
       title: 'nav.test',
-      href: '/test',
+      href: `${path}/test`,
     },
   ]
 }

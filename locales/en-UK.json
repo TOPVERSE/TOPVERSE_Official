@@ -1,6 +1,6 @@
 {
   "nav": {
-    "test":"Community",
+    "test": "Community",
     "home": "Home",
     "solutions": {
       "t": "Solutions",
@@ -15,49 +15,37 @@
     "learn": "learn",
     "check": "check app",
     "touch": "get in touch"
-    
+
   },
   "scrolldown": "Scroll down to learn more",
-  
+
   "home": {
-    "carousel":{
-      "one":{
-        "topic":"Never Drink Alone",
-        "description":"The Bar Symphony in Decentraland",
-        "entry":"Details"
-      },
-      "two":{
-        "topic":"Metaverse Congress Hall",
-        "description":"One should never ignore the power of nature",
-        "entry":"Details"
-      },
-      "three":{
-        "topic":"Metaverse Congress Hall",
-        "description":"One should never ignore the power of nature",
-        "entry":"Details"
-      }
+    "carousel": {
+      "topic": ["Never Drink Alone", "Metaverse Congress Hall"],
+      "description": ["The Bar Symphony in Decentraland", "One should never ignore the power of nature"],
+      "link": ["Details", "Details"]
     },
     "sectionOne": {
       "topic": "Your End-To-End Metaverse Developers",
-      "one":{
-        "title":"80+",
-        "subtext":"Metaverse Experts & Engineers",
-        "description":"Architects, Developers, Producers, amd more"
-      },
-      "two":{
-        "title":"20+",
-        "subtext":"Completed Builds & Inventions",
-        "description":"We have been developing in metaverse since 2021"
-      },
-      "three":{
-        "title":"2 Million+",
-        "subtext":"Square Meters Developed",
-        "description":"in both virtual and IRL scales"
+      "content": {
+        "title": ["80+", "20+", "2 Million+"],
+        "subtext": ["Metaverse Experts & Engineers", "Completed Builds & Inventions", "Square Meters Developed"],
+        "description": ["We have been developing in metaverse since 2021", "Architects, Developers, Producers, amd more", "in both virtual and IRL scales"]
       }
-  
     },
     "sectionTwo": {
-      "title": "some of our clients"
+      "title": "some of our clients",
+      "content": {
+        "title": [
+          "pay",
+          "pay",
+          "pay",
+          "pay",
+          "pay",
+          "pay",
+          "pay"
+        ]
+      }
     },
     "sectionThree": {
       "title": "OUR PREVIOUS WORK",

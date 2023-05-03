@@ -4,19 +4,19 @@ export function useSectionOne() {
     description: 'home.sectionOne.description',
     content: [
       {
-        title: 'home.sectionOne.one.title',
-        subtext: 'home.sectionOne.one.subtext',
-        description: 'home.sectionOne.one.description',
+        title: 'home.sectionOne.content.title[0]',
+        subtext: 'home.sectionOne.content.subtext[0]',
+        description: 'home.sectionOne.content.description[0]',
       },
       {
-        title: 'home.sectionOne.two.title',
-        subtext: 'home.sectionOne.two.subtext',
-        description: 'home.sectionOne.two.description',
+        title: 'home.sectionOne.content.title[1]',
+        subtext: 'home.sectionOne.content.subtext[1]',
+        description: 'home.sectionOne.content.description[1]',
       },
       {
-        title: 'home.sectionOne.three.title',
-        subtext: 'home.sectionOne.three.subtext',
-        description: 'home.sectionOne.three.description',
+        title: 'home.sectionOne.content.title[2]',
+        subtext: 'home.sectionOne.content.subtext[2]',
+        description: 'home.sectionOne.content.description[2]',
       },
     ],
   }
