@@ -26,14 +26,33 @@
       "link": ["Details", "Details"]
     },
     "sectionOne": {
+<<<<<<< Updated upstream
       "topic": "Your End-To-End Metaverse Developers",
       "content": {
         "title": ["80+", "20+", "2 Million+"],
         "subtext": ["Metaverse Experts & Engineers", "Completed Builds & Inventions", "Square Meters Developed"],
         "description": ["We have been developing in metaverse since 2021", "Architects, Developers, Producers, amd more", "in both virtual and IRL scales"]
+=======
+      "topic": "World-Leading Metaverse Creators and AR/VR/MR Developers",
+      "one":{
+        "title":"80+",
+        "subtext":"Metaverse Experts & Engineers",
+        "description":"Architects, Developers, Producers, amd more"
+      },
+      "two":{
+        "title":"20+",
+        "subtext":"Completed Builds & Inventions",
+        "description":"We have been developing in metaverse since 2021"
+      },
+      "three":{
+        "title":"2 Million+",
+        "subtext":"Square Meters Developed",
+        "description":"in both virtual and IRL scales"
+>>>>>>> Stashed changes
       }
     },
     "sectionTwo": {
+<<<<<<< Updated upstream
       "title": "some of our clients",
       "content": {
         "title": [
@@ -46,11 +65,14 @@
           "pay"
         ]
       }
+=======
+      "title": "Our Partners & Cooperations"
+>>>>>>> Stashed changes
     },
     "sectionThree": {
       "title": "OUR PREVIOUS WORK",
       "topic": "Success Stories",
-      "description": "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
+      "description": "See how these great companies have partnered with TOPVERSE® to take their iconic brands and ideas into the metaverse",
       "imgsDes": [
         "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
         "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
@@ -68,6 +90,11 @@
       "topic": "The Metaverse Made Simple",
       "description": "LandVault helps brands build a unique metaverse experience and drive engagement in a meaningful way",
       "entry": " Check Out Our Solutions"
+    },
+    "sectionFive":{
+      "title":"Get prepared for the immersive world",
+      "topic":"DIVE INTO THE NEW WORLD WITH TOPVERSE® LAB",
+      "description":""
     }
   }
 }
