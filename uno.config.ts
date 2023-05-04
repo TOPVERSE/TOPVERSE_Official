@@ -32,6 +32,7 @@ export default defineConfig({
   safelist: [
     ...Array(10).fill('').map((_, i) => `grid-cols-${i + 1}`),
     ...Array(10).fill('').map((_, i) => `lg:grid-cols-${i + 1}`),
+    'i-solar-airbuds-left-bold-duotone',
   ],
   presets: [
     presetAnu(),

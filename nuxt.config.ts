@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     // '@nuxtjs/strapi',
     '@vue-macros/nuxt',
+    '@nuxt/content',
     '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
     '@nuxt/devtools',

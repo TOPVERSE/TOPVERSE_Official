@@ -8,11 +8,11 @@ const navs = useNav()
   <nav>
     <NuxtLink v-for="(nav, i) in navs" :key="i" class="mx-2 border-primary p-1 pb-5 transition-all" :to="nav.href" active-class="border-b-3px">
       <ABtn variant="text">
-        <AMenu v-if="nav.child" style="--un-bg-opacity:0.5;--a-spacing:2" class="backdrop-blur-md" z-1000 mt-5 placement="bottom">
+        <AMenu v-if="nav.child" style="--un-bg-opacity:0.6;--a-spacing:2" class="backdrop-blur-md" z-1000 mt-5 placement="bottom">
           <AList
             :items="nav.child"
             avatar-append
-            class="[--a-list-item-gap:1rem] [--a-spacing:1] !m-0 divide-y"
+            class="[--a-list-item-gap:1rem] [--a-spacing:1] border-3px border-light-50/20 !m-0 divide-y divide-dark-50/10 dark:divide-light-50/10"
           >
             <NuxtLink v-for="(item, index) in nav.child" :key="index" :href="item.href" class="overflow-hidden py-1 hover:(bg-primary/20)" active-class="bg-primary/20">
               <AListItem
@@ -22,7 +22,7 @@ const navs = useNav()
               >
                 <template #prepend>
                   <AAvatar
-                    class="shrink-0"
+                    class="shrink-0 rounded-lg"
                     :icon="item.icon"
                   />
                 </template>
