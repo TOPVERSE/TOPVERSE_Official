@@ -1,9 +1,11 @@
 <script setup>
 const color = useColorMode()
+
+const textColor = computed(() => color.value === 'dark' ? 'white' : 'black')
 </script>
 
 <template>
-  <div inline-flex :class="color.value === 'dark' ? 'text-white' : 'text-black'">
+  <div :text="textColor" class="py-10">
     <svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 0 749.65 91.19">
       <path fill="currentColor" d="M80.84,7.07V22.23H48V72.75H32.84V22.23H0V7.07Z" />
       <path

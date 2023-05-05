@@ -140,26 +140,12 @@ const sectionNine = useSectionNine()
   </Section>
 
   <!-- Section Four -->
-  <Section
-    relative h-380px md:h-400px xl:h-450px
-  >
-    <div absolute left-0 top-0 z-0 h-full w-full bg-cover bg-center bg-no-repeat :style="`background-image: url('${sectionFour.img}');-webkit-mask-image:linear-gradient(0deg, transparent, #000);`" />
-    <Section absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center text-shadow>
-      <h2 class="text-h2">
-        {{ $t(sectionFour.topic) }}
-      </h2>
-      <p text-h6 pb-5>
-        {{
-          $t(sectionFour.description)
-        }}
-      </p>
-      <NuxtLink :href="sectionFour.link.href">
-        <ABtn>
-          {{ $t(sectionFour.link.name) }}
-        </ABtn>
-      </NuxtLink>
-    </Section>
-  </Section>
+  <Banner
+    :img="$t(sectionFour.img)" :topic="$t(sectionFour.topic)" :description="$t(sectionFour.description)" :link="{
+      href: sectionFour.link.href,
+      name: $t(sectionFour.link.name),
+    }" mask="bottom"
+  />
 
   <!-- Section Five -->
   <Section class="from-violet-500 to-fuchsia-500 text-white dark:(from-violet-600 to-fuchsia-600)" bg-gradient-to-r>
@@ -229,19 +215,7 @@ const sectionNine = useSectionNine()
   </Section>
 
   <!-- Section Seven -->
-  <Section
-    relative h-380px md:h-400px xl:h-450px
-  >
-    <div absolute left-0 top-0 z-0 h-full w-full bg-cover bg-center bg-no-repeat :style="`background-image: url('${sectionSeven.img}');-webkit-mask-image:linear-gradient(0deg, transparent, #000);`" />
-    <Section absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center text-white text-shadow>
-      <p class="text-title">
-        {{ $t(sectionSeven.title) }}
-      </p>
-      <h2 class="text-h2">
-        {{ $t(sectionSeven.topic) }}
-      </h2>
-    </Section>
-  </Section>
+  <Banner :img="$t(sectionSeven.img)" :title="$t(sectionSeven.title)" :topic="$t(sectionSeven.topic)" mask="bottom" />
 
   <!-- Section Eight -->
   <Section>

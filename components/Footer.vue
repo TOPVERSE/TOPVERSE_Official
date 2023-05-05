@@ -6,11 +6,11 @@ const footer = useFoot()
 
 <template>
   <Divider />
-  <div class="grid-row p-20 py-10 lg:(grid-cols-3) md:(grid-cols-2 px-30) xl:px-60">
+  <div class="grid-row p-20 pt-30 lg:(grid-cols-3) md:(grid-cols-2 px-30) xl:px-60">
     <div
       v-for="(col, i) in footer"
       :key="i"
-      class="w-full flex flex-col items-center gap-4"
+      class="w-full flex flex-col items-center gap-8"
     >
       <h5 text-title opacity-60>
         {{ $t(col.title) }}
@@ -21,7 +21,7 @@ const footer = useFoot()
       </NuxtLink>
     </div>
   </div>
-  <div my-10 mt-20 flex items-center justify-center gap-4>
+  <div my-10 flex items-center justify-center gap-4>
     <BrandLogo />
     © Copyright 2022 - 2023 LandVault · Wam Group · All rights reserved
     <DarkToggle />
