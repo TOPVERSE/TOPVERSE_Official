@@ -1,15 +1,21 @@
 {
   "nav": {
-    "test": "Community",
+    "news": "News",
     "home": "Home",
+    "event":{
+      "t":"Events",
+      "child":{
+        "act":["AaaO!","TOPO Land"],
+        "description":["Architecture as an Object", "Topverse Meta Island"]
+      }
+    },
+
     "solutions": {
       "t": "Solutions",
       "child": {
         "land": {
-          "service1": "Metaverse Construction",
-          "description1": "The quick brown fox jumps over the lazy dog.",
-          "service2": "Digital Twins",
-          "description2": "The quick brown fox jumps over the lazy dog."
+          "service":["Web 3.0","Digital Twins","Mixed Reality"],
+          "description": ["The quick brown fox jumps over the lazy dog.","IRL World in Digital","Immersive Creations"]
         }
       }
     },
@@ -28,7 +34,7 @@
       "link": ["Details", "Details"]
     },
     "sectionOne": {
-      "topic": "World-Leading Metaverse Creators and AR/VR/MR Developers",
+      "topic": "World-Leading Web 3.0 Builders and AR/VR/MR Developers",
       "content": {
         "title": ["80+", "20+", "2 Million+"],
         "subtext": ["Metaverse Experts & Engineers", "Completed Builds & Inventions", "Square Meters Developed"],
@@ -52,9 +58,16 @@
 
     },
     "sectionThree": {
-      "title": "OUR PREVIOUS WORK",
+     
+      "title": "SHOWCASE",
       "topic": "Success Stories",
-      "description": "See how these great companies have partnered with TOPVERSE® to take their iconic brands and ideas into the metaverse",
+      "description": "See how TOPVERSE® brings the virtual world into reality",
+      "contentPrimary":{
+        "topic": [
+          "Spotlight: Music Venue",
+          "Parcel Creatorverse Spotlight: Meeting Venue"
+        ]
+      },
       "imgsDes": [
         "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
         "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",

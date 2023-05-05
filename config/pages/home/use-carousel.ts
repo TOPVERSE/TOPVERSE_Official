@@ -7,7 +7,8 @@ export function useCarousel() {
         name: 'home.carousel.link[0]',
         href: '#',
       },
-      img: '/imgs/1 (1).jpg',
+
+      img: '/imgs/Home.Creatorverse.jpg',
     },
   ]
 }

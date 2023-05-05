@@ -1,7 +1,7 @@
 ---
-img: "/imgs/1 (8).jpg"
-topic: "Grave of the Fireflies"
-title: " "
+img: "/imgs/Project/Metaverse-Build/MusicVenue.jpg"
+topic: "Creator Party-verse"
+title: "PARCEL Creatorverse Spotlight Build"
 description: "In the latter part of World War II, a boy and his sister, orphaned when their mother is killed in the firebombing of Tokyo, are left to survive on their own in what remains of civilian life in Japan. The plot follows this boy and his sister as they do their best to survive in the Japanese countryside, battling hunger, prejudice, and pride in their own quiet, personal battle."
 ---
 
@@ -23,8 +23,3 @@ description: "In the latter part of World War II, a boy and his sister, orphaned
 <br><br>
  
 
-```bash
-git clone https://github.com/TOPVERSE/TOPVERSE_Official.git
-cd TOPVERSE_Official 
-pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
-```

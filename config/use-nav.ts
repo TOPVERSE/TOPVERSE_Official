@@ -23,28 +23,50 @@ export function useNav(): NavMenu[] {
       title: 'nav.solutions.t',
       child: [
         {
-          title: 'nav.solutions.child.land.service1',
-          subtitle: 'nav.solutions.child.land.description1',
+          title: 'nav.solutions.child.land.service[0]',
+          subtitle: 'nav.solutions.child.land.description[0]',
           href: `${path}/land`,
-          icon: 'i-solar-accumulator-bold-duotone',
+          icon: 'i-solar-airbuds-left-bold-duotone',
           iconColor: 'red',
         },
         {
-          title: 'nav.solutions.child.land.service2',
-          subtitle: 'nav.solutions.child.land.description2',
-          href: `${path}/landa`,
-          icon: 'i-solar-airbuds-case-open-line-duotone',
+          title: 'nav.solutions.child.land.service[1]',
+          subtitle: 'nav.solutions.child.land.description[1]',
+          href: `${path}/land`,
+          icon: 'i-solar-airbuds-left-bold-duotone',
+          iconColor: 'amber',
+        },
+        {
+          title: 'nav.solutions.child.land.service[2]',
+          subtitle: 'nav.solutions.child.land.description[2]',
+          href: `${path}/land`,
+          icon: 'i-solar-airbuds-left-bold-duotone',
           iconColor: 'amber',
         },
       ],
     },
     {
-      title: 'nav.test',
-      href: `${path}/test`,
+      title: 'nav.news',
+      href: `${path}/news`,
     },
     {
-      title: 'nav.testt',
-      href: `${path}/testt`,
+      title: 'nav.event.t',
+      child: [
+        {
+          title: 'nav.event.child.act[0]',
+          subtitle: 'nav.event.child.description[0]',
+          href: `${path}/land`,
+          icon: 'i-solar-airbuds-left-bold-duotone',
+          iconColor: 'red',
+        },
+        {
+          title: 'nav.event.child.act[1]',
+          subtitle: 'nav.event.child.description[1]',
+          href: `${path}/land`,
+          icon: 'i-solar-airbuds-left-bold-duotone',
+          iconColor: 'red',
+        },
+      ],
     },
   ]
 }
