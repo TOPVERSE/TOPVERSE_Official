@@ -22,21 +22,6 @@ export function useSectionTwo() {
         href: '#',
         title: 'home.sectionTwo.content.title[3]',
       },
-      {
-        img: 'https://landvault.io/assets/logos/paypal.svg',
-        href: '#',
-        title: 'home.sectionTwo.content.title[4]',
-      },
-      {
-        img: 'https://landvault.io/assets/logos/paypal.svg',
-        href: '#',
-        title: 'home.sectionTwo.content.title[5]',
-      },
-      {
-        img: 'https://landvault.io/assets/logos/paypal.svg',
-        href: '#',
-        title: 'home.sectionTwo.content.title[6]',
-      },
     ],
   }
 }

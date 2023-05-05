@@ -6,8 +6,10 @@
       "t": "Solutions",
       "child": {
         "land": {
-          "t": "land",
-          "description": "The quick brown fox jumps over the lazy dog."
+          "service1": "Metaverse Construction",
+          "description1": "The quick brown fox jumps over the lazy dog.",
+          "service2": "Digital Twins",
+          "description2": "The quick brown fox jumps over the lazy dog."
         }
       }
     },

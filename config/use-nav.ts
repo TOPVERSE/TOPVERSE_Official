@@ -23,15 +23,15 @@ export function useNav(): NavMenu[] {
       title: 'nav.solutions.t',
       child: [
         {
-          title: 'nav.solutions.child.land.t',
-          subtitle: 'nav.solutions.child.land.description',
+          title: 'nav.solutions.child.land.service1',
+          subtitle: 'nav.solutions.child.land.description1',
           href: `${path}/land`,
           icon: 'i-solar-accumulator-bold-duotone',
           iconColor: 'red',
         },
         {
-          title: 'nav.solutions.child.land.t',
-          subtitle: 'nav.solutions.child.land.description',
+          title: 'nav.solutions.child.land.service2',
+          subtitle: 'nav.solutions.child.land.description2',
           href: `${path}/landa`,
           icon: 'i-solar-airbuds-case-open-line-duotone',
           iconColor: 'amber',
@@ -41,6 +41,10 @@ export function useNav(): NavMenu[] {
     {
       title: 'nav.test',
       href: `${path}/test`,
+    },
+    {
+      title: 'nav.testt',
+      href: `${path}/testt`,
     },
   ]
 }
