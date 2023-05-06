@@ -36,7 +36,7 @@ const colors = [
         :key="i"
         class="h-full w-full flex flex-col items-center justify-center"
       >
-        <h5 :title="$t(col.subtext)" class="text-h4 text-h5 mt-3 break-words">
+        <h5 :title="$t(col.subtext)" class="text-h4 text-h5 mt-3  text-center">
           {{ $t(col.subtext) }}
         </h5>
       </div>
@@ -45,7 +45,7 @@ const colors = [
         :key="i"
         class="h-full w-full flex flex-col items-center justify-center"
       >
-        <p :title="$t(col.description)" class="text-h6 mt-1 break-words !line-clamp-3">
+        <p :title="$t(col.description)" class="text-h6 mt-1  text-center">
           {{ $t(col.description) }}
         </p>
       </div>
