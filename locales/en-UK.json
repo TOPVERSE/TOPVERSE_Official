@@ -2,11 +2,11 @@
   "nav": {
     "news": "News",
     "home": "Home",
-    "event":{
-      "t":"Events",
-      "child":{
-        "act":["AaaO!","TOPO Land"],
-        "description":["Architecture as an Object", "Topverse Meta Island"]
+    "event": {
+      "t": "Events",
+      "child": {
+        "act": ["AaaO!", "TOPO Land"],
+        "description": ["Architecture as an Object", "Topverse Meta Island"]
       }
     },
 
@@ -14,8 +14,8 @@
       "t": "Solutions",
       "child": {
         "land": {
-          "service":["Web 3.0","Digital Twins","Mixed Reality"],
-          "description": ["The quick brown fox jumps over the lazy dog.","IRL World in Digital","Immersive Creations"]
+          "service": ["Web 3.0", "Digital Twins", "Mixed Reality"],
+          "description": ["The quick brown fox jumps over the lazy dog.", "IRL World in Digital", "Immersive Creations"]
         }
       }
     },
@@ -58,11 +58,11 @@
 
     },
     "sectionThree": {
-     
+
       "title": "SHOWCASE",
       "topic": "Success Stories",
       "description": "See how TOPVERSE® brings the virtual world into reality",
-      "contentPrimary":{
+      "contentPrimary": {
         "topic": [
           "Spotlight: Music Venue",
           "Parcel Creatorverse Spotlight: Meeting Venue"
@@ -91,5 +91,20 @@
       "topic": "DIVE INTO THE NEW WORLD WITH TOPVERSE® LAB",
       "description": ""
     }
+  },
+  "foot": {
+    "copyright": "© Copyright 2022 - 2023 LandVault · Wam Group · All rights reserved",
+    "release": "增值电信业务经营许可证：合字B2-20090007",
+    "record": ["京ICP备10036305号-7", "京公网安备11010802022657号"],
+    "links": [
+      {
+        "group": "testname",
+        "link": ["test", "test2", "test3"]
+      },
+      {
+        "group": "testname2",
+        "link": ["test", "test2", "test3"]
+      }
+    ]
   }
 }

@@ -1,6 +1,7 @@
 export function useSectionTwo() {
   return {
     title: 'home.sectionTwo.title',
+    description: 'home.sectionTwo.description',
     content: [
       {
         img: '/imgs/Partners/MUA.png',

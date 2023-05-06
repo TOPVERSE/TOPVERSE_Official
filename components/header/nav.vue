@@ -12,7 +12,7 @@ const navs = useNav()
           <AList
             :items="nav.child"
             avatar-append
-            class="[--a-list-item-gap:1rem] [--a-spacing:1] border-3px border-light-50/20 !m-0 divide-y divide-dark-50/10 dark:divide-light-50/10"
+            class="[--a-list-item-gap:1rem] [--a-spacing:1] border-1px border-light-50/20 !m-0 divide-y divide-dark-50/10 dark:(border-dark-50/20 divide-light-50/10)"
           >
             <NuxtLink v-for="(item, index) in nav.child" :key="index" :href="item.href" class="overflow-hidden py-1 hover:(bg-primary/20)" active-class="bg-primary/20">
               <AListItem

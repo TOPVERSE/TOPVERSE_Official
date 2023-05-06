@@ -3,75 +3,80 @@ export function useFoot() {
 
   const path = locale.value === 'zh' ? '/' : `/${locale.value}`
 
-  return [
-    {
-      title: 'foot.group1.name',
-      child: [
-        {
-          link: {
-            name: 'foot.group1.link1',
-            href: '#',
+  return {
+    copyright: 'foot.copyright',
+    release: 'foot.release',
+    record: ['foot.record[0]', 'foot.record[1]'],
+    links: [
+      {
+        title: 'foot.links[0].group',
+        child: [
+          {
+            link: {
+              name: 'foot.links[0].link[0]',
+              href: '#',
+            },
           },
-        },
-        {
-          link: {
-            name: 'foot.group1.link2',
-            href: '#',
+          {
+            link: {
+              name: 'foot.links[0].link[1]',
+              href: '#',
+            },
           },
-        },
-        {
-          link: {
-            name: 'foot.group1.link3',
-            href: '#',
+          {
+            link: {
+              name: 'foot.links[0].link[2]',
+              href: '#',
+            },
           },
-        },
-      ],
-    },
-    {
-      title: 'foot.group2.name',
-      child: [
-        {
-          link: {
-            name: 'foot.group2.link1',
-            href: '#',
+        ],
+      },
+      {
+        title: 'foot.links[1].group',
+        child: [
+          {
+            link: {
+              name: 'foot.links[1].link[0]',
+              href: '#',
+            },
           },
-        },
-        {
-          link: {
-            name: 'foot.group2.link2',
-            href: '#',
+          {
+            link: {
+              name: 'foot.links[1].link[1]',
+              href: '#',
+            },
           },
-        },
-        {
-          link: {
-            name: 'foot.group2.link3',
-            href: '#',
+          {
+            link: {
+              name: 'foot.links[1].link[2]',
+              href: '#',
+            },
           },
-        },
-      ],
-    },
-    {
-      title: 'foot.group3.name',
-      child: [
-        {
-          link: {
-            name: 'foot.group3.link1',
-            href: '#',
+        ],
+      },
+      {
+        title: 'foot.links[2].group',
+        child: [
+          {
+            link: {
+              name: 'foot.links[2].link[0]',
+              href: '#',
+            },
           },
-        },
-        {
-          link: {
-            name: 'foot.group3.link2',
-            href: '#',
+          {
+            link: {
+              name: 'foot.links[2].link[1]',
+              href: '#',
+            },
           },
-        },
-        {
-          link: {
-            name: 'foot.group3.link3',
-            href: '#',
+          {
+            link: {
+              name: 'foot.links[2].link[2]',
+              href: '#',
+            },
           },
-        },
-      ],
-    },
-  ]
+        ],
+      },
+    ],
+  }
 }

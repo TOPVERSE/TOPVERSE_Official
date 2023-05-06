@@ -2,11 +2,11 @@
   "nav": {
     "news": "最新动态",
     "home": "首页",
-    "event":{
-      "t":"项目发起",
-      "child":{
-        "act":["AaaO!","TOPO Land"],
-        "description":["未建成建筑系列", "TOPO元界岛"]
+    "event": {
+      "t": "项目发起",
+      "child": {
+        "act": ["AaaO!", "TOPO Land"],
+        "description": ["未建成建筑系列", "TOPO元界岛"]
       }
     },
 
@@ -14,12 +14,12 @@
       "t": "解决方案",
       "child": {
         "land": {
-          "service":["Web 3.0","数字孪生","混合现实"],
-          "description": ["区块链及元宇宙空间板块","智慧城市及工业元宇宙解决方案","虚拟、混合现实内容开发"]
+          "service": ["Web 3.0", "数字孪生", "混合现实"],
+          "description": ["区块链及元宇宙空间板块", "智慧城市及工业元宇宙解决方案", "虚拟、混合现实内容开发"]
         }
       }
     },
-    
+
     "portfolio": "portfolio",
     "learn": "learn",
     "check": "check app",
@@ -27,14 +27,14 @@
   },
   "scrolldown": "Scroll down to learn more",
   "home": {
-    "carousel":{
-      "one":{
-        "topic":"Never Drink Alone 元宇宙酒吧",
-        "description":"The Bar Symphony: 在元宇宙中找到共鸣"
+    "carousel": {
+      "one": {
+        "topic": "Never Drink Alone 元宇宙酒吧",
+        "description": "The Bar Symphony: 在元宇宙中找到共鸣"
       },
-      "two":{
-        "topic":"",
-        "description":""
+      "two": {
+        "topic": "",
+        "description": ""
       }
     },
     "sectionOne": {
@@ -43,11 +43,11 @@
         "title": ["80+", "20+", "近200万"],
         "subtext": ["工程师及技术专家", "落地项目及技术专利", "平方米落地开发量"],
         "description": [
-          "建筑师、代码工程师、交互设计师及更多领域交叉", 
-          "自2021年起深耕混合现实体验、虚拟地产及Web 3.0开发", 
+          "建筑师、代码工程师、交互设计师及更多领域交叉",
+          "自2021年起深耕混合现实体验、虚拟地产及Web 3.0开发",
           "打通现实世界与虚拟世界的体验，以虚赋实"]
-  
-        }
+
+      }
     },
     "sectionTwo": {
       "title": "合作伙伴"
@@ -76,4 +76,3 @@
     }
   }
 }
-

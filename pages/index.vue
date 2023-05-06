@@ -24,35 +24,12 @@ const sectionNine = useSectionNine()
   <Carousel class="mb-5" />
   <Divider />
   <!-- Section One -->
-  <Section>
-    <h2 class="text-h2" :title="$t(sectionOne.topic)">
-      {{ $t(sectionOne.topic) }}
-    </h2>
-    <div class="grid-row pt-20 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionOne.content.length}`">
-      <div
-        v-for="(col, i) in sectionOne.content"
-        :key="i"
-        class="w-full overflow-hidden text-center"
-      >
-        <h2 :title="$t(col.title)" class="text-h2 break-words from-pink-500 to-violet-500 bg-gradient-to-r bg-clip-text text-7xl font-bold text-transparent">
-          {{ $t(col.title) }}
-        </h2>
-        <Divider />
-        <h5 :title="$t(col.subtext)" class="text-h4 text-h5 mt-3 break-words">
-          {{ $t(col.subtext) }}
-        </h5>
-        <p :title="$t(col.description)" class="text-h6 mt-1 break-words !line-clamp-3">
-          {{ $t(col.description) }}
-        </p>
-      </div>
-    </div>
-  </Section>
+  <SectionGradientCard :content="sectionOne.content" :topic="sectionOne.topic" />
 
   <!-- Section Two -->
   <Section class="border-b-2 border-dark/40 border-b-solid from-dark/30 bg-gradient-to-t dark:(border-light-50/10 from-light/5)">
-    <p class="text-title">
-      {{ $t(sectionTwo.title) }}
-    </p>
+    <Typography :title=" $t(sectionTwo.title) " :description=" $t(sectionTwo.description) " />
+
     <div class="grid-row grid-cols-2 py-10 md:grid-cols-3" :class="`lg:grid-cols-${sectionTwo.content.length}`">
       <NuxtLink
         v-for="(content, i) in sectionTwo.content"
@@ -68,70 +45,29 @@ const sectionNine = useSectionNine()
 
   <!-- Section Three -->
   <Section text-center class="section-three">
-    <p class="text-title">
-      {{ $t(sectionThree.title) }}
-    </p>
-    <h2 class="text-h2">
-      {{ $t(sectionThree.topic) }}
-    </h2>
-    <p class="text-h6">
-      {{ $t(sectionThree.description) }}
-    </p>
+    <Typography :title=" $t(sectionThree.title) " :topic=" $t(sectionThree.topic) " :description=" $t(sectionThree.description) " />
 
     <div>
       <div class="grid-row py-10 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionThree.contentPrimary.length}`">
-        <NuxtLink
+        <ImageHover
           v-for="(content, i) in sectionThree.contentPrimary"
           :key="i"
-          :href="content.href"
-          class="group relative w-full overflow-hidden rounded-lg bg-primary bg-opacity-35 shadow-lg"
-        >
-          <img :src="content.img">
-          <div class="mask-img opacity-0 group-hover:opacity-100">
-            <div class="text-h4 w-full">
-              <p :title="content.topic" class="w-90% truncate text-white">
-                {{ content.topic }}
-              </p>
-            </div>
-            <div i-solar-arrow-right-linear stroke-3 font-bold text-white />
-          </div>
-        </NuxtLink>
+          :href="content.href" :img="content.img" :topic="content.topic"
+        />
       </div>
       <div class="grid-row pb-10 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionThree.contentSecondary.length}`">
-        <NuxtLink
+        <ImageHover
           v-for="(content, i) in sectionThree.contentSecondary"
           :key="i"
-          :href="content.href"
-          class="group relative w-full overflow-hidden rounded-lg bg-primary bg-opacity-35 shadow-lg"
-        >
-          <img :src="content.img">
-          <div class="mask-img opacity-0 group-hover:opacity-100">
-            <div class="text-h4 w-full">
-              <p :title="content.topic" class="w-90% truncate text-white">
-                {{ content.topic }}
-              </p>
-            </div>
-            <div i-solar-arrow-right-linear stroke-3 font-bold text-white />
-          </div>
-        </NuxtLink>
+          :href="content.href" :img="content.img" :topic="content.topic"
+        />
       </div>
       <div class="grid-row pb-20 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionThree.contentThird.length}`">
-        <NuxtLink
+        <ImageHover
           v-for="(content, i) in sectionThree.contentThird"
           :key="i"
-          :href="content.href"
-          class="group relative w-full overflow-hidden rounded-lg bg-primary bg-opacity-35 shadow-lg"
-        >
-          <img :src="content.img">
-          <div class="mask-img opacity-0 group-hover:opacity-100">
-            <div class="text-h4 w-full">
-              <p :title="content.topic" class="w-90% truncate text-white">
-                {{ content.topic }}
-              </p>
-            </div>
-            <div i-solar-arrow-right-linear stroke-3 font-bold text-white />
-          </div>
-        </NuxtLink>
+          :href="content.href" :img="content.img" :topic="content.topic"
+        />
       </div>
     </div>
     <NuxtLink :href="sectionThree.link.href">
@@ -140,7 +76,7 @@ const sectionNine = useSectionNine()
   </Section>
 
   <!-- Section Four -->
-  <Banner
+  <SectionBanner
     :img="$t(sectionFour.img)" :topic="$t(sectionFour.topic)" :description="$t(sectionFour.description)" :link="{
       href: sectionFour.link.href,
       name: $t(sectionFour.link.name),
@@ -148,17 +84,8 @@ const sectionNine = useSectionNine()
   />
 
   <!-- Section Five -->
-  <Section class="from-violet-500 to-fuchsia-500 text-white dark:(from-violet-600 to-fuchsia-600)" bg-gradient-to-r>
-    <p class="text-title text-start">
-      {{ $t(sectionFive.title) }}
-    </p>
-    <h2 class="text-h2 text-start text-white">
-      {{ $t(sectionFive.topic) }}
-    </h2>
-    <p class="text-h6 mb-20 text-start">
-      {{ $t(sectionFive.description) }}
-    </p>
-
+  <Section class="bg-gradient-blue text-white">
+    <Typography :title=" $t(sectionFive.title) " :topic=" $t(sectionFive.topic) " :description=" $t(sectionFive.description) " class="pb-20 text-start" />
     <div class="grid-row gap-26 pb-10 lg:(grid-cols-3) md:(grid-cols-2)">
       <div
         v-for="(content, i) in sectionFive.content"
@@ -166,10 +93,10 @@ const sectionNine = useSectionNine()
         class="w-full"
       >
         <h4 text-h4 class="break-words text-start font-bold text-white !line-clamp-2">
-          {{ content.topic }}
+          {{ $t(content.topic) }}
         </h4>
         <p text-h7 class="break-words text-start !line-clamp-3">
-          {{ content.description }}
+          {{ $t(content.description) }}
         </p>
       </div>
     </div>
@@ -177,12 +104,7 @@ const sectionNine = useSectionNine()
 
   <!-- Section Six -->
   <Section>
-    <h2 class="text-h2">
-      {{ $t(sectionSix.topic) }}
-    </h2>
-    <p class="text-h6">
-      {{ $t(sectionSix.description) }}
-    </p>
+    <Typography :topic=" $t(sectionSix.topic) " :description=" $t(sectionSix.description) " />
 
     <div v-for="(item, i) in sectionSix.content" :key="i" class="flex flex-wrap gap-6 py-10 md:flex-nowrap" :class="{ 'flex-row-reverse': i % 2 === 0 }">
       <div class="w-45% flex-grow">
@@ -194,18 +116,18 @@ const sectionNine = useSectionNine()
       <div class="w-55% flex-grow">
         <div class="h-full w-full flex flex-col items-center justify-center px-16 md:items-start">
           <p class="text-title">
-            {{ item.title }}
+            {{ $t(item.title) }}
           </p>
           <h4 class="text-h4 font-bold">
-            {{ item.topic }}
+            {{ $t(item.topic) }}
           </h4>
           <p class="text-h6 md:text-left">
-            {{ item.description }}
+            {{ $t(item.description) }}
           </p>
-          <div w-full py-10>
+          <div v-if="item.link" w-full py-10>
             <NuxtLink :href="item.link.href">
               <ABtn variant="light" class="group">
-                {{ item.link.name }} <div i-solar-arrow-right-linear class="transition-all group-hover:px-4" />
+                {{ $t(item.link.name) }} <div i-solar-arrow-right-linear class="transition-all group-hover:px-4" />
               </ABtn>
             </NuxtLink>
           </div>
@@ -215,7 +137,7 @@ const sectionNine = useSectionNine()
   </Section>
 
   <!-- Section Seven -->
-  <Banner :img="$t(sectionSeven.img)" :title="$t(sectionSeven.title)" :topic="$t(sectionSeven.topic)" mask="bottom" />
+  <SectionBanner :img="$t(sectionSeven.img)" :title="$t(sectionSeven.title)" :topic="$t(sectionSeven.topic)" mask="bottom" />
 
   <!-- Section Eight -->
   <Section>
@@ -223,14 +145,14 @@ const sectionNine = useSectionNine()
       <div
         v-for="(content, i) in sectionEight.content"
         :key="i"
-        class="w-full"
+        class="w-full text-center"
       >
-        <div :class="content.icon" class="h-60px w-full" />
-        <h4 text-h4 class="break-words font-bold !line-clamp-2">
-          {{ content.title }}
+        <div :class="content.icon" h-60px w-full />
+        <h4 text-h4 font-bold>
+          {{ $t(content.title) }}
         </h4>
-        <p text-h7 class="break-words text-center !line-clamp-3">
-          {{ content.description }}
+        <p text-h7>
+          {{ $t(content.description) }}
         </p>
       </div>
     </div>
@@ -256,16 +178,8 @@ const sectionNine = useSectionNine()
   <Divider />
 
   <!-- Section Nine -->
-  <Section my-10 from-green-500 to-lime-300 bg-gradient-to-r>
-    <p class="text-title text-start">
-      {{ $t(sectionNine.title) }}
-    </p>
-    <h2 class="text-h2 text-start">
-      {{ $t(sectionNine.topic) }}
-    </h2>
-    <p class="text-h6 mb-10 text-start">
-      {{ $t(sectionNine.description) }}
-    </p>
+  <Section class="bg-gradient-green my-10">
+    <Typography :title="$t(sectionNine.title)" :topic=" $t(sectionNine.topic)" :description=" $t(sectionNine.description)" class="text-start" />
   </Section>
   <Divider />
 </template>

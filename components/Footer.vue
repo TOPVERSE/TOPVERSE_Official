@@ -8,7 +8,7 @@ const footer = useFoot()
   <Divider />
   <div class="grid-row p-20 pt-30 lg:(grid-cols-3) md:(grid-cols-2 px-30) xl:px-60">
     <div
-      v-for="(col, i) in footer"
+      v-for="(col, i) in footer.links"
       :key="i"
       class="w-full flex flex-col items-center gap-8"
     >
@@ -17,13 +17,23 @@ const footer = useFoot()
       </h5>
 
       <NuxtLink v-for="(item, i) in col.child" :key="i" class="font-bold" :href="item.link.href">
-        {{ item.link.name }}
+        {{ $t(item.link.name) }}
       </NuxtLink>
     </div>
   </div>
-  <div my-10 flex items-center justify-center gap-4>
-    <BrandLogo />
-    © Copyright 2022 - 2023 LandVault · Wam Group · All rights reserved
-    <DarkToggle />
+  <div my-10 flex flex-col items-center justify-center gap-4>
+    <div flex items-center gap-4>
+      <BrandLogo />
+      <DarkToggle />
+    </div>
+    <p>
+      {{ $t(footer.copyright) }}
+    </p>
+    <p>
+      {{ $t(footer.release) }}
+    </p>
+    <p v-for="(record, i) in footer.record" :key="i">
+      {{ $t(record) }}
+    </p>
   </div>
 </template>
