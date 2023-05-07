@@ -53,11 +53,7 @@ const flag: any = {
       <ABtn
         variant="text"
       >
-        <span style="color: hsla(var(--a-base-c), 0.87); " class="font-bold">
-          {{
-            flag[locale.code]
-          }}
-        </span>
+        <span :class="flag[locale.code]" />
       </ABtn>
     </LocaleNuxtLink>
   </nav>

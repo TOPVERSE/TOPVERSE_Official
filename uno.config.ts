@@ -51,6 +51,9 @@ export default defineConfig({
     'text-gradient-rose',
     'text-gradient-purple',
     'text-gradient-yello',
+    'i-flag-gb-4x3',
+    'i-flag-cn-4x3',
+
   ],
   presets: [
     presetAnu(),
