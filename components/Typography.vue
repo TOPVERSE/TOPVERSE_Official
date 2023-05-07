@@ -1,6 +1,5 @@
 <script setup lang="ts">
 $defineProps<{
-  img: string
   title?: string
   topic?: string
   description?: string

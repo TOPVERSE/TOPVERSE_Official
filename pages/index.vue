@@ -31,7 +31,7 @@ const sectionNine = useSectionNine()
     <Typography :title=" $t(sectionTwo.title) " :description=" $t(sectionTwo.description) " />
 
     <div class="grid-row grid-cols-2 py-10 md:grid-cols-3" :class="`lg:grid-cols-${sectionTwo.content.length}`">
-      <NuxtLink
+      <LocaleNuxtLink
         v-for="(content, i) in sectionTwo.content"
         :key="i"
         class="h-10 w-full flex justify-center"
@@ -39,7 +39,7 @@ const sectionNine = useSectionNine()
         :title="$t(content.title)"
       >
         <img :src="content.img">
-      </NuxtLink>
+      </LocaleNuxtLink>
     </div>
   </Section>
 
@@ -70,9 +70,9 @@ const sectionNine = useSectionNine()
         />
       </div>
     </div>
-    <NuxtLink :href="sectionThree.link.href">
+    <LocaleNuxtLink :href="sectionThree.link.href">
       <ABtn>{{ $t(sectionThree.link.name) }}</ABtn>
-    </NuxtLink>
+    </LocaleNuxtLink>
   </Section>
 
   <!-- Section Four -->
@@ -125,11 +125,11 @@ const sectionNine = useSectionNine()
             {{ $t(item.description) }}
           </p>
           <div v-if="item.link" w-full py-10>
-            <NuxtLink :href="item.link.href">
+            <LocaleNuxtLink :href="item.link.href">
               <ABtn variant="light" class="group">
                 {{ $t(item.link.name) }} <div i-solar-arrow-right-linear class="transition-all group-hover:px-4" />
               </ABtn>
-            </NuxtLink>
+            </LocaleNuxtLink>
           </div>
         </div>
       </div>
@@ -178,7 +178,7 @@ const sectionNine = useSectionNine()
   <Divider />
 
   <!-- Section Nine -->
-  <Section class="bg-gradient-green my-10">
+  <Section class="my-10 bg-gradient-green">
     <Typography :title="$t(sectionNine.title)" :topic=" $t(sectionNine.topic)" :description=" $t(sectionNine.description)" class="text-start" />
   </Section>
   <Divider />

@@ -66,10 +66,6 @@ export default defineNuxtConfig({
         file: 'zh-CN.json',
       },
     ],
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieCrossOrigin: true,
-    },
     lazy: true,
     langDir: 'locales',
     defaultLocale: 'zh',

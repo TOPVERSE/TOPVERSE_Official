@@ -10,14 +10,10 @@ interface NavMenu {
 }
 
 export function useNav(): NavMenu[] {
-  const { locale } = useI18n()
-
-  const path = locale.value === 'zh' ? '/' : `/${locale.value}`
-
   return [
     {
       title: 'nav.home',
-      href: `${path}`,
+      href: '/',
     },
     {
       title: 'nav.solutions.t',
@@ -25,21 +21,21 @@ export function useNav(): NavMenu[] {
         {
           title: 'nav.solutions.child.land.service[0]',
           subtitle: 'nav.solutions.child.land.description[0]',
-          href: `${path}/land`,
+          href: '/land',
           icon: 'i-solar-airbuds-left-bold-duotone',
           iconColor: 'red',
         },
         {
           title: 'nav.solutions.child.land.service[1]',
           subtitle: 'nav.solutions.child.land.description[1]',
-          href: `${path}/land`,
+          href: '/land',
           icon: 'i-solar-airbuds-left-bold-duotone',
           iconColor: 'amber',
         },
         {
           title: 'nav.solutions.child.land.service[2]',
           subtitle: 'nav.solutions.child.land.description[2]',
-          href: `${path}/land`,
+          href: '/land',
           icon: 'i-solar-airbuds-left-bold-duotone',
           iconColor: 'amber',
         },
@@ -47,7 +43,7 @@ export function useNav(): NavMenu[] {
     },
     {
       title: 'nav.news',
-      href: `${path}/news`,
+      href: '/news',
     },
     {
       title: 'nav.event.t',
@@ -55,14 +51,14 @@ export function useNav(): NavMenu[] {
         {
           title: 'nav.event.child.act[0]',
           subtitle: 'nav.event.child.description[0]',
-          href: `${path}/land`,
+          href: '/land',
           icon: 'i-solar-airbuds-left-bold-duotone',
           iconColor: 'red',
         },
         {
           title: 'nav.event.child.act[1]',
           subtitle: 'nav.event.child.description[1]',
-          href: `${path}/land`,
+          href: '/land',
           icon: 'i-solar-airbuds-left-bold-duotone',
           iconColor: 'red',
         },
