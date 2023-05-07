@@ -10,6 +10,11 @@ const availableLocales = computed(() => {
   // @ts-expect-error
   return (locales.value).filter(i => i.code !== locale.value)
 })
+
+const flag: any = {
+  en: 'i-flag-gb-4x3',
+  zh: 'i-flag-cn-4x3',
+}
 </script>
 
 <template>
@@ -50,7 +55,7 @@ const availableLocales = computed(() => {
       >
         <span style="color: hsla(var(--a-base-c), 0.87); " class="font-bold">
           {{
-            locale.code
+            flag[locale.code]
           }}
         </span>
       </ABtn>
