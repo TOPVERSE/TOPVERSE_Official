@@ -87,13 +87,29 @@
       "entry": " Check Out Our Solutions"
     },
     "sectionFive": {
-      "title": "Get prepared for the immersive world",
-      "topic": "DIVE INTO THE NEW WORLD WITH TOPVERSE® LAB",
-      "description": ""
+      "title":"Full-Stack Virtual and Reality Services",
+      "topic":"TO EXTEND THE REALITY INTO THE REALITY",
+      "description":"More than just builders and engineers, we have you covered from digital content design and application development to project management, business measurements, branding, marketing and even more.",
+      "content":{
+        "topic": ["110+ In-house Builders",
+                  "Building and Developing since 2021",
+                  "Rapid build time",
+                  "Robust Ecosystems",
+                  "Open Community",
+                  "Data and Proprietary"],
+        "description": ["We are the most advanced, artistic and fast-growing technical designer team in the world",
+                        "We have been developing applications and creating digital contents before the metaverse was a thing",
+                        "With parallel working and creative methods to bring ideas into reality faster than ever",
+                        "We have partnered with more than 30 hardware brands and 50+ software/ generative engineer communities to meet both 2B/2C needs",
+                        "We provide services and platforms for experienced professionals and scholars with idea exchange, research grants, technical teams and necessary resources",
+                        "We build unique systems and data capabilities to accelerate business and marketing in the metaverse and industries"]
+
+      }
+
     }
   },
   "foot": {
-    "copyright": "© Copyright 2022 - 2023 LandVault · Wam Group · All rights reserved",
+    "copyright": "TOPVERSE LAB © Copyright 2022 - 2023 All rights reserved",
     "release": "增值电信业务经营许可证：合字B2-20090007",
     "record": ["京ICP备10036305号-7", "京公网安备11010802022657号"],
     "links": [
