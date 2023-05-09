@@ -27,12 +27,12 @@ export function useSectionThree() {
         href: '#',
       }, {
         topic: 'home.sectionThree.contentSecondary.topic[1]',
-        img: '/imgs/Home-Stories/RIBA Metaverse Festival.jpg',
+        img: '/imgs/Home-Stories/RIBAChangan.jpg',
         href: '#',
       },
       {
         topic: 'home.sectionThree.contentSecondary.topic[2]',
-        img: '/imgs/Home-Stories/Tower.jpg',
+        img: '/imgs/Home-Stories/CoreOfTime.jpg',
         href: '#',
       },
 
@@ -40,21 +40,21 @@ export function useSectionThree() {
     contentThird: [
       {
         topic: 'home.sectionThree.contentThird.topic[0]',
-        img: '/imgs/1 (9).jpg',
+        img: '/imgs/Home-Stories/BitCountry.jpg',
         href: '#',
       }, {
         topic: 'home.sectionThree.contentThird.topic[1]',
-        img: '/imgs/1 (6).jpg',
+        img: '/imgs/Home-Stories/MMMM.jpg',
         href: '#',
       },
       {
         topic: 'home.sectionThree.contentThird.topic[2]',
-        img: '/imgs/1 (7).jpg',
+        img: '/imgs/Home-Stories/Circulus.jpg',
         href: '#',
       },
       {
         topic: 'home.sectionThree.contentThird.topic[3]',
-        img: '/imgs/1 (8).jpg',
+        img: '/imgs/Home-Stories/NASA.jpg',
         href: '#',
       },
 
