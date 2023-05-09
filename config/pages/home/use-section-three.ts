@@ -10,12 +10,12 @@ export function useSectionThree() {
     contentPrimary: [
       {
         topic: 'home.sectionThree.contentPrimary.topic[0]',
-        img: '/imgs/1 (2).jpg',
+        img: '/imgs/Home-Stories/ParcelCreatorverse.jpg',
         href: '#',
       },
       {
         topic: 'home.sectionThree.contentPrimary.topic[1]',
-        img: '/imgs/1 (1).jpg',
+        img: '/imgs/Home-Stories/HoloWater.jpg',
         href: '#',
       },
     ],
@@ -23,16 +23,16 @@ export function useSectionThree() {
 
       {
         topic: 'home.sectionThree.contentSecondary.topic[0]',
-        img: '/imgs/1 (5).jpg',
+        img: '/imgs/Home-Stories/NeverDrinkAlone.jpg',
         href: '#',
       }, {
         topic: 'home.sectionThree.contentSecondary.topic[1]',
-        img: '/imgs/1 (3).jpg',
+        img: '/imgs/Home-Stories/RIBA Metaverse Festival.jpg',
         href: '#',
       },
       {
         topic: 'home.sectionThree.contentSecondary.topic[2]',
-        img: '/imgs/1 (4).jpg',
+        img: '/imgs/Home-Stories/Tower.jpg',
         href: '#',
       },
 

@@ -64,9 +64,22 @@
       "description": "See how TOPVERSE® brings the virtual world into reality",
       "contentPrimary": {
         "topic": [
-          "Spotlight: Music Venue",
-          "Parcel Creatorverse Spotlight: Meeting Venue"
+          "Metaverse Construction: The Party-verse",
+          "MR Digital Twin: HoloWater®"
         ]
+      },
+      "contentSecondary":{
+        "topic":[
+          "Never Drink Alone: The Bar Symphony",
+          "MMMM Mic Dolls: Music Interactive Digital Content"
+        ]
+
+      },
+      "contentThrid":{
+        "topic":[
+          "China"
+        ]
+
       },
       "imgsDes": [
         "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
@@ -84,7 +97,7 @@
     "sectionFour": {
       "topic": "The Metaverse Made Simple",
       "description": "LandVault helps brands build a unique metaverse experience and drive engagement in a meaningful way",
-      "entry": " Check Out Our Solutions"
+      "link": " Check Out Our Solutions"
     },
     "sectionFive": {
       "title":"Full-Stack Virtual and Reality Services",
@@ -105,6 +118,32 @@
                         "We build unique systems and data capabilities to accelerate business and marketing in the metaverse and industries"]
 
       }
+
+    },
+    "sectionSix":{
+      "topic":"SOLUTIONS & SERVICES",
+      "description":"See how the technology and creativity combine the reality with virtual world",
+      "content":{
+        "title":[
+          "Mixed Reality",
+          "Metaverse Construction"
+
+        ],
+        "topic":[
+          "Digital Twin"
+        ],
+        "description":[
+          "Increase the efficiency, Cover all kinds of industries including construction, mining, sea port, water, and more.",
+          ""
+        ],
+        "link":[
+          "More Details",
+          "More Details",
+          "More Details",
+          "More Details"
+        ]
+      }
+
 
     }
   },
