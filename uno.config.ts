@@ -70,7 +70,7 @@ export default defineConfig({
     presetAttributify(),
     presetIcons({
       scale: 1.2,
-      cdn: 'http://esm.sh/',
+      cdn: 'https://esm.sh/',
       extraProperties: presetIconExtraProperties,
     }),
     presetTypography(),
