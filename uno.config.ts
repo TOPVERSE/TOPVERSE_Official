@@ -53,7 +53,14 @@ export default defineConfig({
     'text-gradient-yello',
     'i-flag-gb-4x3',
     'i-flag-cn-4x3',
-
+    'i-subway-basket',
+    'i-maki-college-11',
+    'i-maki-amusement-park-11',
+    'i-maki-gaming',
+    'i-maki-city',
+    'i-maki-basketball-11',
+    'i-maki-baseball-11',
+    'i-maki-communications-tower-11',
   ],
   presets: [
     presetAnu(),
