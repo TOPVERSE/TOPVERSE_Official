@@ -70,7 +70,7 @@
     },
     "sectionFour": {
       "topic": "Connects with Power and Strength",
-      "description": "TOPVERSE Lab equips pioneers with quick reactions, powerful teams, bold minds, unlimited inspirations and high-quality realisations",
+      "description": "TOPVERSE® Lab Equips Pioneers with quick reactions, powerful teams, bold minds, unlimited inspirations and high-quality realisations",
       "link": " Check Out Our Solutions"
     },
     "sectionFive": {
@@ -147,6 +147,9 @@
           "Customise mixed reality experience for industrial manufacturing, productions, and safety"
         ]
       }
+    },
+    "sectionNine":{
+      "title":""
     }
   },
   "foot": {
@@ -159,8 +162,12 @@
         "link": ["Home", "Solutions", "Press Release"]
       },
       {
-        "group": "testname2",
-        "link": ["test", "test2", "test3"]
+        "group": "COMPANY",
+        "link": ["About Us", "Locations", "Terms of Use"]
+      },
+      {
+        "group":"COMMUNITY",
+        "link":["WeChat","Red","Twitter"]
       }
     ]
   }

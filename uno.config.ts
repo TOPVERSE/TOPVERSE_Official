@@ -61,6 +61,11 @@ export default defineConfig({
     'i-maki-basketball-11',
     'i-maki-baseball-11',
     'i-maki-communications-tower-11',
+    'i-tabler-affiliate',
+    'i-tabler-a-b',
+    'i-tabler-3d-cube-sphere',
+    'i-tabler-api-app',
+    'i-tabler-apple',
   ],
   presets: [
     presetAnu(),
