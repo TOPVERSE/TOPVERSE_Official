@@ -71,7 +71,9 @@ const sectionNine = useSectionNine()
       </div>
     </div>
     <LocaleNuxtLink :href="sectionThree.link.href">
-      <ABtn>{{ $t(sectionThree.link.name) }}</ABtn>
+      <ABtn variant="light">
+        {{ $t(sectionThree.link.name) }}
+      </ABtn>
     </LocaleNuxtLink>
   </Section>
 

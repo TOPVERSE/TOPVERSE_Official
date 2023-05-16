@@ -36,6 +36,10 @@ export default defineNuxtConfig({
           danger: hex2hsl(colors.rose[500]).toString(),
           info: hex2hsl(colors.blue[500]).toString(),
         },
+        cssVars: {
+          // 'base-c': hex2hsl(colors.white).toString(),
+          'body-bg-c': hex2hsl(colors.white).toString(),
+        },
       },
       // @ts-expect-error
       dark: {
@@ -45,6 +49,9 @@ export default defineNuxtConfig({
           warning: hex2hsl(colors.amber[500]).toString(),
           danger: hex2hsl(colors.rose[500]).toString(),
           info: hex2hsl(colors.blue[500]).toString(),
+        },
+        cssVars: {
+          'body-bg-c': hex2hsl(colors.dark[900]).toString(),
         },
       },
     },

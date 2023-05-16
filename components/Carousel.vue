@@ -28,6 +28,7 @@ onMounted(() => {
 
     <div class="absolute top-0 z-10 h-full w-full flex items-center justify-center text-shadow">
       <Typography
+        scale-135
         text-color="white"
         :topic="$t(carousels[pages].title)" :description="$t(carousels[pages].description)" :link="{
           ...carousels[pages].link,

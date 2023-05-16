@@ -25,7 +25,7 @@ $defineProps<{
       }}
     </p>
     <NuxtLink v-if="link" :href="link?.href">
-      <ABtn>
+      <ABtn variant="light" class="group" color="white" icon="  i-solar-arrow-right-linear transition-all group-hover:px-4">
         {{ link?.name }}
       </ABtn>
     </NuxtLink>
