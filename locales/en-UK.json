@@ -44,24 +44,14 @@
     },
     "sectionTwo": {
       "title": "Our Partners & Cooperations",
-      "content": {
-        "title": [
-          "pay",
-          "pay",
-          "pay",
-          "pay",
-          "pay",
-          "pay",
-          "pay"
-        ]
-      }
+      "description":"With WHOM and WHICH Platform We've Been Built"
 
     },
     "sectionThree": {
 
       "title": "SHOWCASE",
       "topic": "Success Stories",
-      "description": "See how TOPVERSE® brings the virtual world into reality",
+      "description": "See how TOPVERSE® Brings the Virtual World into Reality",
       "contentPrimary": {
         "topic": [
           "Metaverse Construction: The Party-verse",
@@ -75,28 +65,12 @@
         ]
 
       },
-      "contentThrid":{
-        "topic":[
-          "China"
-        ]
-
-      },
-      "imgsDes": [
-        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
-        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
-        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
-        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
-        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
-        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
-        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
-        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
-        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse",
-        "See how these great companies have partnered with LandVault to take their iconic brands into the metaverse"
-      ]
+      "link":"More Stories"
+     
     },
     "sectionFour": {
-      "topic": "The Metaverse Made Simple",
-      "description": "LandVault helps brands build a unique metaverse experience and drive engagement in a meaningful way",
+      "topic": "Connects with Power and Strength",
+      "description": "TOPVERSE Lab equips pioneers with quick reactions, powerful teams, bold minds, unlimited inspirations and high-quality realisations",
       "link": " Check Out Our Solutions"
     },
     "sectionFive": {
@@ -105,8 +79,8 @@
       "description":"More than just builders and engineers, we have you covered from digital content design and application development to project management, business measurements, branding, marketing and even more.",
       "content":{
         "topic": ["110+ In-house Builders",
-                  "Building and Developing since 2021",
-                  "Rapid build time",
+                  "Create and Innovate since 2020",
+                  "Rapid Build Time",
                   "Robust Ecosystems",
                   "Open Community",
                   "Data and Proprietary"],
@@ -145,16 +119,44 @@
       }
 
 
+    },
+    "sectionSeven":{
+      "title":"VIRTUALIZATION IS NEVER A LIMIT",
+      "topic":"Unlimited Possibilities to Engage & Interact"
+    },
+    "sectionEight":{
+      "content":{
+        "title":[
+          "E-Commerce",
+          "Education",
+          "Event",
+          "Gaming",
+          "Real-estate",
+          "Cinematic",
+          "Sports",
+          "Industry"
+        ],
+        "topic":[
+          "Promote and display products in the metaverse",
+          "Train and educate individuals with skills and engaging digital contents",
+          "Attract and gather people to host virtual conference, seminars and grand events",
+          "Build blockchain-based gaming experience with reward bundles",
+          "Develop virtual real-estate ecology for investors and collectors, or land rentials",
+          "Host live, 3D interactable carnivals, festivals, performances in the virtual world",
+          "Gamify top competitions through unlimited interactive add-ons, with more ways for audiences to participate",
+          "Customise mixed reality experience for industrial manufacturing, productions, and safety"
+        ]
+      }
     }
   },
   "foot": {
-    "copyright": "TOPVERSE LAB © Copyright 2022 - 2023 All rights reserved",
+    "copyright": "TOPVERSE LAB © Copyright 2019-2023 All rights reserved",
     "release": "增值电信业务经营许可证：合字B2-20090007",
     "record": ["京ICP备10036305号-7", "京公网安备11010802022657号"],
     "links": [
       {
-        "group": "testname",
-        "link": ["test", "test2", "test3"]
+        "group": "PRODUCT",
+        "link": ["Home", "Solutions", "Press Release"]
       },
       {
         "group": "testname2",
