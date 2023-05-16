@@ -30,7 +30,7 @@ const sectionNine = useSectionNine()
   <Section class="border-b-2 border-dark/40 border-b-solid from-dark/30 bg-gradient-to-t dark:(border-light-50/10 from-light/5)">
     <Typography :title=" $t(sectionTwo.title) " :description=" $t(sectionTwo.description) " />
 
-    <div class="grid-row grid-cols-2 py-10 md:grid-cols-3" :class="`lg:grid-cols-${sectionTwo.content.length}`">
+    <div class="grid-row grid-cols-2 gap-18 py-10 md:(grid-cols-3 gap-10)" :class="`lg:grid-cols-${sectionTwo.content.length} lg:gap-2 `">
       <LocaleNuxtLink
         v-for="(content, i) in sectionTwo.content"
         :key="i"
