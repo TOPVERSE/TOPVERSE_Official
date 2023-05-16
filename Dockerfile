@@ -1,18 +1,20 @@
-FROM node:16-alpine as build-stage
+FROM node:18-bullseye 
 
-WORKDIR /app
-RUN corepack enable
+RUN mkdir -p /web
 
-COPY .npmrc package.json pnpm-lock.yaml ./
-RUN --mount=type=cache,id=pnpm-store,target=/root/.pnpm-store \
-    pnpm install --frozen-lockfile
+COPY . /web
 
-COPY . .
+WORKDIR /web
+
+RUN npm config set registry https://registry.npm.taobao.org
+RUN npm install -g pnpm
+RUN pnpm install
+
 RUN pnpm build
 
-FROM nginx:stable-alpine as production-stage
+ENV HOST 0.0.0.0
+ENV PORT 3000
 
-COPY --from=build-stage /app/dist /usr/share/nginx/html
-EXPOSE 80
+EXPOSE 3000
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["pnpm", "start"]
