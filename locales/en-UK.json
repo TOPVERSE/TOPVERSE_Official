@@ -155,13 +155,14 @@
       }
     },
     "sectionNine":{
-      "title":""
+      "title":"The Next Era of Reality",
+      "topic":"TO MAKE DIGITAL WORLD PLAYABLE IN PHYSICAL REALITY",
+      "description":"Get involved in this revolution and enjoy"
     }
   },
   "foot": {
     "copyright": "TOPVERSE LAB © Copyright 2019-2023 All rights reserved",
-    "release": "增值电信业务经营许可证：合字B2-20090007",
-    "record": ["京ICP备10036305号-7", "京公网安备11010802022657号"],
+    "record": ["沪ICP备2023010651号-1", ""],
     "links": [
       {
         "group": "PRODUCT",

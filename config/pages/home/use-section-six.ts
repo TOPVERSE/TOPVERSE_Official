@@ -11,7 +11,7 @@ export function useSectionSix() {
           name: 'home.sectionSix.content.link[0]',
           href: '#',
         },
-        img: '/imgs/1 (4).jpg',
+        img: '/imgs/Home-Solutions&Services/DigitalTwin.gif',
       },
       {
         title: 'home.sectionSix.content.title[1]',
@@ -21,7 +21,7 @@ export function useSectionSix() {
           name: 'home.sectionSix.content.link[1]',
           href: '#',
         },
-        img: '/imgs/1 (1).jpg',
+        img: '/imgs/Home-Solutions&Services/GeneratedDesign.gif',
       },
       {
         title: 'home.sectionSix.content.title[2]',
