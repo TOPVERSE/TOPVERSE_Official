@@ -25,7 +25,8 @@ const colors = [
       <div
         v-for="(col, i) in content"
         :key="i"
-        class="h-full w-full flex flex-col items-center justify-center"
+        class="h-full w-full flex flex-col items-center justify-center animated animated-fade-in-up animated-faster"
+        :class="`animated-delay-${i * 100}ms`"
       >
         <h2 :title="$t(col.title)" class="text-h2 w-full text-center text-7xl font-bold text-transparent" :class="colors[i]">
           {{ $t(col.title) }}

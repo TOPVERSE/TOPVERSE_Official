@@ -44,6 +44,7 @@ export default defineConfig({
   safelist: [
     ...Array(10).fill('').map((_, i) => `grid-cols-${i + 1}`),
     ...Array(10).fill('').map((_, i) => `lg:grid-cols-${i + 1}`),
+    ...Array(11).fill('').map((_, i) => `animated-delay-${i * 100}ms`),
     'i-solar-airbuds-left-bold-duotone',
     'text-gradient-pink',
     'text-gradient-blue',

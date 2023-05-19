@@ -10,8 +10,14 @@ import { useSectionThree } from '~/config/pages/home/use-section-three'
 import { useSectionTwo } from '~/config/pages/home/use-section-two'
 
 const sectionOne = useSectionOne()
+const sectionOneEl = ref(null)
+const sectionOneVis = useElementVisibility(sectionOneEl)
 const sectionTwo = useSectionTwo()
+const sectionTwoEl = ref(null)
+const sectionTwoVis = useElementVisibility(sectionTwoEl)
 const sectionThree = useSectionThree()
+const sectionThreeEl = ref(null)
+const sectionThreeVis = useElementVisibility(sectionThreeEl)
 const sectionFour = useSectionFour()
 const sectionFive = useSectionFive()
 const sectionSix = useSectionSix()
@@ -27,7 +33,7 @@ const sectionNine = useSectionNine()
   <SectionGradientCard :content="sectionOne.content" :topic="sectionOne.topic" />
 
   <!-- Section Two -->
-  <Section class="border-b-2 border-dark/40 border-b-solid from-dark/30 bg-gradient-to-t dark:(border-light-50/10 from-light/5)">
+  <Section ref="sectionTwoEl" class="border-b-2 border-dark/40 border-b-solid from-dark/30 bg-gradient-to-t dark:(border-light-50/10 from-light/5)">
     <Typography :title=" $t(sectionTwo.title) " :description=" $t(sectionTwo.description) " />
 
     <div class="grid-row grid-cols-2 gap-18 py-10 md:(grid-cols-3 gap-10)" :class="`lg:grid-cols-${sectionTwo.content.length} lg:gap-2 `">
@@ -35,6 +41,9 @@ const sectionNine = useSectionNine()
         v-for="(content, i) in sectionTwo.content"
         :key="i"
         class="h-10 w-full flex justify-center"
+        :class="[`animated-delay-${i * 100}ms`, {
+          'animated animated-fade-in-up animated-faster': sectionTwoVis,
+        }]"
         :href="content.href"
         :title="$t(content.title)"
       >
@@ -47,12 +56,17 @@ const sectionNine = useSectionNine()
   <Section text-center class="section-three">
     <Typography :title=" $t(sectionThree.title) " :topic=" $t(sectionThree.topic) " :description=" $t(sectionThree.description) " />
 
-    <div>
-      <div class="grid-row py-10 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionThree.contentPrimary.length}`">
+    <div ref="sectionThreeEl">
+      <div
+        class="grid-row py-10 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionThree.contentPrimary.length}`"
+      >
         <ImageHover
           v-for="(content, i) in sectionThree.contentPrimary"
           :key="i"
           :href="content.href" :img="content.img" :topic="content.topic"
+          :class="[`animated-delay-${i * 100}ms`, {
+            'animated animated-fade-in-up animated-faster': sectionThreeVis,
+          }]"
         />
       </div>
       <div class="grid-row pb-10 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionThree.contentSecondary.length}`">
@@ -60,6 +74,9 @@ const sectionNine = useSectionNine()
           v-for="(content, i) in sectionThree.contentSecondary"
           :key="i"
           :href="content.href" :img="content.img" :topic="content.topic"
+          :class="[`animated-delay-${i * 100}ms`, {
+            'animated animated-fade-in-up animated-faster': sectionThreeVis,
+          }]"
         />
       </div>
       <div class="grid-row pb-20 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionThree.contentThird.length}`">
@@ -67,6 +84,9 @@ const sectionNine = useSectionNine()
           v-for="(content, i) in sectionThree.contentThird"
           :key="i"
           :href="content.href" :img="content.img" :topic="content.topic"
+          :class="[`animated-delay-${i * 100}ms`, {
+            'animated animated-fade-in-up': sectionThreeVis,
+          }]"
         />
       </div>
     </div>
@@ -143,7 +163,7 @@ const sectionNine = useSectionNine()
 
   <!-- Section Eight -->
   <Section>
-    <div class="grid-row gap-20 pb-20 lg:(grid-cols-4) md:(grid-cols-2)">
+    <div class="grid-row grid-cols-2 gap-20 pb-20 lg:(grid-cols-4)">
       <div
         v-for="(content, i) in sectionEight.content"
         :key="i"
