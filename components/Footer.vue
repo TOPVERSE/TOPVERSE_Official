@@ -16,8 +16,8 @@ const footer = useFoot()
         {{ $t(col.title) }}
       </h5>
 
-      <LocaleNuxtLink v-for="(item, i) in col.child" :key="i" class="font-bold" :href="item.link.href">
-        {{ $t(item.link.name) }}
+      <LocaleNuxtLink v-for="(item, i) in col.child" :key="i" class="flex gap-2 font-bold" :href="item.link.href">
+        <span :class="item.icon" />{{ $t(item.link.name) }}
       </LocaleNuxtLink>
     </div>
   </div>

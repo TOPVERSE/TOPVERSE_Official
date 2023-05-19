@@ -66,6 +66,8 @@ export default defineConfig({
     'i-tabler-3d-cube-sphere',
     'i-tabler-api-app',
     'i-tabler-apple',
+    'i-ic-sharp-wechat',
+    'i-ri-twitter-fill',
   ],
   presets: [
     presetAnu(),

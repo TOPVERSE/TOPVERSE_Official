@@ -58,12 +58,14 @@ export function useFoot() {
         title: 'foot.links[2].group',
         child: [
           {
+            icon: 'i-ic-sharp-wechat',
             link: {
               name: 'foot.links[2].link[0]',
               href: '#',
             },
           },
           {
+            icon: 'i-ri-twitter-fill',
             link: {
               name: 'foot.links[2].link[1]',
               href: '#',
