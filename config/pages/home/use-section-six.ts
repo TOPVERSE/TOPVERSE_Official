@@ -41,7 +41,7 @@ export function useSectionSix() {
           name: 'home.sectionSix.content.link[3]',
           href: '#',
         },
-        img: '/imgs/1 (3).jpg',
+        img: '/imgs/Home-Solutions&Services/AIGC.gif',
       },
 
     ],
