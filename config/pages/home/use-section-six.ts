@@ -21,7 +21,7 @@ export function useSectionSix() {
           name: 'home.sectionSix.content.link[1]',
           href: '#',
         },
-        img: '/imgs/Home-Solutions&Services/GeneratedDesign.gif',
+        img: '/imgs/Home-Solutions&Services/Circulus.gif',
       },
       {
         title: 'home.sectionSix.content.title[2]',
@@ -31,7 +31,7 @@ export function useSectionSix() {
           name: 'home.sectionSix.content.link[2]',
           href: '#',
         },
-        img: '/imgs/1 (2).jpg',
+        img: '/imgs/Home-Solutions&Services/CyberPink.gif',
       },
       {
         title: 'home.sectionSix.content.title[3]',

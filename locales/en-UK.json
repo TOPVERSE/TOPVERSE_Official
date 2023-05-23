@@ -61,7 +61,17 @@
       "contentSecondary":{
         "topic":[
           "Never Drink Alone: The Bar Symphony",
-          "MMMM Mic Dolls: Music Interactive Digital Content"
+          "RIBA Metaverse Festival: The Chang'An Nostalgia",
+          "CASCI Digital Arts: The Core of Time"
+        ]
+
+      },
+      "contentThird":{
+        "topic":[
+          "Bit.Country:2023 World Cup Wearables",
+          "MMMM Mic Dolls: Sound Interactive NFTs",
+          "Ultiverse Masterplan: The Circulus City",
+          "NASA HeroX: Mixed Reality Mars Mission"
         ]
 
       },
@@ -108,12 +118,12 @@
           "Digital Twin",
           "Generated Design",
           "Digital Economy",
-          "AIGC"
+          "AIGC & Cloud Services"
         ],
         "description":[
           "Enpower manufacture and mass production, covering all kinds of industries including construction, mining, sea port, water, and more.",
           "Bridge virtuality with reality, bringing the digital world into the real life, cultivating broader practice of metaverse.",
-          "Decentralized management of digital contents powered by the world-leading blockchain technology.",
+          "Decentralized management and operation of digital contents/assets powered by the world-leading blockchain technology.",
           "AI generated digital contents with self-trained model APIs to improve the virtual production and immersive experience."
         ],
         "link":[
