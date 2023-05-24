@@ -5,7 +5,7 @@ export function useCarousel() {
       description: 'home.carousel.description[0]',
       link: {
         name: 'home.carousel.link[0]',
-        href: '#',
+        href: '/blog/creatorpartyverse',
       },
       img: '/imgs/Home.Creatorverse.jpg',
     },
@@ -14,9 +14,9 @@ export function useCarousel() {
       description: 'home.carousel.description[1]',
       link: {
         name: 'home.carousel.link[1]',
-        href: '#',
+        href: '/blog/holowater',
       },
-      img: '/imgs/1 (8).jpg',
+      img: '/imgs/News/HoloWater/20230524162443.jpg',
     },
   ]
 }
