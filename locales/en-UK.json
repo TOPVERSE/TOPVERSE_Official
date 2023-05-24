@@ -3,10 +3,10 @@
     "news": "News",
     "home": "Home",
     "event": {
-      "t": "Events",
+      "t": "Community",
       "child": {
-        "act": ["AaaO!", "TOPO Land"],
-        "description": ["Architecture as an Object", "Topverse Meta Island"]
+        "act": ["AaaO!", "TOPO Land","VAMX"],
+        "description": ["Architecture as an Object", "Topverse Meta Island","Academia for VR/AR/MR/XR Professionals"]
       }
     },
 

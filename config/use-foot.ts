@@ -14,7 +14,7 @@ export function useFoot() {
           {
             link: {
               name: 'foot.links[0].link[0]',
-              href: '#',
+              href: '/',
             },
           },
           {
@@ -68,7 +68,7 @@ export function useFoot() {
             icon: 'i-ri-twitter-fill',
             link: {
               name: 'foot.links[2].link[1]',
-              href: '#',
+              href: 'https://twitter.com/Topverse_Studio',
             },
           },
           {

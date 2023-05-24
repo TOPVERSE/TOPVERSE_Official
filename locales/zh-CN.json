@@ -3,10 +3,10 @@
     "news": "最新动态",
     "home": "首页",
     "event": {
-      "t": "项目发起",
+      "t": "社区动态",
       "child": {
-        "act": ["AaaO!", "TOPO Land"],
-        "description": ["未建成建筑系列", "TOPO元界岛"]
+        "act": ["AaaO!", "TOPO Land","VAMX"],
+        "description": ["未建成建筑系列", "TOPO元界岛","VR/AR/MR/XR学术生态社区"]
       }
     },
 
@@ -23,17 +23,17 @@
   "scrolldown": "下滑查看更多",
   "home": {
     "carousel": {
-      "topic": ["创作者之家", 
+      "topic": ["创作者聚会：Party-verse", 
       "绿色双碳水务工作站混合现实数字孪生"
       
     ],
-      "description": ["Decentraland Construction", "One should never ignore the power of nature"],
-      "link": ["Details", "Details"]
+      "description": ["在全球最大元宇宙平台Decentraland相聚", "基于微软HoloLens 2的工业元宇宙"],
+      "link": ["相关文章", "相关文章"]
     },
     "sectionOne": {
       "topic": "世界领先Web 3.0领域应用及多现实混合应用技术研发",
       "content": {
-        "title": ["80+", "20+", "2百万+"],
+        "title": ["110+", "20+", "2百万+"],
         "subtext": ["元宇宙及区块链工程师与交互专家", "落地项目、专利著作及标准制订", "平方米实际开发量"],
         "description": ["自2020年起参与元宇宙及区块链建设", "建筑师、开发者、设计师、工程师以及更多", "现实世界及虚拟使用场景相结合"]
 

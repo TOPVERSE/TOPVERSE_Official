@@ -62,6 +62,13 @@ export function useNav(): NavMenu[] {
           icon: 'i-tabler-api-app',
           iconColor: 'red',
         },
+        {
+          title: 'nav.event.child.act[2]',
+          subtitle: 'nav.event.child.description[2]',
+          href: '/land',
+          icon: 'i-academicons-archive',
+          iconColor: 'red',
+        },
       ],
     },
   ]
