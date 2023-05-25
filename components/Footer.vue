@@ -16,8 +16,20 @@ const footer = useFoot()
         {{ $t(col.title) }}
       </h5>
 
-      <LocaleNuxtLink v-for="(item, i) in col.child" :key="i" class="flex gap-2 font-bold" :href="item.link.href">
-        <span :class="item.icon" />{{ $t(item.link.name) }}
+      <LocaleNuxtLink v-for="(item, i) in col.child" :key="i" :href="item.link.href">
+        <ABtn v-if="item.icon === 'i-ic-sharp-wechat'" variant="text" color="slate-200" class="dark:!text-light/50" :icon="item.icon">
+          {{ $t(item.link.name) }}
+          <ATooltip class="[&_.a-tooltip]-bg-green-600" placement="left">
+            <span class="a-tooltip-text">
+              <i class="i-ic-sharp-wechat me-1" />
+              <span>{{ $t('wechat') }}</span>
+              <img src="/wechat.png" class="h-40 rounded">
+            </span>
+          </ATooltip>
+        </ABtn>
+        <ABtn v-else variant="text" color="slate-200" class="dark:!text-light/50" :icon="item.icon">
+          {{ $t(item.link.name) }}
+        </ABtn>
       </LocaleNuxtLink>
     </div>
   </div>

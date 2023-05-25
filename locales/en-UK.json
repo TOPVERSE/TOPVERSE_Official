@@ -5,8 +5,8 @@
     "event": {
       "t": "Community",
       "child": {
-        "act": ["AaaO!", "TOPO Land","VAMX"],
-        "description": ["Architecture as an Object", "Topverse Meta Island","Academia for VR/AR/MR/XR Professionals"]
+        "act": ["AaaO!", "TOPO Land", "VAMX"],
+        "description": ["Architecture as an Object", "Topverse Meta Island", "Academia for VR/AR/MR/XR Professionals"]
       }
     },
 
@@ -29,10 +29,10 @@
 
   "home": {
     "carousel": {
-      "topic": ["TOKEN 2049 Singapore: Creator Party-verse", 
-      "HoloWater®：Water Station Digital Twin"],
-      "description": ["PARCEL Creatorverse Highlight Project", 
-      "Industrial Mixed Reality Built within Hololens 2"],
+      "topic": ["TOKEN 2049 Singapore: Creator Party-verse",
+        "HoloWater®：Water Station Digital Twin"],
+      "description": ["PARCEL Creatorverse Highlight Project",
+        "Industrial Mixed Reality Built within Hololens 2"],
       "link": ["Details", "Details"]
     },
     "sectionOne": {
@@ -46,7 +46,7 @@
     },
     "sectionTwo": {
       "title": "Our Partners & Cooperations",
-      "description":"With WHOM and WHICH Platform We've Been Built"
+      "description": "With WHOM and WHICH Platform We've Been Built"
 
     },
     "sectionThree": {
@@ -60,16 +60,16 @@
           "MR Digital Twin: HoloWater®"
         ]
       },
-      "contentSecondary":{
-        "topic":[
+      "contentSecondary": {
+        "topic": [
           "Never Drink Alone: The Bar Symphony",
           "RIBA Metaverse Festival: The Chang'An Nostalgia",
           "CASCI Digital Arts: The Core of Time"
         ]
 
       },
-      "contentThird":{
-        "topic":[
+      "contentThird": {
+        "topic": [
           "Bit.Country:2023 World Cup Wearables",
           "MMMM Mic Dolls: Sound Interactive NFTs",
           "Ultiverse Masterplan: The Circulus City",
@@ -77,8 +77,8 @@
         ]
 
       },
-      "link":"More Stories"
-     
+      "link": "More Stories"
+
     },
     "sectionFour": {
       "topic": "Connects with Power and Strength",
@@ -86,49 +86,49 @@
       "link": " Check Out Our Solutions"
     },
     "sectionFive": {
-      "title":"Full-Stack Virtual and Reality Services",
-      "topic":"TO EXTEND THE REALITY INTO THE REALITY",
-      "description":"More than just builders and engineers, we have you covered from digital content design and application development to project management, business measurements, branding, marketing and even more.",
-      "content":{
+      "title": "Full-Stack Virtual and Reality Services",
+      "topic": "TO EXTEND THE REALITY INTO THE REALITY",
+      "description": "More than just builders and engineers, we have you covered from digital content design and application development to project management, business measurements, branding, marketing and even more.",
+      "content": {
         "topic": ["110+ In-house Builders",
-                  "Create and Innovate since 2020",
-                  "Rapid Build Time",
-                  "Robust Ecosystems",
-                  "Open Community",
-                  "Data and Proprietary"],
+          "Create and Innovate since 2020",
+          "Rapid Build Time",
+          "Robust Ecosystems",
+          "Open Community",
+          "Data and Proprietary"],
         "description": ["We are the most advanced, artistic and fast-growing technical designer team in the world",
-                        "We have been developing applications and creating digital contents before the metaverse was a thing",
-                        "With parallel working and creative methods to bring ideas into reality faster than ever",
-                        "We have partnered with more than 30 hardware brands and 50+ software/ generative engineer communities to meet both 2B/2C needs",
-                        "We provide services and platforms for experienced professionals and scholars with idea exchange, research grants, technical teams and necessary resources",
-                        "We build unique systems and data capabilities to accelerate business and marketing in the metaverse and industries"]
+          "We have been developing applications and creating digital contents before the metaverse was a thing",
+          "With parallel working and creative methods to bring ideas into reality faster than ever",
+          "We have partnered with more than 30 hardware brands and 50+ software/ generative engineer communities to meet both 2B/2C needs",
+          "We provide services and platforms for experienced professionals and scholars with idea exchange, research grants, technical teams and necessary resources",
+          "We build unique systems and data capabilities to accelerate business and marketing in the metaverse and industries"]
 
       }
 
     },
-    "sectionSix":{
-      "topic":"SOLUTIONS & SERVICES",
-      "description":"See how the technology and creativity combine the reality with virtual world",
-      "content":{
-        "title":[
+    "sectionSix": {
+      "topic": "SOLUTIONS & SERVICES",
+      "description": "See how the technology and creativity combine the reality with virtual world",
+      "content": {
+        "title": [
           "Industrial Mixed Reality",
           "Virtual Construction",
           "Web 3.0",
           "Large Model"
         ],
-        "topic":[
+        "topic": [
           "Digital Twin",
           "Generated Design",
           "Digital Economy",
           "AIGC & Cloud Services"
         ],
-        "description":[
+        "description": [
           "Enpower manufacture and mass production, covering all kinds of industries including construction, mining, sea port, water, and more.",
           "Bridge virtuality with reality, bringing the digital world into the real life, cultivating broader practice of metaverse.",
           "Decentralized management and operation of digital contents/assets powered by the world-leading blockchain technology.",
           "AI generated digital contents with self-trained model APIs to improve the virtual production and immersive experience."
         ],
-        "link":[
+        "link": [
           "More Details",
           "More Details",
           "More Details",
@@ -136,15 +136,14 @@
         ]
       }
 
-
     },
-    "sectionSeven":{
-      "title":"VIRTUALIZATION IS NEVER A LIMIT",
-      "topic":"Unlimited Possibilities to Engage & Interact"
+    "sectionSeven": {
+      "title": "VIRTUALIZATION IS NEVER A LIMIT",
+      "topic": "Unlimited Possibilities to Engage & Interact"
     },
-    "sectionEight":{
-      "content":{
-        "title":[
+    "sectionEight": {
+      "content": {
+        "title": [
           "E-Commerce",
           "Education",
           "Event",
@@ -154,7 +153,7 @@
           "Sports",
           "Industry"
         ],
-        "topic":[
+        "topic": [
           "Promote and display products in the metaverse",
           "Train and educate individuals with skills and engaging digital contents",
           "Attract and gather people to host virtual conference, seminars and grand events",
@@ -166,15 +165,15 @@
         ]
       }
     },
-    "sectionNine":{
-      "title":"The Next Era of Reality",
-      "topic":"TO MAKE DIGITAL WORLD PLAYABLE IN PHYSICAL REALITY",
-      "description":"Get involved in this revolution and enjoy"
+    "sectionNine": {
+      "title": "The Next Era of Reality",
+      "topic": "TO MAKE DIGITAL WORLD PLAYABLE IN PHYSICAL REALITY",
+      "description": "Get involved in this revolution and enjoy"
     }
   },
   "foot": {
     "copyright": "TOPVERSE LAB © Copyright 2019-2023 All rights reserved",
-    "release":"London I Beijing I Shanghai I Hongkong",
+    "release": "London I Beijing I Shanghai I Hongkong",
     "record": ["沪ICP备2023010651号-1", ""],
     "links": [
       {
@@ -186,9 +185,10 @@
         "link": ["About Us", "Locations", "Terms of Use"]
       },
       {
-        "group":"COMMUNITY",
-        "link":["WeChat","Twitter","Red"]
+        "group": "COMMUNITY",
+        "link": ["WeChat", "Twitter", "Red"]
       }
     ]
-  }
+  },
+  "wechat": "微信公众号:ttsetset"
 }

@@ -4,8 +4,8 @@ topic: "永不独饮：元宇宙酒吧Symphony"
 title: "虚拟空间设计"
 description: "TOPVERSE原创元宇宙建筑《共鸣酒吧》参与元宇宙建筑师协会竞赛获奖作品"
 author: "Greyson"
-Resume: "TOPVERSE® Lab 创始人"
-Publish: "07/10/2022"
+resume: "TOPVERSE® Lab 创始人"
+publish: "07/10/2022"
 ---
 
   ![Img](/imgs/News/BarSymphony/20230524175132.jpg)

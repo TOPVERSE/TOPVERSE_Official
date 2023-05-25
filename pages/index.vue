@@ -34,21 +34,24 @@ const sectionNine = useSectionNine()
 
   <!-- Section Two -->
   <Section ref="sectionTwoEl" class="border-b-2 border-dark/40 border-b-solid from-dark/30 bg-gradient-to-t dark:(border-light-50/10 from-light/5)">
-    <Typography :title=" $t(sectionTwo.title) " :description=" $t(sectionTwo.description) " />
+    <div v-for="(item,i) in sectionTwo.content" :key="i" class="pb-8" >
+      <Typography  :title=" $t(item.title) " />
 
-    <div class="grid-row grid-cols-2 gap-18 py-10 md:(grid-cols-3 gap-10)" :class="`lg:grid-cols-${sectionTwo.content.length} lg:gap-2 `">
-      <LocaleNuxtLink
-        v-for="(content, i) in sectionTwo.content"
-        :key="i"
-        class="h-10 w-full flex justify-center"
-        :class="[`animated-delay-${i * 100}ms`, {
-          'animated animated-fade-in-up animated-faster': sectionTwoVis,
-        }]"
-        :href="content.href"
-        :title="$t(content.title)"
-      >
-        <img :src="content.img">
-      </LocaleNuxtLink>
+      <div class="grid-row grid-cols-2 gap-18 md:(grid-cols-3 gap-10)" :class="`lg:grid-cols-${item.imgs.length} lg:gap-2 `">
+      <!-- <Typography  :title=" $t(item.title) " /> -->
+        <a
+          v-for="(img, j) in item.imgs"
+          :key="j"
+          class="h-25 w-full flex justify-center"
+          :class="[`animated-delay-${j * 100}ms`, {
+            'animated animated-fade-in-up animated-faster': sectionTwoVis,
+          }]"
+          :href="img.href"
+          :title="$t(img.title)"
+        >
+          <img :src="img.img">
+        </a>
+      </div>
     </div>
   </Section>
 
