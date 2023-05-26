@@ -24,6 +24,11 @@ export default defineNuxtConfig({
     inlineSSRStyles: false,
     renderJsonPayloads: true,
   },
+
+  components: [{
+    path: '~/components',
+    global: true,
+  }],
   anu: {
     // initialTheme: 'dark',
     themes: {

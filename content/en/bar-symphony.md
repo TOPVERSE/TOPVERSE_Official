@@ -36,6 +36,8 @@ publish: "07/10/2022"
   由TOPVERSE设计的元宇宙建筑《创作者聚会（Creator Party-verse）》作为Web 3.0资讯平台深潮TECH FLOW、全球交易量最大（以美元计算）且拥有近2千万全球用户的加密货币交易平台KUCOIN、以及P2E平台FitR三家赛道头部项目方的主阵地，与全球的Web 3.0去中心化网络平台用户一同进行TOKEN2049的元宇宙盛宴。
 
 
+:model-content{src='/model/apple_watch/scene.gltf'}
+
 
 <p align="center">
 <img src="./public/topverse.svg" width="600"/>

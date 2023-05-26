@@ -18,7 +18,9 @@
     "lingo3d-vue": "1.0.118",
     "sass": "^1.62.1",
     "swiper": "^9.2.4",
-    "vue-tsc": "^1.2.0"
+    "unity-webgl": "^3.4.2",
+    "vue-tsc": "^1.2.0",
+    "vue-unity-webgl": "^1.2.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.4",

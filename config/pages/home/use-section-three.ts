@@ -11,12 +11,12 @@ export function useSectionThree() {
       {
         topic: 'home.sectionThree.contentPrimary.topic[0]',
         img: '/imgs/Home-Stories/ParcelCreatorverse.jpg',
-        href: 'blog/creatorpartyverse',
+        href: 'release/creatorpartyverse',
       },
       {
         topic: 'home.sectionThree.contentPrimary.topic[1]',
         img: '/imgs/Home-Stories/HoloWater.jpg',
-        href: 'blog/holowater',
+        href: 'release/holowater',
       },
     ],
     contentSecondary: [
@@ -24,7 +24,7 @@ export function useSectionThree() {
       {
         topic: 'home.sectionThree.contentSecondary.topic[0]',
         img: '/imgs/Home-Stories/NeverDrinkAlone.jpg',
-        href: 'blog/bar-symphony',
+        href: 'release/bar-symphony',
       }, {
         topic: 'home.sectionThree.contentSecondary.topic[1]',
         img: '/imgs/Home-Stories/RIBAChangan.jpg',

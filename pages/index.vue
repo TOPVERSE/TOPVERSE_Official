@@ -34,11 +34,11 @@ const sectionNine = useSectionNine()
 
   <!-- Section Two -->
   <Section ref="sectionTwoEl" class="border-b-2 border-dark/40 border-b-solid from-dark/30 bg-gradient-to-t dark:(border-light-50/10 from-light/5)">
-    <div v-for="(item,i) in sectionTwo.content" :key="i" class="pb-8" >
-      <Typography  :title=" $t(item.title) " />
+    <div v-for="(item, i) in sectionTwo.content" :key="i" class="pb-8">
+      <Typography :title=" $t(item.title) " />
 
       <div class="grid-row grid-cols-2 gap-18 md:(grid-cols-3 gap-10)" :class="`lg:grid-cols-${item.imgs.length} lg:gap-2 `">
-      <!-- <Typography  :title=" $t(item.title) " /> -->
+        <!-- <Typography  :title=" $t(item.title) " /> -->
         <a
           v-for="(img, j) in item.imgs"
           :key="j"
@@ -203,13 +203,11 @@ const sectionNine = useSectionNine()
   <Divider />
 
   <!-- Section Nine -->
-  <Section class="my-10 bg-gradient-pink flex">
+  <Section class="my-10 flex bg-gradient-pink">
     <Typography :title="$t(sectionNine.title)" :topic=" $t(sectionNine.topic)" :description=" $t(sectionNine.description)" class="text-start" />
-    
-    <div  >
-      <ClientOnly>
-        <Model />
-      </ClientOnly>
+
+    <div class="w-96">
+      <ModelContent src="/model/apple_watch/scene.gltf" />
     </div>
   </Section>
   <Divider />
