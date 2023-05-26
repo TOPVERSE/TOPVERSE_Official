@@ -5,3 +5,5 @@ dist
 .nuxt
 .env
 .idea/
+yarn.lock
+pnpm-lock.yaml

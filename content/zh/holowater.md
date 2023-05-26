@@ -4,8 +4,8 @@ topic: "HoloWater®: 绿色双碳水务工作站"
 title: "混合现实数字孪生"
 description: "基于HoloLens 2开发的工业元宇宙水务工作站，获得2023数字中国城市设计RAR赛道新锐奖项"
 author: "Greyson"
-Resume: "TOPVERSE® Lab 创始人"
-Publish: "21/04/2023"
+resume: "TOPVERSE® Lab 创始人"
+publish: "07/10/2022"
 ---
 ![Img](/imgs/News/HoloWater/20230524153246.jpg) 
 

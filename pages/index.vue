@@ -203,8 +203,14 @@ const sectionNine = useSectionNine()
   <Divider />
 
   <!-- Section Nine -->
-  <Section class="my-10 bg-gradient-green">
+  <Section class="my-10 bg-gradient-pink flex">
     <Typography :title="$t(sectionNine.title)" :topic=" $t(sectionNine.topic)" :description=" $t(sectionNine.description)" class="text-start" />
+    
+    <div  >
+      <ClientOnly>
+        <Model />
+      </ClientOnly>
+    </div>
   </Section>
   <Divider />
 </template>

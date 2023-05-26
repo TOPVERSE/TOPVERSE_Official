@@ -37,19 +37,19 @@ export function useFoot() {
           {
             link: {
               name: 'foot.links[1].link[0]',
-              href: '#',
+              href: '/about',
             },
           },
           {
             link: {
               name: 'foot.links[1].link[1]',
-              href: '#',
+              href: '/about#location',
             },
           },
           {
             link: {
               name: 'foot.links[1].link[2]',
-              href: '#',
+              href: '/',
             },
           },
         ],

@@ -7,8 +7,6 @@ const path = `/${locale.value}/${route.params.id}`
 const { data } = await useAsyncData(`content-${path}`, () => {
   return queryContent().where({ _path: path }).findOne()
 })
-
-console.log(data)
 </script>
 
 <template>
@@ -16,14 +14,14 @@ console.log(data)
   <main class="m-auto prose xl:max-w-900px">
     <ContentRenderer v-if="data" :value="data" />
   </main>
-  <div class="m-auto mb-20 text-right prose xl:max-w-900px">
-    <span>
+  <div class="m-auto mb-20 flex flex-col text-right text-right prose xl:max-w-900px">
+    <span class="text-lg font-bold">
       {{ data?.author }}
     </span>
-    <span>
+    <small class="opacity-80">
       {{ data?.resume }}
-    </span>
-    <span>
+    </small>
+    <span class="pt-5">
       {{ data?.publish }}
     </span>
   </div>
