@@ -1,0 +1,1 @@
+import{_ as o}from"./_plugin-vue_export-helper.c27b6911.js";import{o as t,e as n,H as r}from"./entry.cb7ee9f7.js";const s={},c={"p-20":"","md:px-30":"","xl:px-60":""};function _(e,a){return t(),n("section",c,[r(e.$slots,"default")])}const l=o(s,[["render",_]]);export{l as default};
