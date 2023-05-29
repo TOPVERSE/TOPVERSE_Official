@@ -88,7 +88,7 @@ export default defineConfig({
       scale: 1.2,
       // cdn: 'https://esm.sh/',
       // cdn:'https://cdn.skypack.dev/',
-      cdn:'https://api.iconify.design/',
+      // cdn:'https://api.iconify.design/',
       extraProperties: presetIconExtraProperties,
     }),
     presetTypography(),

@@ -4,6 +4,7 @@ import { appDescription } from './constants/index'
 import { hex2hsl } from './utils/colors'
 
 export default defineNuxtConfig({
+  // ssr:false,
   modules: [
     '@vueuse/nuxt',
     '@anu-vue/nuxt',
