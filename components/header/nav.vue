@@ -11,9 +11,14 @@ const availableLocales = computed(() => {
   return (locales.value).filter(i => i.code !== locale.value)
 })
 
+// const flag: any = {
+//   en: 'i-flag-gb-4x3',
+//   zh: 'i-flag-cn-4x3',
+// }
+
 const flag: any = {
-  en: 'i-flag-gb-4x3',
-  zh: 'i-flag-cn-4x3',
+  en: 'En',
+  zh: '中',
 }
 </script>
 
@@ -53,7 +58,8 @@ const flag: any = {
       <ABtn
         variant="text"
       >
-        <span :class="flag[locale.code]" />
+        <!-- <span :class="flag[locale.code]" /> -->
+        {{ flag[locale.code] }}
       </ABtn>
     </LocaleNuxtLink>
   </nav>

@@ -207,7 +207,7 @@ const sectionNine = useSectionNine()
     <Typography :title="$t(sectionNine.title)" :topic=" $t(sectionNine.topic)" :description=" $t(sectionNine.description)" class="text-start" />
 
     <div class="w-96">
-      <ModelContent src="/model/apple_watch/scene.gltf" />
+      <ModelContent src="/model/house/scene.gltf" />
     </div>
   </Section>
   <Divider />
