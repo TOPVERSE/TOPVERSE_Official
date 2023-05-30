@@ -42,14 +42,14 @@ const sectionNine = useSectionNine()
         <a
           v-for="(img, j) in item.imgs"
           :key="j"
-          class="h-25 w-full flex justify-center"
+          class="h-200px w-full flex justify-center"
           :class="[`animated-delay-${j * 100}ms`, {
             'animated animated-fade-in-up animated-faster': sectionTwoVis,
           }]"
           :href="img.href"
           :title="$t(img.title)"
         >
-          <img :src="img.img">
+          <NuxtImg :src="img.img" height="200" fit="cover" loading="lazy"/>
         </a>
       </div>
     </div>
@@ -134,7 +134,7 @@ const sectionNine = useSectionNine()
     <div v-for="(item, i) in sectionSix.content" :key="i" class="flex flex-wrap gap-6 py-10 md:flex-nowrap" :class="{ 'flex-row-reverse': i % 2 === 0 }">
       <div class="w-45% flex-grow">
         <div class="relative h-full w-full flex items-center justify-center overflow-hidden border-6px border-dark-50/10 rounded-xl dark:border-light-50/10" style="mask-image:linear-gradient(0deg, transparent, #000);-webkit-mask-image:linear-gradient(0deg, transparent, #000 60%);">
-          <img :src="item.img">
+          <NuxtImg quality="20" :src="item.img" fit="cover" height="300" width="600" loading="lazy"/>
         </div>
       </div>
 

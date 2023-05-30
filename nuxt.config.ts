@@ -5,6 +5,7 @@ import { hex2hsl } from './utils/colors'
 
 export default defineNuxtConfig({
   // ssr:false,
+  
   modules: [
     '@vueuse/nuxt',
     '@anu-vue/nuxt',
@@ -16,12 +17,16 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
-    '@aceforth/nuxt-optimized-images',
+    // '@aceforth/nuxt-optimized-images',
+    '@nuxt/image-edge',
     '@nuxt/devtools',
   ],
-  optimizedImages: {
-    optimizeImages: true
+  image:{
+    
   },
+  // optimizedImages: {
+  //   optimizeImages: true
+  // },
   experimental: {
     // when using generate, payload js assets included in sw precache manifest
     // but missing on offline, disabling extraction it until fixed

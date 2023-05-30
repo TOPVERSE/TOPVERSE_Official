@@ -11,7 +11,7 @@ export function useSectionSix() {
           name: 'home.sectionSix.content.link[0]',
           href: '#',
         },
-        img: '/imgs/Home-Solutions&Services/DigitalTwin.gif',
+        img: '/imgs/Home-Solutions&Services/DigitalTwin.jpg',
       },
       {
         title: 'home.sectionSix.content.title[1]',
@@ -21,7 +21,7 @@ export function useSectionSix() {
           name: 'home.sectionSix.content.link[1]',
           href: '#',
         },
-        img: '/imgs/Home-Solutions&Services/Circulus.gif',
+        img: '/imgs/Home-Solutions&Services/Circulus.jpg',
       },
       {
         title: 'home.sectionSix.content.title[2]',
@@ -31,7 +31,7 @@ export function useSectionSix() {
           name: 'home.sectionSix.content.link[2]',
           href: '#',
         },
-        img: '/imgs/Home-Solutions&Services/CyberPink.gif',
+        img: '/imgs/Home-Solutions&Services/CyberPink.jpg',
       },
       {
         title: 'home.sectionSix.content.title[3]',
@@ -41,7 +41,7 @@ export function useSectionSix() {
           name: 'home.sectionSix.content.link[3]',
           href: '#',
         },
-        img: '/imgs/Home-Solutions&Services/AIGC.gif',
+        img: '/imgs/Home-Solutions&Services/AIGC.jpg',
       },
 
     ],

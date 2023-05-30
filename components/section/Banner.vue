@@ -28,7 +28,9 @@ function getMask() {
   <Section
     relative h-380px md:h-400px xl:h-450px
   >
-    <div absolute left-0 top-0 z-0 h-full w-full bg-cover bg-center bg-no-repeat :style="`background-image: url('${img}');-webkit-mask-image:${getMask()}`" />
+    <div absolute left-0 top-0 z-0 h-full w-full bg-cover bg-center bg-no-repeat  :style="`-webkit-mask-image:${getMask()}`" >
+      <NuxtImg :src="img" loading="lazy" width="1000" height="300" class="w-full h-full"/>
+    </div>
     <Section absolute left-0 top-0 h-full w-full flex flex-col items-center justify-center text-shadow>
       <Typography :title="title" :topic="topic" :description="description" :link="link" />
     </Section>

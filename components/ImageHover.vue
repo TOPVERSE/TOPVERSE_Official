@@ -11,7 +11,7 @@ $defineProps<{
     :href="href"
     class="group relative h-full w-full overflow-hidden rounded-lg bg-primary bg-opacity-35 shadow-lg"
   >
-    <img :src="img" class="h-full w-full" style="object-fit: cover;">
+    <NuxtImg loading="lazy" :src="img" class="h-full w-full" fit="cover" width="300" height="180" />
     <div class="mask-img h-50px bg-dark-700/70 transition-all group-hover:(h-full)">
       <div class="text-h6 flex-grow">
         <p :title="$t(topic)" class="line-clamp-1 w-full text-white group-hover:(line-clamp-3 h-full)">
