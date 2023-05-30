@@ -204,11 +204,9 @@ const sectionNine = useSectionNine()
 
   <!-- Section Nine -->
   <Section class="my-10 flex bg-gradient-pink">
-    <Typography :title="$t(sectionNine.title)" :topic=" $t(sectionNine.topic)" :description=" $t(sectionNine.description)" class="text-start" />
+    <Typography :title="$t(sectionNine.title)" :topic=" $t(sectionNine.topic)" :description=" $t(sectionNine.description)" class="text-start max-w-720px" />
 
-    <div class="w-96">
-      <ModelContent src="/model/house/scene.gltf" />
-    </div>
+      <ModelContent src="/model/house/Night-City.gltf" :width="300" />
   </Section>
   <Divider />
 </template>

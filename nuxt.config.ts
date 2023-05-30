@@ -16,8 +16,12 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
+    '@aceforth/nuxt-optimized-images',
     '@nuxt/devtools',
   ],
+  optimizedImages: {
+    optimizeImages: true
+  },
   experimental: {
     // when using generate, payload js assets included in sw precache manifest
     // but missing on offline, disabling extraction it until fixed
