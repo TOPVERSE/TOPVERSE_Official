@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "postinstall": "nuxi prepare",
     "generate": "nuxi generate",
-    "start:generate": "npx serve .output/public"
+    "start:generate": "serve .output/public"
   },
   "dependencies": {
     "@anu-vue/nuxt": "^0.13.1",
@@ -23,6 +23,7 @@
     "vue-unity-webgl": "^1.2.0"
   },
   "devDependencies": {
+    "serve":"14.2.0",
     "@antfu/eslint-config": "^0.38.4",
     "@iconify-json/carbon": "^1.1.16",
     "@iconify-json/twemoji": "^1.1.11",
