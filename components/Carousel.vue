@@ -22,7 +22,8 @@ onMounted(() => {
       class="h-full absolute w-full [&_.a-views-wrapper]:h-full"
     >
       <AView v-for="(item, i) in carousels" :key="i" :value="i" h-full>
-        <NuxtImg :src="item.img" fit="cover" class="w-full h-full" height="600" width="1000"/>
+        <!-- <NuxtImg :src="item.img" fit="cover" class="w-full h-full" height="600" width="1000"/> -->
+        <ImageLoading :src="item.img" fit="cover" class="w-full h-full" height="600" width="1000"/>
       </AView>
     </AViews>
 

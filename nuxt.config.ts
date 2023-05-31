@@ -18,9 +18,16 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
     // '@aceforth/nuxt-optimized-images',
+    // '@vueuse/components',
     '@nuxt/image-edge',
     '@nuxt/devtools',
   ],
+  
+  content: {
+    experimental: {
+      clientDB: true
+    }
+  },
   image:{
     // provider:"static"
   },
