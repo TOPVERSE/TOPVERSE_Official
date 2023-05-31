@@ -1,7 +1,7 @@
 {
-  "date": "2023-05-31T01:05:34.965Z",
-  "preset": "nitro-prerender",
+  "date": "2023-05-31T03:01:49.247Z",
+  "preset": "node-server",
   "commands": {
-    "preview": "npx serve ./public"
+    "preview": "node ./server/index.mjs"
   }
 }

@@ -10,10 +10,13 @@ const anim = useAnimation({ from: 180, to: 0, duration: 5000 })
 </script>
 
 <template>
-  <div class="relative h-96 w-500px bg-transparent" style="width:width+'px'">
-    <World color="transparent" default-light="studio">
+  <div class="relative bg-transparent w-500px h-200px flex justify-center items-center">
+    <div class="absolute h-500px w-500px">
+      <World color="transparent" default-light="studio">
       <LingoModel :src="src" :y="0" :rotation-z="anim" :box-visible="false" />
-      <OrbitCamera active :z="100" :y="80" :zoom="0.8" auto-rotate enable-damping />
+      <OrbitCamera active :z="200" :y="80" :zoom="1.2" auto-rotate enable-damping />
     </World>
+  
+    </div>
   </div>
 </template>

@@ -4,7 +4,7 @@ import { appDescription } from './constants/index'
 import { hex2hsl } from './utils/colors'
 
 export default defineNuxtConfig({
-  // ssr:false,
+  ssr:false,
   
   modules: [
     '@vueuse/nuxt',
@@ -22,7 +22,7 @@ export default defineNuxtConfig({
     '@nuxt/devtools',
   ],
   image:{
-    
+    // provider:"static"
   },
   // optimizedImages: {
   //   optimizeImages: true

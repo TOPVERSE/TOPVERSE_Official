@@ -28,7 +28,7 @@ const colors = [
         class="h-full w-full flex flex-col items-center justify-center animated animated-fade-in-up animated-faster"
         :class="`animated-delay-${i * 100}ms`"
       >
-        <h2 :title="$t(col.title)" class="text-h2 w-full text-center text-7xl font-bold text-transparent" :class="colors[i]">
+        <h2 :title="$t(col.title)" class="text-h3 md:(text-h2 text-7xl) w-full text-center  font-bold text-transparent" :class="colors[i]">
           {{ $t(col.title) }}
         </h2>
         <h5 :title="$t(col.subtext)" class="text-h4 text-h5 mt-3 text-center">

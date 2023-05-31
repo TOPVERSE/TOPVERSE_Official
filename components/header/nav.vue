@@ -23,8 +23,8 @@ const flag: any = {
 </script>
 
 <template>
-  <nav>
-    <LocaleNuxtLink v-for="(nav, i) in navs" :key="i" class="mx-2 border-primary p-1 pb-5 transition-all" :href="nav.href" active-class="border-b-3px">
+  <nav class="flex flex-wrap">
+    <LocaleNuxtLink v-for="(nav, i) in navs" :key="i" class=" mx-2 border-primary p-1 pb-5 transition-all" :href="nav.href" active-class="border-b-3px">
       <ABtn variant="text">
         <AMenu v-if="nav.child" style="--un-bg-opacity:0.6;--a-spacing:2" class="" z-1000 mt-5 placement="bottom">
           <AList
