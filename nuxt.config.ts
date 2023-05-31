@@ -19,15 +19,15 @@ export default defineNuxtConfig({
     '@vite-pwa/nuxt',
     // '@aceforth/nuxt-optimized-images',
     // '@vueuse/components',
-    '@nuxt/image-edge',
+    // '@nuxt/image-edge',
     '@nuxt/devtools',
   ],
   
-  content: {
-    experimental: {
-      clientDB: true
-    }
-  },
+  // content: {
+  //   experimental: {
+  //     clientDB: true
+  //   }
+  // },
   image:{
     // provider:"static"
   },
