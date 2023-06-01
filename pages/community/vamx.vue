@@ -8,8 +8,8 @@ const router = useRouter()
       <div i-carbon-warning inline-block />
     </div>
 
-    <h2 p-12 text-4xl uppercase>
-      {{ $t('notfound') }}
+    <h2 p-12 text-4xl>
+      {{ $t('waiting') }}
     </h2>
   </main>
 </template>

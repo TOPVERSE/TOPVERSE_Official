@@ -13,8 +13,12 @@ function getPath() {
 </script>
 
 <template>
-  <NuxtLink :href="getPath()">
+  <NuxtLink v-if="href" :href="getPath()">
     <!-- <NuxtLink :href="href && localePath(href)"> -->
+    <slot />
+  </NuxtLink>
+
+  <NuxtLink v-else>
     <slot />
   </NuxtLink>
 </template>

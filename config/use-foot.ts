@@ -22,7 +22,7 @@ export function useFoot() {
           {
             link: {
               name: 'foot.links[0].link[2]',
-              href: '#',
+              href: '/release',
             },
           },
         ],

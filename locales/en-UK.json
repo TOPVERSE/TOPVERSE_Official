@@ -1,6 +1,7 @@
 {
   "nav": {
     "news": "News",
+    "about": "About",
     "home": "Home",
     "event": {
       "t": "Community",
@@ -191,5 +192,6 @@
     ]
   },
   "wechat": "微信公众号:ttsetset",
-  "waiting":"waiting..."
+  "waiting": "waiting...",
+  "notfound": "not found"
 }
