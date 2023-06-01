@@ -49,10 +49,10 @@ const items = [
           subtitle="根据条件查询"
           class="w-full md:w-300px"
         >
-          <img
+          <!-- <img
             src="/images/demo/minimal-1.jpg"
             alt="girl"
-          >
+          > -->
 
           <div class="a-card-body a-card-spacer">
             <p class="text-sm">
