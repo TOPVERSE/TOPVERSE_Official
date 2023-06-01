@@ -100,18 +100,4 @@ TOPVERSE®禁止未经授权的指向本网站的超文本链接，以及擅自�
  
 如对本网站存在任何疑问或建议，请通过pr@topverse.world与我们联系，我们将在15个工作日内进行处理。 
 
-
-<p align="center">
-<img src="./public/topverse.svg" width="600"/>
-</p>
-
-<h2 align="center">
-</h2><br>
-
-<pre align="center">
-
-</pre>
-
  
-
-

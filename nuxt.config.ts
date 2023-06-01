@@ -4,8 +4,8 @@ import { appDescription } from './constants/index'
 import { hex2hsl } from './utils/colors'
 
 export default defineNuxtConfig({
-  ssr:false,
-  
+  ssr: false,
+
   modules: [
     '@vueuse/nuxt',
     '@anu-vue/nuxt',
@@ -22,13 +22,13 @@ export default defineNuxtConfig({
     // '@nuxt/image-edge',
     '@nuxt/devtools',
   ],
-  
+
   // content: {
   //   experimental: {
   //     clientDB: true
   //   }
   // },
-  image:{
+  image: {
     // provider:"static"
   },
   // optimizedImages: {

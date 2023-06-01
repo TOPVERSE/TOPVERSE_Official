@@ -14,7 +14,7 @@ const { data } = await useAsyncData(`content-${path}`, () => {
   <main class="m-auto prose xl:max-w-900px">
     <ContentRenderer v-if="data" :value="data" />
   </main>
-  <div class="m-auto mb-20 flex flex-col text-right text-right prose xl:max-w-900px">
+  <div class="m-auto my-30 flex flex-col text-right text-right prose xl:max-w-900px">
     <span class="text-lg font-bold">
       {{ data?.author }}
     </span>

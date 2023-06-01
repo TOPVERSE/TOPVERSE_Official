@@ -70,21 +70,4 @@ PC端平台含污水处理站数据采集和显示支撑系统，全方位采集
 用数字孪生技术对污水处理厂的施工方法、结构和工艺流程进行可视化展示，可以清晰地看明白污水处理厂的全貌，点击交互还可以看到箱体上层、工艺管线、暖通、自控电器、箱体下层、基坑等具体结构。该应用场景可以极大地提升水务工作站工业项目的可视化及信息的直观程度。通过数字孪生集成水务工作站信息可以极大降低管理成本，缩短预警反应时间，为水务处理工业的信息分析及后续工艺流程的更新升级提供更为宏观的数据基础。 
 
 ![Img](/imgs/News/HoloWater/20230524163506.jpg)
-
-<p align="center">
-<img src="./public/topverse.svg" width="600"/>
-</p>
-
-<h2 align="center">
-</h2><br>
-
-<pre align="center">
-
-</pre>
-
-<p align="center">
-<br>
-<a href="https://topverse.netlify.app/">🖥 Online Preview</a>
-<br><br>
  
-

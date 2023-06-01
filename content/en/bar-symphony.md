@@ -37,23 +37,4 @@ publish: "07/10/2022"
 
 
 :model-content{src='/model/house/scene.gltf'}
-
-
-<p align="center">
-<img src="./public/topverse.svg" width="600"/>
-</p>
-
-<h2 align="center">
-</h2><br>
-
-<pre align="center">
-
-</pre>
-
-<p align="center">
-<br>
-<a href="https://topverse.netlify.app/">🖥 Online Preview</a>
-<br><br>
  
-
-

@@ -116,22 +116,4 @@ These Terms and any dispute or claim arising out of or in connection with them o
 ===
 
 Email: pr@topverse.world
-
-<p align="center">
-<img src="./public/topverse.svg" width="600"/>
-</p>
-
-<h2 align="center">
-</h2><br>
-
-<pre align="center">
-
-</pre>
-
-<p align="center">
-<br>
-<a href="https://topverse.netlify.app/">🖥 Online Preview</a>
-<br><br>
  
-
-

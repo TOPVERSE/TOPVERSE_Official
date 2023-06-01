@@ -1,8 +1,4 @@
 export function useFoot() {
-  const { locale } = useI18n()
-
-  const path = locale.value === 'zh' ? '/' : `/${locale.value}`
-
   return {
     copyright: 'foot.copyright',
     release: 'foot.release',

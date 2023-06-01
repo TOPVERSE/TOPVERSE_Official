@@ -24,7 +24,7 @@ const flag: any = {
 
 <template>
   <nav class="flex flex-wrap">
-    <LocaleNuxtLink v-for="(nav, i) in navs" :key="i" class=" mx-2 border-primary p-1 pb-5 transition-all" :href="nav.href" active-class="border-b-3px">
+    <LocaleNuxtLink v-for="(nav, i) in navs" :key="i" class="mx-2 border-primary p-1 pb-5 transition-all" :href="nav.href" active-class="border-b-3px">
       <ABtn variant="text">
         <AMenu v-if="nav.child" style="--un-bg-opacity:0.6;--a-spacing:2" class="" z-1000 mt-5 placement="bottom">
           <AList
@@ -52,13 +52,13 @@ const flag: any = {
       </ABtn>
     </LocaleNuxtLink>
     <LocaleNuxtLink
-      v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)"
+      v-for="l in availableLocales" :key="l.code" :to="switchLocalePath(l.code)"
       class="mx-2 border-primary p-1 pb-5 transition-all"
     >
       <ABtn
         variant="text"
       >
-        <span :class="flag[locale.code]" />
+        <span :class="flag[l.code]" />
         <!-- {{ flag[locale.code] }} -->
       </ABtn>
     </LocaleNuxtLink>

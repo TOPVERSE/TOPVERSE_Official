@@ -10,21 +10,4 @@ Publish: "07/10/2022"
 
 ![Img](/imgs/News/BarSymphony/20230524175132.jpg)
 
-
-
-
-<p align="center">
-<img src="./public/topverse.svg" width="600"/>
-</p>
-
-<h2 align="center">
-</h2><br>
-
-<pre align="center">
-
-</pre>
-
-<p align="center">
-
-
-
+ 

@@ -29,23 +29,4 @@ Publish: "07/10/2022"
 
 </p>
 此外，我们为这个独一无二的元宇宙酒吧特别设计了一个NPC酒保-Hermit，是一个静坐隐士的形象，红蓝两色的能量环在进行着规则的上下运动。希望人们在追求热烈而亲密的社交的同时，能够同时保有自己内心的一片宁静。
-
-
-<p align="center">
-<img src="./public/topverse.svg" width="600"/>
-</p>
-
-<h2 align="center">
-</h2><br>
-
-<pre align="center">
-
-</pre>
-
-<p align="center">
-<br>
-<a href="https://topverse.netlify.app/">🖥 Online Preview</a>
-<br><br>
  
-
-

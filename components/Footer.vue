@@ -5,8 +5,8 @@ const footer = useFoot()
 </script>
 
 <template>
-  <Divider />
-  <div class="grid-row p-20 pt-30 lg:(grid-cols-3) grid-cols-2  md:(px-30) xl:px-60">
+  <!-- <Divider /> -->
+  <div class="grid-row grid-cols-2 p-20 pt-30 lg:(grid-cols-3) md:(px-30) xl:px-60">
     <div
       v-for="(col, i) in footer.links"
       :key="i"
