@@ -45,7 +45,7 @@ export function useFoot() {
           {
             link: {
               name: 'foot.links[1].link[2]',
-              href: '/',
+              href: 'release/terms-of-use',
             },
           },
         ],
