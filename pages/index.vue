@@ -37,12 +37,12 @@ const sectionNine = useSectionNine()
     <div v-for="(item, i) in sectionTwo.content" :key="i" class="pb-8">
       <Typography :title=" $t(item.title) " />
 
-      <div class="grid-row grid-cols-2 gap-2 md:(grid-cols-3 gap-10)" :class="`lg:grid-cols-${item.imgs.length} lg:gap-2 `">
+      <div class="flex flex-wrap justify-center gap-x-2 gap-y-1 md:(grid-cols-3 gap-x-5) lg:gap-x-42">
         <!-- <Typography  :title=" $t(item.title) " /> -->
         <a
           v-for="(img, j) in item.imgs"
           :key="j"
-          class="h-100px w-full flex justify-center md:h-200px"
+          class="h-100px w-200px flex justify-center md:h-200px"
           :class="[`animated-delay-${j * 100}ms`, {
             'animated animated-fade-in-up animated-faster': sectionTwoVis,
           }]"
@@ -50,7 +50,7 @@ const sectionNine = useSectionNine()
           :title="$t(img.title)"
         >
           <!-- <NuxtImg :src="img.img" height="200" fit="cover" loading="lazy"/> -->
-          <ImageLoading :src="img.img" height="200" fit="cover" loading="lazy" />
+          <ImageLoading :src="img.img" height="200" width="200" fit="cover" loading="lazy" />
         </a>
       </div>
     </div>
@@ -141,7 +141,7 @@ const sectionNine = useSectionNine()
       </div>
 
       <div class="w-55% flex-grow">
-        <div class="h-full w-full flex flex-col items-center justify-center px-16 md:items-start">
+        <div class="h-full w-full flex flex-col items-center justify-center px-2 md:(items-start px-16)">
           <p class="text-title">
             {{ $t(item.title) }}
           </p>
@@ -175,7 +175,7 @@ const sectionNine = useSectionNine()
         class="w-full text-center"
       >
         <div :class="content.icon" mb-5 h-60px w-full />
-        <h4 text-h4 mb-1 font-bold>
+        <h4 mb-1 text-h4 font-bold>
           {{ $t(content.title) }}
         </h4>
         <p text-h7>

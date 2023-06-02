@@ -13,7 +13,7 @@
 <script setup>
 const { locale } = useI18n()
 
-const path = `/${locale.value}/about`
+const path = `/${locale.value}/terms-of-use`
 
 const { data } = await useAsyncData(`content-${path}`, () => {
   return queryContent().where({ _path: path }).findOne()
@@ -25,4 +25,15 @@ const { data } = await useAsyncData(`content-${path}`, () => {
   <main class="m-auto prose xl:max-w-900px">
     <ContentRenderer v-if="data" :value="data" />
   </main>
+  <div class="m-auto my-30 flex flex-col text-right text-right prose xl:max-w-900px">
+    <span class="text-lg font-bold">
+      {{ data?.author }}
+    </span>
+    <small class="opacity-80">
+      {{ data?.resume }}
+    </small>
+    <span class="pt-5">
+      {{ data?.publish }}
+    </span>
+  </div>
 </template>
