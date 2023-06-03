@@ -33,7 +33,31 @@ export function useSectionTwo() {
       {
         title: 'home.sectionTwo.content.title[1]',
         imgs: [
-
+          {
+            img: '/imgs/Partners/500/Decentraland.png',
+            href: 'https://decentraland.org',
+            title: 'Decentraland',
+          },
+          {
+            img: '/imgs/Partners/500/Sandbox.png',
+            href: 'https://www.sandbox.game',
+            title: 'Sandbox',
+          },
+          {
+            img: '/imgs/Partners/500/SomniumSpace.png',
+            href: 'https://somniumspace.com/',
+            title: 'SomniumSpace',
+          },
+          {
+            img: '/imgs/Partners/500/CryptoVoxels.png',
+            href: 'https://www.voxels.com/',
+            title: 'CryptoVoxels',
+          },
+          {
+            img: '/imgs/Partners/500/Readyplayerme.png',
+            href: 'https://readyplayer.me',
+            title: 'ReadyPlayerMe',
+          },
           {
             img: '/imgs/Partners/500/Ultiverse.png',
             href: 'https://www.ultiverse.io/home',
@@ -70,6 +94,16 @@ export function useSectionTwo() {
       {
         title: 'home.sectionTwo.content.title[2]',
         imgs: [
+          {
+            img: '/imgs/Partners/500/Unity.png',
+            href: 'https://www.unity.com/',
+            title: 'Unity',
+          },
+          {
+            img: '/imgs/Partners/500/UnrealEngine.png',
+            href: 'https://www.unrealengine.com/',
+            title: 'UnrealEngine',
+          },
           {
             img: '/imgs/Partners/500/Hololens.png',
             href: 'https://www.microsoft.com/',
