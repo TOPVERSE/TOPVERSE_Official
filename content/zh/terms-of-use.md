@@ -4,7 +4,7 @@ topic: "使用条款"
 title: "网站使用、知识产权及保密条款"
 description: ""
 author: "TOPVERSE® Technology Co., LTD."
-resume: "TOPVERSE® Lab Legal Team"
+resume: "TOPVERSE® 法务团队"
 publish: "30/05/2023"
 ---
 

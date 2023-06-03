@@ -9,8 +9,4 @@ publish: "07/10/2022"
 ---
  
 
-```bash
-git clone https://github.com/TOPVERSE/TOPVERSE_Official.git
-cd TOPVERSE_Official 
-pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
-```
+
