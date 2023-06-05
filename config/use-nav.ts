@@ -39,6 +39,13 @@ export function useNav(): NavMenu[] {
           icon: 'i-tabler-3d-cube-sphere',
           iconColor: 'amber',
         },
+        {
+          title: 'nav.solutions.child.land.service[3]',
+          subtitle: 'nav.solutions.child.land.description[3]',
+          href: '/solutions',
+          icon: 'i-iconoir-brain-electricity',
+          iconColor: 'amber',
+        },
       ],
     },
     {

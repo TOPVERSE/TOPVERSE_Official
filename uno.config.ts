@@ -70,6 +70,8 @@ export default defineConfig({
     'i-academicons-archive',
     'i-ic-sharp-wechat',
     'i-ri-twitter-fill',
+    'i-iconoir-brain-electricity',
+    'i-material-symbols-shelf-auto-hide',
   ],
   presets: [
     presetAnu(),

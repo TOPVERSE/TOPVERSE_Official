@@ -59,18 +59,21 @@ export function useFoot() {
               name: 'foot.links[2].link[0]',
               href: '#',
             },
+            img: '/wechat.png',
+          },
+          {
+            icon: 'i-material-symbols-shelf-auto-hide',
+            link: {
+              name: 'foot.links[2].link[2]',
+              href: '#',
+            },
+            img: '/xiaohongshu.png',
           },
           {
             icon: 'i-ri-twitter-fill',
             link: {
               name: 'foot.links[2].link[1]',
               href: 'https://twitter.com/Topverse_Studio',
-            },
-          },
-          {
-            link: {
-              name: 'foot.links[2].link[2]',
-              href: '#',
             },
           },
         ],

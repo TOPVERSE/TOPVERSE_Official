@@ -15,7 +15,7 @@
       "t": "Solutions",
       "child": {
         "land": {
-          "service": ["Web 3.0", "Digital Twins", "Mixed Reality"],
+          "service": ["Web 3.0", "Digital Twins", "Mixed Reality", "AIGC"],
           "description": ["The quick brown fox jumps over the lazy dog.", "IRL World in Digital", "Immersive Creations"]
         }
       }
@@ -175,7 +175,7 @@
   "foot": {
     "copyright": "TOPVERSE LAB © Copyright 2019-2023 All rights reserved",
     "release": "London I Beijing I Shanghai I Hongkong",
-    "record": ["沪ICP备2023010651号-1", ""],
+    "record": ["沪ICP备2023010651号-1", "沪ICP备2023010651号-1"],
     "links": [
       {
         "group": "PRODUCT",
@@ -193,5 +193,6 @@
   },
   "wechat": "微信公众号:ttsetset",
   "waiting": "waiting...",
-  "notfound": "not found"
+  "notfound": "not found",
+  "copylink": "Copy share link"
 }

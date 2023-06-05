@@ -1,42 +1,21 @@
-<script lang="ts" setup>
-const items = [
-  {
-    icon: 'i-bx-link-external text-sm cursor-pointer',
-    title: 'Electronics',
-    subtitle: 'Mobile, Earbuds, TV',
-    avatarProps: { icon: 'i-bx-mobile-alt' },
-  },
-  {
-    icon: 'i-bx-link-external text-sm cursor-pointer',
-    title: 'Fashion',
-    subtitle: 'T-shirt, Jeans, Shoes',
-    avatarProps: { icon: 'i-bx-closet' },
-  },
-  {
-    icon: 'i-bx-link-external text-sm cursor-pointer',
-    title: 'Decor',
-    subtitle: 'Fine Art, Dining',
-    avatarProps: { icon: 'i-bx-home' },
-  },
-  {
-    icon: 'i-bx-link-external text-sm cursor-pointer',
-    title: 'Sports',
-    subtitle: 'Football, Cricket Kit',
-    avatarProps: { icon: 'i-bx-football' },
-  },
-  {
-    icon: 'i-bx-link-external text-sm cursor-pointer',
-    title: 'Sports',
-    subtitle: 'Football, Cricket Kit',
-    avatarProps: { icon: 'i-bx-football' },
-  },
-  {
-    icon: 'i-bx-link-external text-sm cursor-pointer',
-    title: 'Sports',
-    subtitle: 'Football, Cricket Kit',
-    avatarProps: { icon: 'i-bx-football' },
-  },
-]
+<script setup>
+import { useArticle } from '~/config/pages/release/use-article'
+import { useTag } from '~/config/pages/release/use-tag'
+
+const items = useArticle()
+const tags = useTag()
+const data = ref([])
+
+const { text, copy, copied, isSupported } = useClipboard()
+
+const list = computed(() => {
+  if (!data.value.length)
+    return items
+
+  return items.filter((i) => {
+    return i.tags.some(j => data.value.includes(j))
+  })
+})
 </script>
 
 <template>
@@ -45,8 +24,8 @@ const items = [
       <div>
         <ACard
           shadow="none"
-          title="搜索"
-          subtitle="根据条件查询"
+          title="筛选"
+          subtitle="根据条件过滤"
           class="w-full md:w-300px"
         >
           <!-- <img
@@ -55,24 +34,59 @@ const items = [
           > -->
 
           <div class="a-card-body a-card-spacer">
-            <p class="text-sm">
-              Macaroon cake powder pie cake cake gingerbread oat cake chocolate cake.
-            </p>
-            <ABtn>Read more</ABtn>
+            <div class="grid grid-rows-2 gap-y-3">
+              <ACheckbox
+                v-for="tag in tags"
+                :key="tag.value"
+                v-model="data"
+                :value="tag.value"
+                :label="$t(tag.label)"
+              />
+            </div>
+
+            <!-- <ABtn>Read more</ABtn> -->
           </div>
         </ACard>
       </div>
 
       <ACard w-full shadow="none">
         <AList
-          :items="items"
+          :items="list"
           icon-append
-          class="[--a-list-item-gap:1rem]"
+          class="[--a-list-item-gap:1rem] gap-2 divide-y-1 divide-dark-50/10"
         >
-          <template #item-prepend>
-            <div class="h-150px w-300px overflow-hidden rounded bg-light-50/10" style="mask-image:linear-gradient(270deg, transparent, #000);-webkit-mask-image:linear-gradient(290deg, transparent 12%, #000 80%);">
-              <ImageLoading class="h-full w-full" src="/imgs/Home-Stories/Circulus.jpg" />
-            </div>
+          <div v-if="!list.length" class="flex items-center justify-center py-20 text-7xl font-bold text-dark-50/10">
+            EMPTY
+          </div>
+          <template #item-prepend="{ attrs }">
+            <LocaleNuxtLink :href="attrs.href" class="h-150px w-300px overflow-hidden rounded bg-light-50/10" style="mask-image:linear-gradient(270deg, transparent, #000);-webkit-mask-image:linear-gradient(290deg, transparent 12%, #000 80%);">
+              <ImageLoading class="h-full w-full" :src="attrs.img" />
+            </LocaleNuxtLink>
+          </template>
+          <template #item-content="{ item, attrs }">
+            <LocaleNuxtLink :href="attrs.href" class="h-full flex flex-grow flex-col justify-between py-2">
+              <div>
+                <div class="text-title">
+                  {{ item.title }}
+                </div>
+                <div class="text-description text-opacity-80">
+                  {{ item.subtitle }}
+                </div>
+              </div>
+              <small>
+                {{ attrs.createTime }}
+              </small>
+            </LocaleNuxtLink>
+          </template>
+          <template #item-append="{ attrs }">
+            <ABtn
+              variant="text" icon="i-bx-link-external" icon-only @click="copy(`http://www.topverse.world${attrs.href}`)"
+            >
+              <ATooltip
+                transition="fade"
+                :text="$t('copylink')"
+              />
+            </ABtn>
           </template>
         </AList>
       </ACard>
