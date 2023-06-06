@@ -2,7 +2,7 @@
 const route = useRoute()
 const { locale } = useI18n()
 
-const path = `/${locale.value}/release/${route.params.id}`
+const path = `/${locale.value}/community/${route.params.id}`
 
 const { data } = await useAsyncData(`content-${path}`, () => {
   return queryContent().where({ _path: path }).findOne()

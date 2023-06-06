@@ -1,9 +1,9 @@
 <script setup>
-import { useArticle } from '~/config/pages/release/use-article'
-import { useTag } from '~/config/pages/release/use-tag'
+import { useCommunityArticle } from '~/config/pages/community/use-community-article'
+import { useCommunityTag } from '~/config/pages/community/use-community-tag'
 
-const items = useArticle()
-const tags = useTag()
+const items = useCommunityArticle()
+const tags = useCommunityTag()
 const data = ref([])
 
 const { text, copy, copied, isSupported } = useClipboard()
@@ -16,6 +16,21 @@ const list = computed(() => {
     return i.tags.some(j => data.value.includes(j))
   })
 })
+
+const status = [
+  {
+    color: 'bg-rose',
+    text: '入门',
+  },
+  {
+    color: 'bg-amber',
+    text: '中级',
+  },
+  {
+    color: 'bg-green',
+    text: '专家',
+  },
+]
 </script>
 
 <template>
@@ -51,18 +66,36 @@ const list = computed(() => {
 
       <div class="3xl:grid-cols-4 grid-row w-full pb-10 2xl:grid-cols-3 lg:grid-cols-2">
         <!-- 👉 2nd card -->
-        <ACard
-          v-for="(item, i) in 8"
+        <LocaleNuxtLink
+          v-for="(item, i) in list"
           :key="i"
-          title="Card title"
-          subtitle="Chocolate cake tiramisu donut"
-          text="Ice cream sweet pie pie dessert sweet danish. Jelly jelly beans cupcake jelly-o chocolate bonbon chocolate bar."
-          img="/imgs/Home.Creatorverse.jpg"
+          :href="item.href"
+          class="w-full overflow-hidden rounded bg-[hsla(var(--a-surface-c),var(--un-bg-opacity,1))]"
         >
-          <div class="a-card-body">
-            <ABtn>Read more</ABtn>
+          <ImageLoading style="-webkit-mask-image:linear-gradient(0deg, transparent, #000 60%);" :src="item.img" class="rounded-b-3xl" height="400" fit="cover" loading="lazy" />
+          <div class="flex items-center justify-between gap-2 p-3 pt-5">
+            <AAvatar :src="item.avatar" />
+            <div class="flex-grow pl-2">
+              <h4>
+                {{ item.title }}
+              </h4>
+              <p>
+                <small>
+                  {{ item.subtitle }}
+                </small>
+              </p>
+              <p>
+                <small>
+                  {{ item.createTime }}
+                </small>
+              </p>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="h-10px w-10px rounded-full" :class="status[item.level].color" />
+              {{ status[item.level].text }}
+            </div>
           </div>
-        </ACard>
+        </LocaleNuxtLink>
       </div>
     </Section>
   </div>
