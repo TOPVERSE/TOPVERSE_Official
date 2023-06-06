@@ -73,15 +73,22 @@ const status = [
           class="w-full overflow-hidden rounded bg-[hsla(var(--a-surface-c),var(--un-bg-opacity,1))]"
         >
           <ImageLoading style="-webkit-mask-image:linear-gradient(0deg, transparent, #000 60%);" :src="item.img" class="rounded-b-3xl" height="400" fit="cover" loading="lazy" />
+          <div class="relative w-full">
+            <div class="absolute bottom-0 left-70px">
+              <h3 class="text-h4 font-bold">
+                {{ item.title }}
+              </h3>
+            </div>
+          </div>
           <div class="flex items-center justify-between gap-2 p-3 pt-5">
             <AAvatar :src="item.avatar" />
             <div class="flex-grow pl-2">
               <h4>
-                {{ item.title }}
+                {{ item.author }}
               </h4>
               <p>
                 <small>
-                  {{ item.subtitle }}
+                  {{ item.profession }}
                 </small>
               </p>
               <p>
