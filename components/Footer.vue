@@ -43,8 +43,11 @@ const footer = useFoot()
       {{ $t(footer.release) }}
     </p>
     <p v-for="(record, i) in footer.record" :key="i">
-      <img v-if="i === footer.record.length - 1" src="https://pic3.zhimg.com/80/v2-d0289dc0a46fc5b15b3363ffa78cf6c7.png" class="inline scale-90 px-1">
       {{ $t(record) }}
+    </p>
+    <p>
+      <img src="https://pic3.zhimg.com/80/v2-d0289dc0a46fc5b15b3363ffa78cf6c7.png" class="inline scale-90 px-1">
+      京公网安备 11010502052580号
     </p>
   </div>
 </template>

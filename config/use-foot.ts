@@ -2,7 +2,7 @@ export function useFoot() {
   return {
     copyright: 'foot.copyright',
     release: 'foot.release',
-    record: ['foot.record[0]', 'foot.record[1]'],
+    record: ['foot.record[0]'],
     links: [
       {
         title: 'foot.links[0].group',
