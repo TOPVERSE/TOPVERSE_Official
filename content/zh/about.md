@@ -1,119 +1,111 @@
 ---
 img: "/imgs/About-Terms/Terms.jpg"
-topic: "Terms and Conditions"
-title: "Use of the Website, Copyrights, and NDA"
+topic: "使用条款"
+title: "网站使用、知识产权及保密条款"
 description: ""
 author: "TOPVERSE® Technology Co., LTD."
-resume: "TOPVERSE® Lab Legal Team"
+resume: "TOPVERSE® 法务团队"
 publish: "30/05/2023"
 ---
 
-WEBSITE TERMS OF USE (“TERMS”)
-===
+感谢您访问TOPVERSE®网站（以下简称“本网站”）
 
-PLEASE READ THESE TERMS CAREFULLY AS THEY GOVERN YOUR USE OF THE WEBSITE WWW.TOPVERSE.WORLD (“THE SITE”). 
+ 
+本网站由攲谱（上海）科技有限公司、上海奇点元振数字科技有限公司及其关联海外主体（以下简称“TOPVERSE®”）共同运行维护。在使用本网站前，敬请您仔细阅读以下各项使用条款（以下简称“本使用条款”）。您对本网站的使用（包括但不限于对本网站的访问、登录，对本网站内容的浏览和使用），将被视为您自愿承诺接受本声明的约束。如果您对本使用条款的内容不能接受，您应当立即停止使用本网站并迅速离开。
+ 
 
-BY ACCESSING THE SITE YOU SHALL BE DEEMED TO HAVE ACCEPTED THESE TERMS. IF YOU DO NOT ACCEPT THESE TERMS, YOU SHOULD IMMEDIATELY CEASE USING THE SITE. 
-
-YOU MUST BE AT LEAST 18 YEARS OF AGE TO USE THE SITE; BY USING THE SITE OR AGREEING TO THESE TERMS AND CONDITIONS, YOU WARRANT AND REPRESENT TO US THAT YOU ARE AT LEAST 18 YEARS OF AGE. 
-
-WE MAY MODIFY THESE TERMS AT ANY TIME, ANY SUCH MODIFICATIONS ARE EFFECTIVE IMMEDIATELY FROM THE TIME THEY ARE INCLUDED ON OUR SITE. YOU AGREE TO REVIEW THESE TERMS REGULARLY TO ENSURE YOU ARE AWARE OF ANY SUCH MODIFICATIONS. 
-
-1. GENERAL INFORMATION
-===
-
-References to “We”/”Our”/”Us” mean TOPVERSE® and its relevant domestic/ overseas entities including TOPVERSE Technology Co., LTD. HK Branch and TOPVERSE® Lab; our address is at Liantang Road 251-8, Xinghuo Development Zone, Fengxian District, Shanghai, China, P.R. 
-
-2. THERE ARE OTHER TERMS THAT MAY APPLY TO YOU
-===
-
-These Terms refer to the following additional terms, which also apply to your use of our Site: 
-
-(a) Our Privacy Notice, which sets out the terms on which we process any data we collect from you, or that you provide to us. By using our Site, you consent to such processing and you warrant that all data provided by you is accurate. 
-
-(b) Our Cookie Policy, which sets out information about the cookies on our Site. 
-
-3. INTELLECTUAL PROPERTY 
-===
-
-The copyright and all other intellectual property rights (including but not limited to database rights, trade marks, design rights and domain names in all cases whether registered or not) in all materials included on the Site (including without limitation, designs, texts, pictures, graphics, logos, images and the selection and arrangement of them) and all software in the Site belong to us or our licensors. All rights are reserved. 
-
-Whilst you may print or download extracts from the Site for your personal use you may not otherwise download, copy, reproduce, redistribute, republish, transmit, adapt, alter, create derivative works from or otherwise extract or reutilise any material contained on the Site for commercial purposes without our prior written permission and unless you: 
-
-(a) acknowledge us as the source of the material; and 
-
-(b) inform the third party to whom you are disseminating the information of these Terms and the fact they apply to them. 
-
-Infringement of any intellectual property rights in this Site and/or the materials associated with it may lead to criminal and/or civil sanctions in the UK and/or in other countries. 
-
-4. SERVICE ACCESS 
-===
-
-While we endeavour to ensure that the Site is continuously available, we shall not be liable if for any reason the Site is unavailable at any time or for any period. 
-
-Access to the Site is permitted on a temporary basis. We may suspend, withdraw, discontinue or change all or any part of the Site without notice. 
-
-You are responsible for making all arrangements necessary for you to have access to the Site. 
-
-You are also responsible for ensuring that all persons who access our Site through your internet connection are aware of these Terms and other applicable terms and conditions, and that they comply with them. 
-
-5. VIRUSES, HACKING AND OTHER OFFENCES 
-===
-
-You must not misuse the Site by knowingly introducing viruses, trojans, worms, logic bombs or other material which is malicious or technologically harmful. You must not attempt to gain unauthorised access to the Site, the server on which the Site is stored or any server, computer or database connected to the Site. You must not attack the Site via a denial-of-service attack or a distributed denial-of service attack. 
-
-We will not be liable for any loss or damage caused by a distributed denial-of-service attack, viruses or other technologically harmful material that may infect your computer equipment, computer programs, data or other proprietary material due to your use of our Site or to your downloading of any material posted on it, or on any website linked to it. 
-
-We do not, to the extent permitted by law, accept any liability (whether in contract, tort, negligence or otherwise) for any external compromises of security and/or confidentiality in relation to transmissions sent by email. 
-
-6. USE OF SITE AND EMAIL COMMUNICATION 
-=== 
-
-You shall only use the Site for lawful purposes. 
-
-When you use the Site and/or send us an email or submit an enquiry, you are communicating with us electronically. You consent to all communications being sent to you electronically via the email address that you provide to us. You agree that such communications will satisfy any legal requirement for the communication to be in writing. 
-
-7. VISITOR MATERIAL AND CONDUCT
-===
-
-Other than personally identifiable information, which is covered under our Privacy Notice, any material you transmit or post to the Site shall be considered non-confidential and non-proprietary. We shall have no obligations with respect to such material. We and our designees shall be free to copy, disclose, distribute, incorporate and otherwise use such material and all data, images, sounds, text and other things embodied therein for any and all commercial or non-commercial purposes. 
-
-You are prohibited from posting or transmitting to or from the Site any material: 
-
-(a) that is threatening, defamatory, obscene, indecent, seditious, offensive, pornographic, abusive, liable to incite racial hatred, discriminatory, menacing, scandalous, inflammatory, blasphemous, in breach of confidence, in breach of privacy or which may cause annoyance or inconvenience; or 
-
-(b) which constitutes or encourages conduct that would be considered a criminal offence, give rise to civil liability, or otherwise be contrary to the law of or infringe the rights of any third party, in any country in the world. 
-
-You may not misuse the Site (including, without limitation, by hacking). 
-
-We shall fully co-operate with any law enforcement authorities or court order requesting or directing us to disclose the identity of or locate anyone posting any material in breach of this clause. 
-
-We will not be responsible or liable to any third party for the content or accuracy of the content posted on the Site by you (if applicable) or any other user of the Site. The views expressed by other users on the Site do not represent our views or values. 
-
-8. SITE CONTENT AND LIABILITY
-===
-
-The information contained in this Site is provided on an “as is” basis. The information is given in good faith for general information only and is subject to change without notice. We shall use our reasonable efforts to ensure its accuracy but we make no representation and give no warranty as to its accuracy or otherwise. To the extent permitted by law, all such representations and warranties whether expressed or implied are excluded. 
-
-Nothing in this Site is intended to be, nor should it be, construed as being an offer to enter into a contractual relationship with you or any third party. 
-
-We accept no liability for any loss or damage howsoever arising, whether direct or indirect, special or consequential, which may be suffered by any person in accessing, downloading, using or relying on any information or other materials contained in this Site, save that nothing in these Terms shall restrict or exclude our liability for death or personal injury resulting from our negligence or our liability for fraudulent misrepresentation or liability which we are otherwise not permitted by law to exclude or restrict. 
-
-9. NO WAIVER
-===
-
-The failure on the part of us to enforce any part of these Terms shall not constitute a waiver of any of our rights hereunder for past or future actions. 
-
-10. JURISDICTION
-===
-
-The People’s Republic of China courts will have exclusive jurisdiction over any claim arising from, or related to, a visit to this Site (although we retain the right to bring proceedings against you for breach of these Terms in your country of residence or in any other relevant country). 
-
-These Terms and any dispute or claim arising out of or in connection with them or their subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with the law of the People’s Republic of China and Civil Code of the People's Republic of China. 
+1. 本网站的使用
 
 
-11. CONTACT DETAILS 
-===
+TOPVERSE®有限许可您在您的计算机设备上浏览（使用）本网站展示的内容。在您信守本使用条款的前提下，您可以有限使用本网站的相关内容。 
 
-Email: pr@topverse.world
+ 
+2. Cookies使用
+
+
+为确保本网站正常运转并使您获得更轻松的访问体验和推广服务，我们会在您的计算机或移动设备上存储Cookies，借助于 Cookies，我们将简化您重复的登录步骤、存储您的浏览偏好等数据； 
+
+您可根据自己的偏好管理或删除Cookies。您可以通过修改浏览器设置的方式拒绝接受Cookies，您也可以清除移动设备内保存的所有Cookies。但是如您这么做，您可能需要在每一次访问本系统时重复登录步骤、更改用户设置等，会在某种程度上影响您对本系统的使用，同时，您可能无法使用网站的全部功能，致使网站提供的某些功能受限或无法运行。 
+
+ 
+3. 知识产权声明 
+
+
+本网站，包括(但不仅限于) 文字，内容，软件，录像，音乐，声音，图形，照片，图表，美术设计，图片，名称，标识，商标和/或服务标志（包括已注册和未注册的），以及其他资料（以下简称“网站内容”）都受到版权法，商标法和一切知识产权公约的保护。本网站内容包括TOPVERSE®所有或控制下的内容和第三方所有或控制下，并授权TOPVERSE®使用的内容。所有个人文章、报道等一切构成本网站的元素都可能是受版权保护的作品。您同意遵守所有适用本网站的版权保护法律法规，以及所有本网站包含的补充性的版权说明或限制。 
+
+
+“TOPVERSE®”，“TOPVERSE® Lab”、“奇点拓界®”以及本网站所有标注有“®”或“TM”的品牌或标志，均为TOPVERSE®（或TOPVERSE®其他关联公司）的注册商标。在未经TOPVERSE®（或相关权利人）授权同意前，您无权使用上述的商标和名称，且不享有任何权利和利益。 本网站的任何内容都不应被视为授予任何人使用本网站所显示的商标及其他知识产权的许可或权力。除非在本使用条款的适用范围内，一切对本网站商标或其他内容的使用（或误用）都将被严格禁止。在法律许可的最大范围内，TOPVERSE®将积极保护其知识产权，包括诉诸刑事法律。 
+
+ 
+4. 保密条款 
+
+
+本使用条款中的保密信息包括TOPVERSE®的任何专有信息，软件技术资料或专有技术，包括但不限于源代码、目标代码和关联的程序化的代码、数据、说明书、软件模式、算法、汇编物、软件产品、公式、设计、模型、方法、过程、程序及软件（无论是源代码或目标代码）、数据库、研究开发记录、技术报告、检测报告、实验数据、技术文档、技术、硬件配置信息等。保密信息可以是一份完整的方案、文件或产品，也可以是某一方案、文件或产品中的部分数据或部分要素。 
+
+ 
+上述保密信息不包含以下信息： 
+
+（1）披露时已是可以通过合法的方式公开取得的信息； 
+
+（2）在披露之前已由您合法占有的且您并非从TOPVERSE®获取的信息； 
+
+（3）您从第三方合法获得的信息，且未附加保密的义务； 
+
+（4）您在未使用或参考TOPVERSE®的保密信息的情况下独立开发的信息，且您能够提供相应的书面材料或其他记录对此予以证明。 
+
+
+在使用期间及之后，您保证将严守秘密，除非为TOPVERSE®利益，不会使用任何保密信息，未获得TOPVERSE®的书面授权不得向任何第三方披露、传播、公布、发表、传授、转让任何秘密信息。您同意将对这些保密信息保密，并至少以使用自己的保密或专有信息一样小心的程度但任何情况都不低于合理的谨慎来保护和维护保密信息不被擅自使用、披露、报道、转让或出版。 
+
+ 
+5. 本网站内容的禁止使用
+
+
+除非本使用条款列明的情况、或得到TOPVERSE®的书面许可，任何个人不得将本网站任何内容拷贝、复制，重组、重新编译、翻译、解码、分解、反向工程、分发、出版、展示、运行，修改、上载并以此为范本创作、转载以及任何其他方式使用于任何其他网站。 
+
+ 
+6. 特别条款 
+
+本条所规定的内容仅适用于本网站。为方便您使用，本网站可能提供了部分第三方内容的链接（以下简称“第三方内容”）。但上述第三方内容未经TOPVERSE®审核，仅供您参考。除非经TOPVERSE®的明确声明，TOPVERSE®不认可或采纳任何第三方内容，且TOPVERSE®不保证或担保任何第三方内容的准确性、完整性、时效性及真实性。您应自行承担您因使用上述链接及第三方内容而可能遭受的全部风险。此外，任何第三方内容上有关产品、服务、技术方法、或关于商号、商标、制造商、供应商等的信息都不可认为是已经过TOPVERSE®认可的、赞助的或推荐的。 您可能在本网站的个别网页上看到某些附加条款。您对上述个别网页的使用即表明您同意遵守上述个别网页上的附加条款。如果上述个别网页上的附加条款和本使用条款有冲突，则个别网页上的附加条款应优先适用。 
+
+
+7. 网站的更新与变更 
+
+
+为了适应不断变化中的法律法规及业务场景，TOPVERSE®有权相应修订本条款和条件，并提前通过网站公告的方式通知您，修订后的条款和条件将于其载明的生效日期生效。您可以通过本网站页面底部随时查阅或下载最新版本。 
+
+若在修订后的条款和条件载明的生效日期当日或之后，您继续使用您的本网站帐户，即表示您同意且接受修订后的条款和条件。 
+
+如果您对修订后的条款和条件有任何意见或建议，请通过本网站注明的方式联系TOPVERSE®；如果您仍然不同意修订后的条款和条件，那么您应自修订后的条款和条件载明的生效日期起停止继续使用本网站。 
+
+ 
+8. 无担保声明 
+
+
+TOPVERSE®保留在任何时候提供本网站替换、修改、升级版本的权利。网站新版本发布后，TOPVERSE®不保证旧版本网站的继续可用。TOPVERSE®保留因业务发展需要，单方面对网站的部分功能效果进行改变或进行限制的权利。 
+
+在法律允许的最大限度内，本网站及本网站的内容不包括任何明确或暗示的有关（但不限于）所有权，适销性，质量满意程度，特定用途的适用性，产品参数的准确性、时效性和完整性，不侵犯知识产权和其它方权利的承诺。 
+
+TOPVERSE®尽其合理的商业努力维护本网站的安全和功能，但不保证本网站上的所有功能正常运作，也不保证本网站连续性地或无故障运行或缺陷被及时更正。因技术故障等不可抗事件影响到本网站的正常运行的，TOPVERSE®承诺及时处理进行修复，但您因此而遭受的一切损失，TOPVERSE®不承担责任。 
+
+TOPVERSE®不保证本网站适合您的电脑操作网站性能，也不保证本网站或其服务器永不产生故障或没有病毒、木马程序和其他有害程序。TOPVERSE®亦不承担您因上述问题而产生的任何电脑的损坏的责任。 
+
+TOPVERSE®不为您所使用的访问本网站的网络线路和设备的可靠性以及连续性承担责任。 
+
+ 
+9. 禁止盗链 
+
+TOPVERSE®禁止未经授权的指向本网站的超文本链接，以及擅自利用本网站内容的网页构架网站的行为。TOPVERSE®保留断开任何未经授权指向本网站的超文本链接或网页构架网站的权利。 
+
+ 
+10. 准据法和管辖权 
+
+本网站内容及本使用条款的解释和适用均适用中华人民共和国法律，由于使用本网站而产生的一切纠纷，除另有约定，均由TOPVERSE®所在地人民法院管辖。 
+
+ 
+11. 继续有效原则 
+
+如果本使用条款中的部分条款被有关机关认定为无效，则此无效部分并不影响本使用条款其他部分的效力，其他部分仍然有效。 
+
+如对本网站存在任何疑问或建议，请通过pr@topverse.world与我们联系，我们将在15个工作日内进行处理。 
+
  
