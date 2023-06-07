@@ -24,8 +24,8 @@ const list = computed(() => {
       <div>
         <ACard
           shadow="none"
-          title="筛选"
-          subtitle="根据条件过滤"
+          :title="$t('filtrate')"
+          :subtitle="$t('filtrate.discription')"
           class="w-full md:w-300px"
         >
           <!-- <img
@@ -49,46 +49,38 @@ const list = computed(() => {
         </ACard>
       </div>
 
-      <ACard w-full shadow="none">
-        <AList
-          :items="list"
-          icon-append
-          class="[--a-list-item-gap:1rem] gap-2 divide-y-1 divide-dark-50/10"
-        >
-          <div v-if="!list.length" class="flex items-center justify-center py-20 text-7xl font-bold text-dark-50/10">
-            EMPTY
+      <ACard w-full shadow="none" class="divide-y divide-dark-50/10">
+        <LocaleNuxtLink v-for="(item, i) in list" :key="i" class="group relative m-4 h-150px w-full flex items-center justify-start" :href="item.href">
+          <div :href="item.href" class="absolute h-full w-1/3 overflow-hidden rounded bg-light-50/10 transition-all group-hover:(w-full opacity-50) md:w-1/2" style="mask-image:linear-gradient(270deg, transparent, #000);-webkit-mask-image:linear-gradient(290deg, transparent 12%, #000 80%);">
+            <ImageLoading class="h-full w-full" :src="item.img" />
           </div>
-          <template #item-prepend="{ attrs }">
-            <LocaleNuxtLink :href="attrs.href" class="h-150px w-300px overflow-hidden rounded bg-light-50/10" style="mask-image:linear-gradient(270deg, transparent, #000);-webkit-mask-image:linear-gradient(290deg, transparent 12%, #000 80%);">
-              <ImageLoading class="h-full w-full" :src="attrs.img" />
-            </LocaleNuxtLink>
-          </template>
-          <template #item-content="{ item, attrs }">
-            <LocaleNuxtLink :href="attrs.href" class="h-full flex flex-grow flex-col justify-between py-2">
-              <div>
-                <div class="text-title">
-                  {{ item.title }}
-                </div>
-                <div class="text-description text-opacity-80">
-                  {{ item.subtitle }}
-                </div>
+          <div class="h-full flex flex-grow flex-col items-end justify-between py-2">
+            <div>
+              <div class="text-title text-right">
+                {{ item.title }}
               </div>
-              <small>
-                {{ attrs.createTime }}
-              </small>
-            </LocaleNuxtLink>
-          </template>
-          <template #item-append="{ attrs }">
-            <ABtn
-              variant="text" icon="i-bx-link-external" icon-only @click="copy(`http://www.topverse.world${attrs.href}`)"
-            >
-              <ATooltip
-                transition="fade"
-                :text="$t('copylink')"
-              />
-            </ABtn>
-          </template>
-        </AList>
+              <div class="text-description text-right text-opacity-80">
+                {{ item.subtitle }}
+              </div>
+            </div>
+            <small>
+              {{ item.createTime }}
+            </small>
+          </div>
+          <ABtn
+            variant="text" icon="i-bx-link-external" icon-only class="mx-2 h-50px w-50px"
+            @click.prevent="copy(`http://www.topverse.world${item.href}`)"
+          >
+            <ATooltip
+              transition="fade"
+              :text="$t('copylink')"
+            />
+          </ABtn>
+        </LocaleNuxtLink>
+
+        <div v-if="!list.length" class="flex items-center justify-center py-20 text-7xl font-bold text-dark-50/10">
+          EMPTY
+        </div>
       </ACard>
     </Section>
   </div>
