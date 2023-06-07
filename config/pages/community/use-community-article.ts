@@ -61,7 +61,7 @@ export function useCommunityArticle() {
       profession: 'UCL Bartlett RC9',
       img: '/imgs/Community/Publication/ecaade_reusableaugmentedconcretesystem.png',
       tags: ['Publication'],
-      href: '/community/publication/ecaade-reusableformworksystem',
+      href: '/community/publication/ecaade_reusableformworksystem',
       level: 2,
       avatar: '/imgs/Community/Avatar/ecaade.png',
       createTime: '2020/7/30',
