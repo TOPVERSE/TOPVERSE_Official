@@ -30,11 +30,15 @@
 
   "home": {
     "carousel": {
-      "topic": ["TOKEN 2049 Singapore: Creator Party-verse",
-        "HoloWater®：Water Station Digital Twin"],
-      "description": ["PARCEL Creatorverse Highlight Project",
+      "topic": ["Sakura City: Code the New World",
+      "VAMX: The Grand Launch",
+      "TOKEN 2049 Singapore: Creator Party-verse",
+      "HoloWater®：Water Station Digital Twin"],
+      "description": ["New MR Gaming Experience",
+        "Academic Community for VR/AR/MR/XR Developers and Creators",
+        "PARCEL Creatorverse Highlight Project",
         "Industrial Mixed Reality Built within Hololens 2"],
-      "link": ["Details", "Details"]
+      "link": ["Details", "Details","Details", "Details"]
     },
     "sectionOne": {
       "topic": "World-Leading Web 3.0 Builders and AR/VR/MR Developers",

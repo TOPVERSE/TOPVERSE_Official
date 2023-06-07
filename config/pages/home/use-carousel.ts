@@ -7,7 +7,7 @@ export function useCarousel() {
         name: 'home.carousel.link[0]',
         href: '/release/sakuracity',
       },
-      img: '/imgs/release/sakuracity/003.png',
+      img: '/imgs/release/sakuracity/002.png',
     },
     {
       title: 'home.carousel.topic[1]',
