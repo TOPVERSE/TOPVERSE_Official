@@ -18,6 +18,11 @@ export function useSectionTwo() {
             title: 'MUA DAO',
           },
           {
+            img: '/imgs/Partners/500/SoomeenHahm.png',
+            href: 'https://soomeenhahm.com/portfolio-category/projects/',
+            title: 'SoomeenHahm Design',
+          },
+          {
             img: '/imgs/Partners/500/BrainUp.png',
             href: 'https://www.naolubrain.com/',
             title: 'BrainUp',
