@@ -6,6 +6,8 @@ $defineProps<{
   topicClass?: string
   description?: string
   descriptionClass?: string
+  linkClass?: string
+  linkBtnClass?: string
   link?: {
     href: string
     name: string
@@ -27,8 +29,8 @@ $defineProps<{
         description
       }}
     </p>
-    <LocaleNuxtLink v-if="link" :href="link?.href">
-      <ABtn variant="light" class="group" color="white" icon="i-solar-arrow-right-linear transition-all group-hover:px-4">
+    <LocaleNuxtLink v-if="link" :href="link?.href" :class="linkClass">
+      <ABtn variant="light" :class="linkBtnClass" class="group" color="white" icon="i-solar-arrow-right-linear transition-all group-hover:px-4">
         {{ link?.name }}
       </ABtn>
     </LocaleNuxtLink>

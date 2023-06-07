@@ -194,5 +194,10 @@
   "wechat": "微信公众号",
   "waiting": "建设中...",
   "notfound": "未知区域",
-  "copylink": "复制分享链接"
+  "copylink": "复制分享链接",
+  "filtrate": "筛选",
+  "filtrate.discription": "根据条件过滤",
+  "level": [
+    "入门", "中级", "专家"
+  ]
 }

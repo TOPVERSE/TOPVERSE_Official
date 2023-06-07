@@ -198,5 +198,10 @@
   "wechat": "微信公众号:ttsetset",
   "waiting": "waiting...",
   "notfound": "not found",
-  "copylink": "Copy share link"
+  "copylink": "Copy share link",
+  "filtrate": "Filtrate",
+  "filtrate.discription": "Filter by condition",
+  "level": [
+    "EASY", "NORMAL", "HARD"
+  ]
 }

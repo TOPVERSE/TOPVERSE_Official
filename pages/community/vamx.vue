@@ -19,16 +19,16 @@ const list = computed(() => {
 
 const status = [
   {
-    color: 'bg-rose',
-    text: '入门',
+    color: 'bg-green',
+    text: 'level[0]',
   },
   {
     color: 'bg-amber',
-    text: '中级',
+    text: 'level[1]',
   },
   {
-    color: 'bg-green',
-    text: '专家',
+    color: 'bg-rose',
+    text: 'level[2]',
   },
 ]
 </script>
@@ -39,8 +39,8 @@ const status = [
       <div>
         <ACard
           shadow="none"
-          title="筛选"
-          subtitle="根据条件过滤"
+          :title="$t('filtrate')"
+          :subtitle="$t('filtrate.discription')"
           class="w-full md:w-300px"
         >
           <!-- <img
@@ -97,9 +97,9 @@ const status = [
                 </small>
               </p>
             </div>
-            <div class="flex items-center gap-2">
+            <div class="flex flex-shrink-0 items-center gap-2">
               <div class="h-10px w-10px rounded-full" :class="status[item.level].color" />
-              {{ status[item.level].text }}
+              {{ $t(status[item.level].text) }}
             </div>
           </div>
         </LocaleNuxtLink>
