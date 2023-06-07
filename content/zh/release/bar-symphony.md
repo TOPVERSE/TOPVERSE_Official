@@ -3,8 +3,8 @@ img: "/imgs/Project/Metaverse-Build/MusicVenue.jpg"
 topic: "永不独饮：元宇宙酒吧Symphony"
 title: "虚拟空间设计"
 description: "TOPVERSE原创元宇宙建筑《共鸣酒吧》参与元宇宙建筑师协会竞赛获奖作品"
-author: "Greyson"
-resume: "TOPVERSE® Lab 创始人"
+author: "元宇宙空间设计团队"
+resume: "TOPVERSE® Studio 上海办公室"
 publish: "07/10/2022"
 ---
 

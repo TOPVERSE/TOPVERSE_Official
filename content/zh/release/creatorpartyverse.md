@@ -3,8 +3,8 @@ img: "/imgs/Project/Metaverse-Build/MusicVenue.jpg"
 topic: "在全球最大元宇宙平台DCL进行一次“创作者聚会”！"
 title: "虚拟空间设计"
 description: "TOPVERSE原创元宇宙建筑——《创作者聚会（Creator Party-verse）》参与全球元宇宙建筑竞赛Parcel Creatorverse获奖"
-author: "Greyson"
-resume: "TOPVERSE® Lab 创始人"
+author: "元宇宙空间设计团队"
+resume: "TOPVERSE® Studio 上海办公室"
 publish: "07/10/2022"
 ---
 《创作者聚会（Creator Party-verse）》作为 TOPVERSE 奇点拓界® 参与全球元宇宙建筑设计竞赛PARCEL Creatorverse的2件获奖作品中其中一件，由Decentraland及其官方认可的数字藏品及虚拟地产交易平台Parcel进行联动推送报道，并由其首席运营官Kelly Kim进行配音讲解。该建筑同时于2022年9月25至28日部署在新加坡TOKEN 2049系列子活动MUA 2049上，获得了多家Web 3.0多家头部媒体关注及推送，并由全球最大元宇宙平台Decentraland进行官方报道。  
