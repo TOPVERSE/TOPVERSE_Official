@@ -1,12 +1,12 @@
 export function useArticle() {
   return [
     {
-      title: 'Decor',
-      subtitle: 'Fine Art, Dining',
-      img: '/imgs/Home-Stories/Circulus.jpg',
-      tags: ['Web 3.0'],
-      href: '/release/bar-symphony',
-      createTime: '2023/6/5',
+      title: 'TOPVERSE与UCL Bartlett第九研究室共同成立VAMX数研组',
+      subtitle: 'VR/AR/MR/XR工程师、设计师与开发者开放学术社区',
+      img: '/imgs/release/vamxlaunch/008.png',
+      tags: ['Mixed Reality'],
+      href: '/release/vamxlaunch',
+      createTime: '2023/6/6',
     },
     {
       title: '立“码”浸入新宇宙',
