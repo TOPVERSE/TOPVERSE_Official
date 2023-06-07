@@ -44,5 +44,16 @@ export function useCommunityArticle() {
       avatar: '/imgs/Community/Avatar/bartlett.png',
       createTime: '2020/6/5',
     },
+    {
+      title: 'Steampunk Pavilion',
+      author: 'Gwyllim Jahn, Cameron Newnham, Soomeen Hahm, Igor Pantic',
+      profession: 'Format Engineering (UK)',
+      img: '/imgs/Community/Project/steampunk/190913+Steampunk+0135.jpg',
+      tags: ['Mixed Reality'],
+      href: '/community/project/steampunkpavilion',
+      level: 2,
+      avatar: '/imgs/Community/Avatar/igorpantic.jpg',
+      createTime: '2019/10/11',
+    },
   ]
 }
