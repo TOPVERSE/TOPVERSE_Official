@@ -24,12 +24,19 @@
   "scrolldown": "下滑查看更多",
   "home": {
     "carousel": {
-      "topic": ["创作者聚会：Party-verse",
-        "绿色双碳水务工作站混合现实数字孪生"
+      "topic": ["Sakura City：立“码”浸入新宇宙",
+      "VAMX数研组：成立企划",
+      "创作者聚会：Party-verse",
+      "绿色双碳水务工作站混合现实数字孪生"
 
       ],
-      "description": ["在全球最大元宇宙平台Decentraland相聚", "基于微软HoloLens 2的工业元宇宙"],
-      "link": ["相关文章", "相关文章"]
+      "description": ["TOPVERSE x MUA x Ultiverse元宇宙再次集结",
+      "VR/AR/MR/XR多生态开发者与创作者的开放学术社区",
+        "在全球最大元宇宙平台Decentraland相聚", 
+        "基于微软HoloLens 2的工业元宇宙"],
+      "link": ["相关文章","相关文章",
+        "相关文章", 
+      "相关文章"]
     },
     "sectionOne": {
       "topic": "世界领先Web 3.0领域应用及多现实混合应用技术研发",
