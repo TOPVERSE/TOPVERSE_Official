@@ -33,8 +33,8 @@ onMounted(() => {
       <Typography
         text-color="white"
         link-btn-class="scale-150"
-        topic-class="text-5xl lg:text-7xl text-dark dark:text-white "
-        description-class="text-2xl lg:text-4xl text-dark dark:text-white "
+        topic-class="text-5xl lg:text-7xl text-dark dark:text-white mb-5"
+        description-class="text-2xl lg:text-4xl text-dark dark:text-white mb-10"
         :topic="$t(carousels[pages].title)" :description="$t(carousels[pages].description)" :link="{
           ...carousels[pages].link,
           name: $t(carousels[pages].link.name),

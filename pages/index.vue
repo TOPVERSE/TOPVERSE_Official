@@ -68,6 +68,7 @@ const sectionNine = useSectionNine()
           v-for="(content, i) in sectionThree.contentPrimary"
           :key="i"
           :href="content.href" :img="content.img" :topic="content.topic"
+          class="min-h-200px"
           :class="[`animated-delay-${i * 100}ms`, {
             'animated animated-fade-in-up animated-faster': sectionThreeVis,
           }]"
@@ -78,6 +79,7 @@ const sectionNine = useSectionNine()
           v-for="(content, i) in sectionThree.contentSecondary"
           :key="i"
           :href="content.href" :img="content.img" :topic="content.topic"
+          class="min-h-200px"
           :class="[`animated-delay-${i * 100}ms`, {
             'animated animated-fade-in-up animated-faster': sectionThreeVis,
           }]"
@@ -88,6 +90,7 @@ const sectionNine = useSectionNine()
           v-for="(content, i) in sectionThree.contentThird"
           :key="i"
           :href="content.href" :img="content.img" :topic="content.topic"
+          class="min-h-200px"
           :class="[`animated-delay-${i * 100}ms`, {
             'animated animated-fade-in-up': sectionThreeVis,
           }]"

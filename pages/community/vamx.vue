@@ -6,8 +6,6 @@ const items = useCommunityArticle()
 const tags = useCommunityTag()
 const data = ref([])
 
-const { text, copy, copied, isSupported } = useClipboard()
-
 const list = computed(() => {
   if (!data.value.length)
     return items
@@ -39,7 +37,7 @@ const status = [
       <div>
         <ACard
           shadow="none"
-          :title="$t('filtrate')"
+          :title="$t('community.vamx.sider.title')"
           :subtitle="$t('filtrate.discription')"
           class="w-full md:w-300px"
         >
@@ -72,22 +70,26 @@ const status = [
           :href="item.href"
           class="w-full overflow-hidden rounded bg-[hsla(var(--a-surface-c),var(--un-bg-opacity,1))]"
         >
-          <ImageLoading style="-webkit-mask-image:linear-gradient(0deg, transparent, #000 60%);" :src="item.img" class="rounded-b-3xl" height="400" fit="cover" loading="lazy" />
+          <ImageLoading style="-webkit-mask-image:linear-gradient(0deg, transparent, #000 60%);" :src="item.img" class="h-250px w-full rounded-b-3xl" fit="cover" loading="lazy" />
           <div class="relative w-full">
             <div class="absolute bottom-0 left-70px">
-              <h3 class="text-h4 font-bold">
+              <h3 class="w-200px truncate text-h4 font-bold" :title="item.title">
                 {{ item.title }}
               </h3>
             </div>
           </div>
           <div class="flex items-center justify-between gap-2 p-3 pt-5">
-            <AAvatar :src="item.avatar" />
+            <AAvatar :src="item.avatar" class="flex-shrink-0" />
             <div class="flex-grow pl-2">
-              <h4>
-                {{ item.author }}
-              </h4>
+              <div
+                class="h-80px flex items-center"
+              >
+                <h4 class="line-clamp-3" :title="item.author">
+                  {{ item.author }}
+                </h4>
+              </div>
               <p>
-                <small>
+                <small class="truncate">
                   {{ item.profession }}
                 </small>
               </p>

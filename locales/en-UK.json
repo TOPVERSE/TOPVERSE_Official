@@ -31,14 +31,14 @@
   "home": {
     "carousel": {
       "topic": ["Sakura City: Code the New World",
-      "VAMX Digital Tech Research Team: The Grand Launch",
-      "TOKEN 2049 Singapore: Creator Party-verse",
-      "HoloWater®：Water Station Digital Twin"],
+        "VAMX Digital Tech Research Team: The Grand Launch",
+        "TOKEN 2049 Singapore: Creator Party-verse",
+        "HoloWater®：Water Station Digital Twin"],
       "description": ["New MR Gaming Experience",
         "Academic Community for VR/AR/MR/XR Developers and Creators",
         "PARCEL Creatorverse Highlight Project",
         "Industrial Mixed Reality Built within Hololens 2"],
-      "link": ["Details", "Details","Details", "Details"]
+      "link": ["Details", "Details", "Details", "Details"]
     },
     "sectionOne": {
       "topic": "World-Leading Web 3.0 Builders and AR/VR/MR Developers",
@@ -50,8 +50,8 @@
       }
     },
     "sectionTwo": {
-      "content":{
-        "title":["Client and Partner", "Digital Content Platform and Ecosystem", "Technical Development and Professional Association"]
+      "content": {
+        "title": ["Client and Partner", "Digital Content Platform and Ecosystem", "Technical Development and Professional Association"]
       },
       "title": "Our Partners & Cooperations",
       "description": "With WHOM and WHICH Platform We've Been Built"
@@ -177,6 +177,16 @@
       "title": "The Next Era of Reality",
       "topic": "TO MAKE DIGITAL WORLD PLAYABLE IN PHYSICAL REALITY",
       "description": "Get involved in this revolution and enjoy"
+    }
+  },
+  "community": {
+    "vamx": {
+      "sider": {
+        "title": "社区内容",
+        "condition": [
+          "学术论文", "实践项目", "学术研究"
+        ]
+      }
     }
   },
   "foot": {

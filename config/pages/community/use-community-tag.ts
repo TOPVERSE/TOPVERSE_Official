@@ -1,15 +1,15 @@
 export function useCommunityTag() {
   return [
     {
-      label: 'nav.solutions.child.land.service[0]',
-      value: 'Publications',
+      label: 'community.vamx.sider.condition[0]',
+      value: 'Publication',
     },
     {
-      label: 'nav.solutions.child.land.service[1]',
-      value: 'Projects',
+      label: 'community.vamx.sider.condition[1]',
+      value: 'Project',
     },
     {
-      label: 'nav.solutions.child.land.service[2]',
+      label: 'community.vamx.sider.condition[2]',
       value: 'Research',
     },
   ]
