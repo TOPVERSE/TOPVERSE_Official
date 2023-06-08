@@ -32,9 +32,9 @@ onMounted(() => {
     <Section class="top-0 z-10 h-full w-full flex items-center justify-center text-shadow">
       <Typography
         text-color="white"
-        link-btn-class="scale-150"
-        topic-class="text-5xl lg:text-7xl text-dark dark:text-white mb-5"
-        description-class="text-2xl lg:text-4xl text-dark dark:text-white mb-10"
+        link-btn-class="scale-120 sm:scale-150"
+        topic-class="text-3xl sm:text-5xl lg:text-7xl text-dark dark:text-white mb-5"
+        description-class="text-xl sm:text-2xl lg:text-4xl text-dark dark:text-white mb-10"
         :topic="$t(carousels[pages].title)" :description="$t(carousels[pages].description)" :link="{
           ...carousels[pages].link,
           name: $t(carousels[pages].link.name),

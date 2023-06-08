@@ -37,12 +37,12 @@ const sectionNine = useSectionNine()
     <div v-for="(item, i) in sectionTwo.content" :key="i" class="pb-8">
       <Typography :title=" $t(item.title) " />
 
-      <div class="flex flex-wrap justify-center gap-x-2 gap-y-1 md:(grid-cols-3 gap-x-5) lg:gap-x-42">
+      <div class="flex flex-wrap justify-center md:(grid-cols-3 gap-x-5 gap-y-1) lg:gap-x-42 sm:(gap-x-5 gap-y-5)">
         <!-- <Typography  :title=" $t(item.title) " /> -->
         <a
           v-for="(img, j) in item.imgs"
           :key="j"
-          class="h-100px w-200px flex justify-center md:h-200px"
+          class="h-180px w-200px flex justify-center md:h-200px"
           :class="[`animated-delay-${j * 100}ms`, {
             'animated animated-fade-in-up animated-faster': sectionTwoVis,
           }]"
@@ -208,8 +208,8 @@ const sectionNine = useSectionNine()
   <!-- <Divider /> -->
 
   <!-- Section Nine -->
-  <Section class="my-10 flex bg-gradient-pink">
-    <Typography :title="$t(sectionNine.title)" :topic=" $t(sectionNine.topic)" :description=" $t(sectionNine.description)" class="text-start" />
+  <Section class="my-10 flex flex-col items-center justify-center bg-gradient-pink md:flex-row">
+    <Typography :title="$t(sectionNine.title)" :topic=" $t(sectionNine.topic)" :description=" $t(sectionNine.description)" class="pt-5 text-start" />
 
     <ModelContent src="/model/house/Night-City.gltf" :width="300" />
   </Section>

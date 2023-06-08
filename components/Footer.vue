@@ -36,16 +36,16 @@ const footer = useFoot()
       <BrandLogo />
       <DarkToggle />
     </div>
-    <p>
+    <p class="text-center">
       {{ $t(footer.copyright) }}
     </p>
-    <p>
+    <p class="text-center">
       {{ $t(footer.release) }}
     </p>
-    <p v-for="(record, i) in footer.record" :key="i">
+    <p v-for="(record, i) in footer.record" :key="i" class="text-center">
       {{ $t(record) }}
     </p>
-    <p>
+    <p class="text-center">
       <img src="https://pic3.zhimg.com/80/v2-d0289dc0a46fc5b15b3363ffa78cf6c7.png" class="inline scale-90 px-1">
       京公网安备 11010502052580号
     </p>
