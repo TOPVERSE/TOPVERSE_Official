@@ -1,40 +1,54 @@
 ---
-img: "/imgs/Project/Metaverse-Build/MusicVenue.jpg"
-topic: "在全球最大元宇宙平台DCL进行一次“创作者聚会”！"
-title: "虚拟空间设计"
-description: "TOPVERSE原创元宇宙建筑——《创作者聚会（Creator Party-verse）》参与全球元宇宙建筑竞赛Parcel Creatorverse获奖"
-author: "Greyson"
-resume: "TOPVERSE® Lab 创始人"
-publish: "07/10/2022"
+img: "/imgs/Community/Project/metafold/001.png"
+topic: "MetaFold"
+title: "混合现实辅助建造"
+description: "UCL Bartlett RC9 研究项目"
+author: "Xin Lu, Zeyuan Meng, Alvaro Lopez Rodriguez, Igor Pantic"
+resume: "UCL Bartlett RC9"
+publish: "10/09/2020"
 ---
-《创作者聚会（Creator Party-verse）》作为 TOPVERSE 奇点拓界® 参与全球元宇宙建筑设计竞赛PARCEL Creatorverse的2件获奖作品中其中一件，由Decentraland及其官方认可的数字藏品及虚拟地产交易平台Parcel进行联动推送报道，并由其首席运营官Kelly Kim进行配音讲解。该建筑同时于2022年9月25至28日部署在新加坡TOKEN 2049系列子活动MUA 2049上，获得了多家Web 3.0多家头部媒体关注及推送，并由全球最大元宇宙平台Decentraland进行官方报道。  
+
+MetaFold 提出了一种用于现场混凝土浇筑的可重复使用和可重新配置的模板系统。借助增强现实技术，MetaFold 通过增强平台为用户提供有关施工进度的实时信息交换。该平台提供模板预制、现场组装和重新组装以及随后的混凝土浇筑说明。模板是由扁平金属板按照全息模板折叠成一定形状制成的。一旦铸造过程完成，模板将由评估和选择系统处理，以确定哪些部分适合创建新的铸造模板或内部隔断。此外，还开发了一个从设计到制造的应用程序，以指导用户完成整个制造过程，并为设计师和客户提供“数字化的手”。为了使应用程序更智能，用户界面通过使用远程同步将虚拟现实技术与生成设计过程相结合。 MetaFold 应用程序是强调加强人机关系同时通过增强现实界面保留以人为本的因素的众多尝试之一。  
   
-  ![Img](/imgs/News/PARCELCreatorverse/AwardImage.jpg)
+![Img](/imgs/Community/Project/metafold/001.png)
 
-  **TOKEN 2049 & MUA 2049**  
+<h2>01 设计研究</h2>
 
-  备受瞩目的TOKEN 2049从 9 月 28 日到 9 月 29 日于新加坡举行，这是目前亚洲最大的线下 web3 活动，有 250 多家参展商和近 10,000 名与会者。此外，亚洲加密货币周（Asian Crypto Week）在 2022 年 9 月 26 日至 10 月 2 日期间举办为期一周的各种独立组织围绕 TOKEN2049 的子活动，包括各种加密货币行业相关的聚会、研讨会、社交酒会、派对和一级方程式赛车。  
-  
-  TOKEN2049 是首屈一指的加密货币活动，每年在新加坡和伦敦举办，领先的 Web3 公司的创始人和高管在这里分享他们对市场的看法。TOKEN 2049关注全球发展，同时对生态系统及其巨大机遇采取独特而广阔的视角。  
-  
-  而今年，TOKEN 2049新加坡峰会分为主舞台（STAGE 1）、WEMADE舞台以及Trust EVM舞台，涵盖了数字藏品、元宇宙、DeFi、全球经济、Web 3.0、去中心化社群等多个领域的话题及研讨会。  
+![Img](/imgs/Community/Project/metafold/002.png)
+![Img](/imgs/Community/Project/metafold/003.png)
 
-   ![Img](/imgs/News/PARCELCreatorverse/20221003225946.jpg)
+<h3>图案研究</h3> 
+<h4>图案根据空间填充几何（space-packing geometry）来进行离散化生成所需建筑构件如楼梯、楼板、柱子等来进行研究</h4>
 
-  其中，位于元宇宙平台Decentraland的MUA 2049，由全球最为知名的元宇宙建筑师去中心化社群MUA DAO（Metaverse Union of Architect，元宇宙建筑师联盟）牵头，集合了二十多家头部Web 3.0赛道的合作伙伴共同加入，吸引了众多头部智能合约平台方、GameFi项目方、DID项目方及数百名元宇宙 Web 3.0 意见领袖（KOL）的参与。  
+![Img](/imgs/Community/Project/metafold/004.png)
+![Img](/imgs/Community/Project/metafold/005.png) 
 
-  ![Img](/imgs/News/PARCELCreatorverse/20221003230015.jpg)
+<h3>建筑空间形态研究</h3> 
+<h4>通过密度和生长模拟开发的一系列算法模型产生了一个扩展的自动化形态几何模拟。</h4> 
 
-  元宇宙建筑师联盟 (MUA)是一个去中心化的自治组织（DAO），其使命是帮助全球数百万专业人士打破桎梏，克服加密世界的高门槛，创建最大的虚拟现实建筑师公会，提供大量优秀的元宇宙建设者，实现的最终愿景是聚集越来越多的房地产相关资源和流量，作为有影响力的元界房地产的基础设施，连接现实和未来世界。目前，MUA DAO在全球范围内已经拥有超过2000名元宇宙建筑师入驻，包括各大知名事务所以及来自全球顶尖院校的建筑师。  
+![Img](/imgs/Community/Project/metafold/006.png) 
 
-   ![Img](/imgs/News/PARCELCreatorverse/20221003230309.jpg)
+<h3>空间几何Gyroids和它的变体</h3> 
+<h4>利用多项参数对空间几何进行找形算法，并获得不同系列的空间形态模型。</h4> 
 
-  在此次MUA 2049的元宇宙主场地上，一共有五座元宇宙建筑入选作为主场馆：《赛博宇宙夜店（The Cyberverse Night Club）》以科幻与后现代风格诠释元宇宙建筑；《BYOB酒吧（BYOB Bar）》则运用了动态和光效的变化；《爱情与死亡酒吧（The Love and Death Bar）》充斥着朋克与动感；《海盗天堂（Pirate Paradise）》则用复古来展现神秘。  
+![Img](/imgs/Community/Project/metafold/007.png) 
+![Img](/imgs/Community/Project/metafold/008.png) 
+![Img](/imgs/Community/Project/metafold/009.png)
 
-  ![Img](/imgs/News/PARCELCreatorverse/20221003230258.jpg)
+<h2>02 建造应用</h2>
+<h3>现场浇筑及模块研究</h3> 
+<h4>模具方面采用了金属和水压切割，防止混凝土过多的渗出影响铸造的形态美感；混凝土方面，采用沙石比例较高的Portland混凝土，增加强度，并适当的在内部空间增加气管，降低模型重量。</h4> 
 
-  由TOPVERSE设计的元宇宙建筑《创作者聚会（Creator Party-verse）》作为Web 3.0资讯平台深潮TECH FLOW、全球交易量最大（以美元计算）且拥有近2千万全球用户的加密货币交易平台KUCOIN、以及P2E平台FitR三家赛道头部项目方的主阵地，与全球的Web 3.0去中心化网络平台用户一同进行TOKEN2049的元宇宙盛宴。
+![Img](/imgs/Community/Project/metafold/010.png) 
+![Img](/imgs/Community/Project/metafold/011.png) 
+![Img](/imgs/Community/Project/metafold/012.png) 
+![Img](/imgs/Community/Project/metafold/013.png) 
+![Img](/imgs/Community/Project/metafold/014.png) 
 
+<h2>03 混合现实搭建</h2>
+<h4>根据铸造过程及使用需求，我们开发了一款app命名为MetaFold，帮助没有施工经验的工作人员进行现场搭建，并根据智能算法提供相应的模具拼接指导。</h4> 
 
-:model-content{src='/model/house/scene.gltf'}
- 
+![Img](/imgs/Community/Project/metafold/015.png) 
+![Img](/imgs/Community/Project/metafold/016.png) 
+<h3>建筑空间实例</h3> 
+<h4>通过此种搭建方法，可以将空间填充几何搭建成不同的建筑空间，其中，住宅为主要的搭建目标。渲染图表现了其二层住宅中的客厅、餐厅、阳台、卧室、卫生间等基本居住单元，为偏远地区及战后城市修复与重建提供了一种新型高效且可复用的搭建形式。</h4> 

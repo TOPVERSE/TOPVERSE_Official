@@ -5,9 +5,9 @@ export function useCarousel() {
       description: 'home.carousel.description[0]',
       link: {
         name: 'home.carousel.link[0]',
-        href: '/release/sakuracity',
+        href: '/Release/sakuracity',
       },
-      img: '/imgs/release/sakuracity/002.png',
+      img: '/imgs/Release/sakuracity/002.png',
     },
     {
       title: 'home.carousel.topic[1]',
@@ -16,7 +16,7 @@ export function useCarousel() {
         name: 'home.carousel.link[1]',
         href: '/release/vamxlaunch',
       },
-      img: '/imgs/community/project/rebent/001.png',
+      img: '/imgs/Community/Project/rebent/001.png',
     },
     {
       title: 'home.carousel.topic[2]',
