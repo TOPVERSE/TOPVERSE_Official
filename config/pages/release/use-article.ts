@@ -3,7 +3,7 @@ export function useArticle() {
     {
       title: 'TOPVERSE与UCL Bartlett第九研究室共同成立VAMX数研组',
       subtitle: 'VR/AR/MR/XR工程师、设计师与开发者开放学术社区',
-      img: '/imgs/release/vamxlaunch/008.png',
+      img: '/imgs/Release/vamxlaunch/008.png',
       tags: ['Mixed Reality'],
       href: '/release/vamxlaunch',
       author: 'Xin Lu',
@@ -14,7 +14,7 @@ export function useArticle() {
     {
       title: '立“码”浸入新宇宙',
       subtitle: '全新VR游戏体验《樱花城》登录Meta Quest',
-      img: '/imgs/release/sakuracity/20230607-135223.jpg',
+      img: '/imgs/Release/sakuracity/20230607-135223.jpg',
       tags: ['Web 3.0', 'Mixed Reality'],
       href: '/release/sakuracity',
       author: 'Xin Lu',
@@ -25,7 +25,7 @@ export function useArticle() {
     {
       title: 'TOPVERSE联合中国铁塔入围数字中国城市设计元宇宙RAR赛道百景新锐',
       subtitle: '2023数字中国创新大赛',
-      img: '/imgs/release/dcic2023/001.png',
+      img: '/imgs/Release/dcic2023/001.png',
       tags: ['Web 3.0', 'Digital Twins'],
       href: '/release/dcic2023',
       author: 'Xin Lu',
