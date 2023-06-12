@@ -6,6 +6,9 @@ export function useArticle() {
       img: '/imgs/release/vamxlaunch/008.png',
       tags: ['Mixed Reality'],
       href: '/release/vamxlaunch',
+      author: 'Xin Lu',
+      profession: 'UCL Bartlett RC9',
+      avatar: '/imgs/Community/Avatar/caadria.png',
       createTime: '2023/6/6',
     },
     {
@@ -14,6 +17,9 @@ export function useArticle() {
       img: '/imgs/release/sakuracity/20230607-135223.jpg',
       tags: ['Web 3.0', 'Mixed Reality'],
       href: '/release/sakuracity',
+      author: 'Xin Lu',
+      profession: 'UCL Bartlett RC9',
+      avatar: '/imgs/Community/Avatar/caadria.png',
       createTime: '2023/6/6',
     },
     {
@@ -22,6 +28,9 @@ export function useArticle() {
       img: '/imgs/release/dcic2023/001.png',
       tags: ['Web 3.0', 'Digital Twins'],
       href: '/release/dcic2023',
+      author: 'Xin Lu',
+      profession: 'UCL Bartlett RC9',
+      avatar: '/imgs/Community/Avatar/caadria.png',
       createTime: '2023/04/21',
     },
     {
@@ -30,6 +39,9 @@ export function useArticle() {
       img: '/imgs/Release/2023annualreview/s00.jpg',
       tags: ['Web 3.0', 'Digital Twins'],
       href: '/release/annualreview2023',
+      author: 'Xin Lu',
+      profession: 'UCL Bartlett RC9',
+      avatar: '/imgs/Community/Avatar/caadria.png',
       createTime: '2022/1/18',
     },
   ]
