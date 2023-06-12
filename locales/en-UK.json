@@ -182,9 +182,9 @@
   "community": {
     "vamx": {
       "sider": {
-        "title": "社区内容",
+        "title": "Community Content",
         "condition": [
-          "学术论文", "实践项目", "学术研究"
+          "Publication", "Project", "Research"
         ]
       }
     }

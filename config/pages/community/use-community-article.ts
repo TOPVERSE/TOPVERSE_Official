@@ -50,7 +50,7 @@ export function useCommunityArticle() {
       profession: 'Format Engineering (UK)',
       img: '/imgs/Community/Project/steampunk/190913+Steampunk+0135.jpg',
       tags: ['Project'],
-      href: '/community/project/steampunkpavilion',
+      href: '/community/project/steampunk-pavilion',
       level: 2,
       avatar: '/imgs/Community/Avatar/igorpantic.jpg',
       createTime: '2019/10/11',
