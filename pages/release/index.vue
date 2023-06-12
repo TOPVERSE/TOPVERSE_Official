@@ -49,6 +49,35 @@ const list = computed(() => {
         </ACard>
       </div>
 
+      <div class="3xl:grid-cols-4 grid-row w-full pb-10 2xl:grid-cols-3 lg:grid-cols-2">
+        <!-- 👉 2nd card -->
+        <Card
+          v-for="(item, i) in list"
+          :key="i"
+          :class="[`animated-delay-${i * 100}ms`]"
+          :title="item.title"
+          :description="item.subtitle"
+          :img="item.img"
+          :href="item.href"
+          :avatar="item?.avatar"
+          :author="item?.author"
+          :profession="item?.profession"
+          :create-time="item?.createTime"
+        >
+          <template #footer>
+            <ABtn
+              variant="text" icon="i-bx-link-external" icon-only class="h-50px w-20px"
+              @click.prevent="copy(`http://www.topverse.world${item.href}`)"
+            >
+              <ATooltip
+                transition="fade"
+                :text="$t('copylink')"
+              />
+            </ABtn>
+          </template>
+        </Card>
+      </div>
+      <!--
       <ACard w-full shadow="none" class="divide-y divide-dark-50/10">
         <LocaleNuxtLink v-for="(item, i) in list" :key="i" class="group relative my-4 h-350px w-full flex flex-col items-center justify-start md:mx-4 md:h-150px md:flex-row" :href="item.href">
           <div :href="item.href" class="h-200px w-full overflow-hidden rounded bg-light-50/10 transition-all md:absolute group-hover:(w-full opacity-50) md:h-full md:w-1/2" style="mask-image:linear-gradient(270deg, transparent, #000);-webkit-mask-image:linear-gradient(290deg, transparent 12%, #000 80%);">
@@ -81,7 +110,7 @@ const list = computed(() => {
         <div v-if="!list.length" class="flex items-center justify-center py-20 text-7xl font-bold text-dark-50/10">
           EMPTY
         </div>
-      </ACard>
+      </ACard> -->
     </Section>
   </div>
 </template>

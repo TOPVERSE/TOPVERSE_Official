@@ -64,47 +64,26 @@ const status = [
 
       <div class="3xl:grid-cols-4 grid-row w-full pb-10 2xl:grid-cols-3 lg:grid-cols-2">
         <!-- 👉 2nd card -->
-        <LocaleNuxtLink
+        <Card
           v-for="(item, i) in list"
           :key="i"
+          :class="[`animated-delay-${i * 100}ms`]"
+          :title="item.title"
           :href="item.href"
-          class="w-full overflow-hidden rounded bg-[hsla(var(--a-surface-c),var(--un-bg-opacity,1))]"
+          :description="item.subtitle"
+          :img="item.img"
+          :avatar="item.avatar"
+          :author="item.author"
+          :profession="item.profession"
+          :create-time="item.createTime"
         >
-          <ImageLoading style="-webkit-mask-image:linear-gradient(0deg, transparent, #000 60%);" :src="item.img" class="h-250px w-full rounded-b-3xl" fit="cover" loading="lazy" />
-          <div class="relative w-full">
-            <div class="absolute bottom-0 left-70px">
-              <h3 class="w-200px truncate text-h4 font-bold" :title="item.title">
-                {{ item.title }}
-              </h3>
-            </div>
-          </div>
-          <div class="flex items-center justify-between gap-2 p-3 pt-5">
-            <AAvatar :src="item.avatar" class="flex-shrink-0" />
-            <div class="flex-grow pl-2">
-              <div
-                class="h-80px flex items-center"
-              >
-                <h4 class="line-clamp-3" :title="item.author">
-                  {{ item.author }}
-                </h4>
-              </div>
-              <p>
-                <small class="truncate">
-                  {{ item.profession }}
-                </small>
-              </p>
-              <p>
-                <small>
-                  {{ item.createTime }}
-                </small>
-              </p>
-            </div>
+          <template #footer>
             <div class="flex flex-shrink-0 items-center gap-2">
               <div class="h-10px w-10px rounded-full" :class="status[item.level].color" />
               {{ $t(status[item.level].text) }}
             </div>
-          </div>
-        </LocaleNuxtLink>
+          </template>
+        </Card>
       </div>
     </Section>
   </div>
