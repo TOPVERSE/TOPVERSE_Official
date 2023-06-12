@@ -1,9 +1,9 @@
 <template>
   <header class="bg-header/10 min-h-[100px]" z-100 w-full flex flex-col items-start justify-start px-5 md="items-center flex-row justify-around px-15 absolute z-100 top-0">
-    <LocaleNuxtLink href="/" class="w-35 flex items-center gap-5">
+    <LocaleNuxtLink href="/" class="w-35 flex flex-shrink-0 items-center gap-5">
       <BrandLogo />
     </LocaleNuxtLink>
-    <nav h-full flex items-center>
+    <nav h-full flex-grow items-end>
       <HeaderNav />
     </nav>
     <!-- <div w-20 flex justify-center> -->

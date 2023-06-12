@@ -7,7 +7,9 @@ useHead({
     class: 'scrollbar-thumb-color-dark-50 scrollbar-track-color-transparent scrollbar-radius-2 scrollbar-thumb-radius-4 scrollbar-w-4px scrollbar scrollbar-rounded [&>div]:overflow-x-hidden',
   },
 })
-usePreferredDark()
+const dark = usePreferredDark()
+
+console.log(dark)
 </script>
 
 <template>

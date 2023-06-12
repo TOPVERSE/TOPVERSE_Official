@@ -79,16 +79,16 @@ const list = computed(() => {
       </div>
       <!--
       <ACard w-full shadow="none" class="divide-y divide-dark-50/10">
-        <LocaleNuxtLink v-for="(item, i) in list" :key="i" class="group relative m-4 h-150px w-full flex items-center justify-start" :href="item.href">
-          <div :href="item.href" class="absolute h-full w-1/3 overflow-hidden rounded bg-light-50/10 transition-all group-hover:(w-full opacity-50) md:w-1/2" style="mask-image:linear-gradient(270deg, transparent, #000);-webkit-mask-image:linear-gradient(290deg, transparent 12%, #000 80%);">
+        <LocaleNuxtLink v-for="(item, i) in list" :key="i" class="group relative my-4 h-350px w-full flex flex-col items-center justify-start md:mx-4 md:h-150px md:flex-row" :href="item.href">
+          <div :href="item.href" class="h-200px w-full overflow-hidden rounded bg-light-50/10 transition-all md:absolute group-hover:(w-full opacity-50) md:h-full md:w-1/2" style="mask-image:linear-gradient(270deg, transparent, #000);-webkit-mask-image:linear-gradient(290deg, transparent 12%, #000 80%);">
             <ImageLoading class="h-full w-full" :src="item.img" />
           </div>
-          <div class="h-full flex flex-grow flex-col items-end justify-between py-2">
+          <div class="h-130px flex flex-grow flex-col items-center justify-between px-8 py-2 md:h-full md:items-end md:px-0">
             <div>
-              <div class="text-title text-right">
+              <div class="line-clamp-2 text-title text-center md:text-right">
                 {{ item.title }}
               </div>
-              <div class="text-description text-right text-opacity-80">
+              <div class="line-clamp-2 text-description text-center text-opacity-80 md:text-right">
                 {{ item.subtitle }}
               </div>
             </div>
