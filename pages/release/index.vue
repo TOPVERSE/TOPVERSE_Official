@@ -19,6 +19,35 @@ const list = computed(() => {
 </script>
 
 <template>
+  <ClientOnly>
+    <Teleport to="#pages-sider">
+      <ACard
+        shadow="none"
+        :title="$t('filtrate')"
+        :subtitle="$t('filtrate.discription')"
+        class="w-full"
+      >
+        <!-- <img
+            src="/images/demo/minimal-1.jpg"
+            alt="girl"
+          > -->
+
+        <div class="a-card-body a-card-spacer">
+          <div class="grid grid-rows-2 gap-y-3">
+            <ACheckbox
+              v-for="tag in tags"
+              :key="tag.value"
+              v-model="data"
+              :value="tag.value"
+              :label="$t(tag.label)"
+            />
+          </div>
+
+        <!-- <ABtn>Read more</ABtn> -->
+        </div>
+      </ACard>
+    </Teleport>
+  </ClientOnly>
   <div class="mt-0 lg:mt-20">
     <Section class="flex flex-col gap-4 md:flex-row">
       <div>
@@ -26,7 +55,7 @@ const list = computed(() => {
           shadow="none"
           :title="$t('filtrate')"
           :subtitle="$t('filtrate.discription')"
-          class="w-full md:w-300px"
+          class="hidden lg:(block w-300px)"
         >
           <!-- <img
             src="/images/demo/minimal-1.jpg"

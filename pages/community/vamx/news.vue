@@ -32,54 +32,43 @@ const status = [
 </script>
 
 <template>
-  <div
-    class="fixed bottom-16 right-6 md:hidden"
-  >
-    <ABtn
-      class="text-xl"
-      icon-only
-      icon="i-material-symbols-view-headline"
-    >
-      <ATooltip
-        trigger="click"
-        class="[&_.a-tooltip]-bg-transparent"
+  <ClientOnly>
+    <Teleport to="#pages-sider">
+      <ACard
+        shadow="none"
+        :title="$t('community.vamx.news.title')"
+        :subtitle="$t('community.vamx.news.discription')"
+        class="w-full"
       >
-        <ACard
-          shadow="none"
-          :title="$t('community.vamx.news.title')"
-          :subtitle="$t('community.vamx.news.discription')"
-          class="w-300px"
-        >
-          <!-- <img
+        <!-- <img
             src="/images/demo/minimal-1.jpg"
             alt="girl"
           > -->
 
-          <div class="a-card-body divide-y-1 divide-dark-50/10 a-card-spacer">
-            <LocaleNuxtLink href="/community/vamx" class="block p-2 font-bold hover:opacity-80">
-              {{ $t('community.vamx.sider.title') }}
-            </LocaleNuxtLink>
+        <div class="a-card-body divide-y-1 divide-dark-50/10 a-card-spacer">
+          <LocaleNuxtLink href="/community/vamx" class="block p-2 font-bold hover:opacity-80">
+            {{ $t('community.vamx.sider.title') }}
+          </LocaleNuxtLink>
 
-            <LocaleNuxtLink href="/community/vamx/structure" class="block p-2 font-bold hover:opacity-80">
-              {{ $t('community.vamx.structure.title') }}
-            </LocaleNuxtLink>
+          <LocaleNuxtLink href="/community/vamx/structure" class="block p-2 font-bold hover:opacity-80">
+            {{ $t('community.vamx.structure.title') }}
+          </LocaleNuxtLink>
 
-            <LocaleNuxtLink href="/community/vamx/join" class="block p-2 font-bold hover:opacity-80">
-              {{ $t('community.vamx.join.title') }}
-            </LocaleNuxtLink>
-          </div>
-        </ACard>
-      </ATooltip>
-    </ABtn>
-  </div>
-  <div class="mt-0 md:mt-20">
+          <LocaleNuxtLink href="/community/vamx/join" class="block p-2 font-bold hover:opacity-80">
+            {{ $t('community.vamx.join.title') }}
+          </LocaleNuxtLink>
+        </div>
+      </ACard>
+    </Teleport>
+  </ClientOnly>
+  <div class="mt-0 lg:mt-20">
     <Section class="flex flex-col gap-4 md:flex-row">
       <div>
         <ACard
           shadow="none"
           :title="$t('community.vamx.news.title')"
           :subtitle="$t('community.vamx.news.discription')"
-          class="hidden w-full md:block md:w-300px"
+          class="hidden lg:(block w-300px)"
         >
           <!-- <img
             src="/images/demo/minimal-1.jpg"

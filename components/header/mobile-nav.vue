@@ -28,10 +28,14 @@ const flag: any = {
 <template>
   <ADrawer
     v-model="isDrawerShown"
-    class="!w-80%"
+    class="h-screen overflow-y-scroll px-2 scrollbar-thumb-color-dark-50 scrollbar-track-color-transparent scrollbar-radius-2 scrollbar-thumb-radius-4 scrollbar-w-4px !w-80% scrollbar scrollbar-rounded"
   >
+    <div class="flex justify-center">
+      <BrandLogo />
+    </div>
+    <Divider class="mb-5" />
     <LocaleNuxtLink v-for="(nav, i) in navs" :key="i" class="ml-3px block w-full shadow-transparent transition-all" :href="nav.href" active-class="active-nav ">
-      <ABtn v-if="!nav.child" variant="text" class="w-full text-xl [&_.a-btn-content]:(w-full justify-start px-2)">
+      <ABtn v-if="!nav.child" variant="text" class="w-full text-lg [&_.a-btn-content]:(w-full justify-start px-2)">
         <span style="color: hsla(var(--a-base-c), 0.87); " class="font-bold">{{ $t(nav.title) }}</span>
       </ABtn>
 
@@ -60,6 +64,10 @@ const flag: any = {
         </div>
       </div>
     </LocaleNuxtLink>
+
+    <div class="p-5">
+      <div id="pages-sider" class="bg-black/10" />
+    </div>
   </ADrawer>
 
   <ABtn
