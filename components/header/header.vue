@@ -1,11 +1,12 @@
 <template>
-  <header class="bg-header/10 min-h-[100px]" z-100 w-full flex flex-col items-start justify-start px-5 md="items-center flex-row justify-around px-15 absolute z-100 top-0">
+  <header class="bg-header/10 h-100px w-full flex justify-between px-5 md:px-30 sm:px-20 xl:px-60" lg="absolute z-100 top-0">
     <LocaleNuxtLink href="/" class="w-35 flex flex-shrink-0 items-center gap-5">
       <BrandLogo />
     </LocaleNuxtLink>
-    <nav h-full flex-grow items-end>
+    <div class="h-100px flex flex-grow items-center justify-end">
       <HeaderNav />
-    </nav>
+      <HeaderMobileNav />
+    </div>
     <!-- <div w-20 flex justify-center> -->
     <!-- <ABtn variant="text">
         login

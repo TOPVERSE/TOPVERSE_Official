@@ -183,9 +183,25 @@
     "vamx": {
       "sider": {
         "title": "Community Content",
+        "description": "",
         "condition": [
           "Publication", "Project", "Research"
         ]
+      },
+      "news": {
+        "title": "Community News",
+        "description": "",
+        "condition": [
+          "Publication", "Project", "Research"
+        ]
+      },
+      "join": {
+        "title": "Join us",
+        "description": ""
+      },
+      "structure": {
+        "title": "Structure",
+        "description": ""
       }
     }
   },

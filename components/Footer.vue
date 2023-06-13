@@ -32,9 +32,10 @@ const footer = useFoot()
     </div>
   </div>
   <div my-10 flex flex-col items-center justify-center gap-4>
-    <div flex items-center gap-4>
-      <BrandLogo />
+    <BrandLogo />
+    <div>
       <DarkToggle />
+      <LangSwitch />
     </div>
     <p class="text-center">
       {{ $t(footer.copyright) }}

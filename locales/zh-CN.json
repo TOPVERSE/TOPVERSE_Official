@@ -176,9 +176,25 @@
     "vamx": {
       "sider": {
         "title": "社区内容",
+        "description": "",
         "condition": [
           "学术论文", "实践项目", "学术研究"
         ]
+      },
+      "news": {
+        "title": "社区动态",
+        "description": "",
+        "condition": [
+          "Publication", "Project", "Research"
+        ]
+      },
+      "join": {
+        "title": "加入我们",
+        "description": ""
+      },
+      "structure": {
+        "title": "组织结构",
+        "description": ""
       }
     }
   },

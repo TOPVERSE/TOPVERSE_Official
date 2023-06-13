@@ -19,7 +19,7 @@ const list = computed(() => {
 </script>
 
 <template>
-  <div class="mt-10 md:mt-20">
+  <div class="mt-0 lg:mt-20">
     <Section class="flex flex-col gap-4 md:flex-row">
       <div>
         <ACard

@@ -23,8 +23,8 @@ const flag: any = {
 </script>
 
 <template>
-  <nav class="flex flex-wrap justify-end">
-    <LocaleNuxtLink v-for="(nav, i) in navs" :key="i" class="mx-2 mb-5 p-1 pb-5 shadow-transparent transition-all" :href="nav.href" active-class="active-nav">
+  <nav class="hidden flex-wrap lg:flex">
+    <LocaleNuxtLink v-for="(nav, i) in navs" :key="i" class="mx-2 p-1 shadow-transparent transition-all" :href="nav.href" active-class="active-nav">
       <ABtn variant="text">
         <AMenu v-if="nav.child" style="--un-bg-opacity:0.98;--a-spacing:2" class="" z-1000 mt-5 placement="bottom">
           <AList
@@ -51,21 +51,10 @@ const flag: any = {
         <span style="color: hsla(var(--a-base-c), 0.87); " class="font-bold">{{ $t(nav.title) }}</span>
       </ABtn>
     </LocaleNuxtLink>
-    <LocaleNuxtLink
-      v-for="l in availableLocales" :key="l.code" :to="switchLocalePath(l.code)"
-      class="mx-2 border-primary p-1 pb-5 transition-all"
-    >
-      <ABtn
-        variant="text"
-      >
-        <span :class="flag[l.code]" />
-        <!-- {{ flag[locale.code] }} -->
-      </ABtn>
-    </LocaleNuxtLink>
   </nav>
 </template>
 
-<style>
+<style scoped>
 .active-nav{
   box-shadow: 0 3px 0px 0px lightblue;
 }
