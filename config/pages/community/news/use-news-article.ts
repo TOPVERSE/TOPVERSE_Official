@@ -1,18 +1,18 @@
 export function useNewsArticle() {
   return [
     {
-      title: 'MetaFold',
-      author: 'Xin LU, Zeyuan Meng, Guanyu Shi, Jieni Zhang',
-      profession: 'UCL Bartlett RC9 Project',
-      img: '/imgs/Community/Project/metafold/001.png',
+      title: 'About: Igor Pantic',
+      author: 'VAMX Community Team',
+      profession: 'Igor Pantic',
+      img: '/imgs/Community/News/igorpantic/studiologo.png',
       tags: ['Project'],
-      href: '/community/project/metafold',
+      href: '/community/news/igorpantic',
       level: 2,
-      avatar: '/imgs/Community/Avatar/bartlett.png',
+      avatar: '/imgs/Community/Avatar/topverse.png',
       createTime: '2020/6/5',
     },
     {
-      title: 'CeARamics',
+      title: 'SoomeenHahm',
       author: 'Jiaxiang Luo, Sarah Aldaboos, Efthymia Mastrokalou, Rahaf Aldabous',
       profession: 'UCL Bartlett RC9 Project',
       img: '/imgs/Community/Project/cearamics/001.png',
