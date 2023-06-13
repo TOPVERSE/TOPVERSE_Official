@@ -37,7 +37,7 @@ const status = [
       <ACard
         shadow="none"
         :title="$t('community.vamx.news.title')"
-        :subtitle="$t('community.vamx.news.discription')"
+        :subtitle="$t('community.vamx.news.description')"
         class="w-full"
       >
         <!-- <img
@@ -67,7 +67,7 @@ const status = [
         <ACard
           shadow="none"
           :title="$t('community.vamx.news.title')"
-          :subtitle="$t('community.vamx.news.discription')"
+          :subtitle="$t('community.vamx.news.description')"
           class="hidden lg:(block w-300px)"
         >
           <!-- <img
