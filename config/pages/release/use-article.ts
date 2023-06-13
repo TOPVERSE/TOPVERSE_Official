@@ -8,7 +8,7 @@ export function useArticle() {
       href: '/release/vamxlaunch',
       author: 'Community Team',
       profession: 'TOPVERSE Shanghai Studio',
-      avatar: '/imgs/Community/Avatar/caadria.png',
+      avatar: '/imgs/Community/Avatar/topverse.png',
       createTime: '2023/6/6',
     },
     {
@@ -19,7 +19,7 @@ export function useArticle() {
       href: '/release/sakuracity',
       author: 'Technology Lab',
       profession: 'TOPVERSE Beijing Lab',
-      avatar: '/imgs/Community/Avatar/caadria.png',
+      avatar: '/imgs/Community/Avatar/topverse.png',
       createTime: '2023/6/6',
     },
     {
@@ -30,7 +30,7 @@ export function useArticle() {
       href: '/release/dcic2023',
       author: 'Technology Lab',
       profession: 'TOPVERSE Beijing Lab',
-      avatar: '/imgs/Community/Avatar/caadria.png',
+      avatar: '/imgs/Community/Avatar/topverse.png',
       createTime: '2023/04/21',
     },
     {
@@ -41,7 +41,7 @@ export function useArticle() {
       href: '/release/annualreview2023',
       author: 'Technical Artist/ 3D Content Team',
       profession: 'TOPVERSE Shanghai Studio',
-      avatar: '/imgs/Community/Avatar/caadria.png',
+      avatar: '/imgs/Community/Avatar/topverse.png',
       createTime: '2022/1/18',
     },
   ]
