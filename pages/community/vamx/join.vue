@@ -90,7 +90,9 @@ const { data } = await useAsyncData(`content-${path}`, () => {
         </ACard>
       </div>
 
-      <div class="w-full">
+      <div class="w-full lg:px-5">
+        <Typography :title="data?.title" :description="data?.description" :topic="data?.topic" class="pb-5" />
+        <!-- <SectionBanner :img="data?.img" :title="data?.title" :topic="data?.topic" :description="data?.description" font-bold text-white /> -->
         <ContentRenderer v-if="data" :value="data" />
       </div>
     </Section>

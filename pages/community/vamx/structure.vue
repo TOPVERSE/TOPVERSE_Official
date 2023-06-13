@@ -1,7 +1,7 @@
 <script setup>
 const { locale } = useI18n()
 
-const path = `/${locale.value}/community/join`
+const path = `/${locale.value}/community/structure`
 
 const { data } = await useAsyncData(`content-${path}`, () => {
   return queryContent().where({ _path: path }).findOne()
@@ -90,7 +90,8 @@ const { data } = await useAsyncData(`content-${path}`, () => {
         </ACard>
       </div>
 
-      <div class="w-full">
+      <div class="w-full lg:px-5">
+        <Typography :title="data?.title" :description="data?.description" :topic="data?.topic" class="pb-5" />
         <ContentRenderer v-if="data" :value="data" />
       </div>
     </Section>
