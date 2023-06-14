@@ -17,5 +17,5 @@ const { isLoading, error } = useImage({ src: avatarUrl })
   <!-- <div v-if="error" class="animate-pulse w-full h-full bg-rose/10 flex items-center justify-center">
     Error
   </div> -->
-  <img v-else :src="error ? errSrc : avatarUrl" style="object-fit: cover;">
+  <img v-else :src="error ? errSrc : src" style="object-fit: cover;">
 </template>
