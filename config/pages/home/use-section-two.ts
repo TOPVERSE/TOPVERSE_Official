@@ -23,6 +23,11 @@ export function useSectionTwo() {
             title: 'SoomeenHahm Design',
           },
           {
+            img: '/imgs/Partners/500/archipocket.png',
+            href: 'https://www.archipocket.com/',
+            title: 'ArchiPocket',
+          },
+          {
             img: '/imgs/Partners/500/BrainUp.png',
             href: 'https://www.naolubrain.com/',
             title: 'BrainUp',
@@ -108,6 +113,16 @@ export function useSectionTwo() {
             img: '/imgs/Partners/500/UnrealEngine.png',
             href: 'https://www.unrealengine.com/',
             title: 'UnrealEngine',
+          },
+          {
+            img: '/imgs/Partners/500/touchdesigner.png',
+            href: 'https://derivative.ca/',
+            title: 'TouchDesigner',
+          },
+          {
+            img: '/imgs/Partners/500/disguise.png',
+            href: 'https://www.disguise.one/en/',
+            title: 'Disguise',
           },
           {
             img: '/imgs/Partners/500/Hololens.png',

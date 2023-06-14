@@ -14,7 +14,7 @@ const { data } = await useAsyncData(`content-${path}`, () => {
       <ACard
         shadow="none"
         :title="$t('community.vamx.join.title')"
-        :subtitle="$t('community.vamx.join.discription')"
+        :subtitle="$t('community.vamx.join.description')"
         class="w-full"
       >
         <!-- <img
@@ -55,7 +55,7 @@ const { data } = await useAsyncData(`content-${path}`, () => {
         <ACard
           shadow="none"
           :title="$t('community.vamx.join.title')"
-          :subtitle="$t('community.vamx.join.discription')"
+          :subtitle="$t('community.vamx.join.description')"
           class="hidden lg:(block w-300px)"
         >
           <!-- <img
@@ -90,9 +90,11 @@ const { data } = await useAsyncData(`content-${path}`, () => {
         </ACard>
       </div>
 
-      <div class="w-full">
-        <ContentRenderer v-if="data" :value="data" />
-      </div>
+      <ACard class="w-full p-8">
+        <Typography :title="data?.title" :description="data?.description" :topic="data?.topic" class="pb-5" />
+        <!-- <SectionBanner :img="data?.img" :title="data?.title" :topic="data?.topic" :description="data?.description" font-bold text-white /> -->
+        <ContentRenderer v-if="data" :value="data" class="mx-auto prose xl:max-w-900px" />
+      </ACard>
     </Section>
   </div>
 </template>
