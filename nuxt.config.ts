@@ -19,7 +19,7 @@ export default defineNuxtConfig({
     '@vite-pwa/nuxt',
     // '@aceforth/nuxt-optimized-images',
     // '@vueuse/components',
-    '@nuxt/image',
+    // '@nuxt/image',
     '@nuxt/devtools',
   ],
 
