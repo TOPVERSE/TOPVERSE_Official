@@ -82,6 +82,14 @@ publish: "10/06/2023"
 
 **VernaculAR:** Jing Feng, Yue Qin, Yifan Ran, Wenqiang Wei 
 
+![Img](/imgs/Community/News/rc9/011.png) 
+
+**Saeculum:** Indrajith Aravinda Gamage, Tin Ching (Kelvin) Law, Anastasiia Metelskaia, Saee Sanjay Pagar 
+
+![Img](/imgs/Community/News/rc9/012.png) 
+
+**xREF:** Haoya Chen, Yuling Guo, Yingxuan Tang, Haonan Wang
+
 ![Img](/imgs/Community/News/rc9/006.png) 
 
 ![Img](/imgs/Community/News/rc9/007.png) 
