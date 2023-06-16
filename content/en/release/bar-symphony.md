@@ -1,34 +1,42 @@
 ---
 img: "/imgs/Project/Metaverse-Build/MusicVenue.jpg"
-topic: "永不独饮：元宇宙酒吧Symphony"
-title: "虚拟空间设计"
-description: "TOPVERSE原创元宇宙建筑《共鸣酒吧》参与元宇宙建筑师协会竞赛获奖作品"
-author: "元宇宙空间设计团队"
-resume: "TOPVERSE® Studio 上海办公室"
+topic: "Never Drink Alone：The Bar Symphony"
+title: "Metaverse Space Design"
+description: "Award-Winning Project"
+author: "Metaverse Space Design Team"
+resume: "TOPVERSE® Studio Shanghai"
 publish: "07/10/2022"
 ---
 
   ![Img](/imgs/News/BarSymphony/20230524175132.jpg)
 
 
-《交响曲酒吧（The Bar Symphony）》是TOPVERSE® Lab应元宇宙建筑师协会（Metaverse Union of Architects，MUA）邀请，为其在全球最大的去中心化虚拟地产平台Decentraland上设计的首个交互式元宇宙酒吧。
+"The Bar Symphony" is the first interactive interactive bar designed by TOPVERSE® Lab on the world's largest decentralized virtual real estate platform Decentraland at the invitation of Metaverse Union of Architects (MUA). Metaverse Bar.
 <p align="center">
 
 ![Img](/imgs/News/BarSymphony/Elevation.jpg)
 
 </p>
 
-表明了在欣赏、爱、追逐、憎恨甚至可能不了解彼此的元宇宙用户（酒吧参观者）之间模糊但又同时未知的共鸣。建筑的主要动势是从一个简单的圆圈中产生的，曲线的交叠反映了相互纠缠（Intertwined）和仿生变异（Morphing）的语言。该建筑主要由立面三部分组成，以回应“元界古典主义”。顶部是不断跳跃的“节奏之环”，其跳动频率是从不同音乐风格的节拍中提取的。
+It indicates a vague but at the same time unknown resonance between Metaverse users (bar-goers) who admire, love, chase, hate, and may not even know each other. The main movement of the building emerges from a simple circle, the overlapping of curves reflecting the language of Intertwined and Morphing. The building mainly consists of three façades in response to "Metaverse Classicism". At the top is the constantly jumping "Rhythm Ring", whose beating frequency is extracted from the beats of different musical styles.
 
 ![Img](/imgs/News/BarSymphony/Diagrams.gif)
   
-中间的“舞台点唱机”可以根据拜访者的喜好进行各种音乐风格的聚会，下部的“Speak-Easy Lounge”包含更多的商业和展览功能，包括数字藏品画廊、纪念品发售、发布会等，让这座建筑内发生更多的对话，探索元宇宙社交的更多可能性。 
+The "stage jukebox" in the middle can hold parties of various music styles according to the preferences of visitors, and the "Speak-Easy Lounge" in the lower part contains more commercial and exhibition functions, including digital collection galleries, souvenir sales, press conferences, etc. Let more conversations take place in this building and explore more possibilities for metaverse social interaction. 
+
 <p align="center">
 
 ![Img](/imgs/News/BarSymphony/Bartender.gif)
 
 </p>
-此外，我们为这个独一无二的元宇宙酒吧特别设计了一个NPC酒保-Hermit，是一个静坐隐士的形象，红蓝两色的能量环在进行着规则的上下运动。希望人们在追求热烈而亲密的社交的同时，能够同时保有自己内心的一片宁静。
+In addition, we specially designed an NPC bartender-Hermit for this unique metaverse bar, which is the image of a sedentary hermit, and the red and blue energy rings are moving up and down regularly. I hope that people can maintain their inner peace while pursuing warm and intimate social interaction. 
 
-:model-content{src='/model/house/scene.gltf'}
+<h2>Model Detail</h2>
+
+
+<p align="center"> 
+
+:model-content{src='/model/decentraland/barsymphony.glb'} 
+
+</p>
  
