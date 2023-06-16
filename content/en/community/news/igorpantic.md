@@ -1,5 +1,5 @@
 ---
-img: ""
+img: "/imgs/Community/News/igorpantic/001.png"
 topic: "About: Igor Pantic"
 title: "Mixed Reality Assisted Construction"
 description: "VAMX Master"

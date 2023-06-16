@@ -1,20 +1,20 @@
 ---
-img: ""
-topic: "About: Igor Pantic"
-title: "Mixed Reality Assisted Construction"
+img: "/imgs/Community/News/igorpantic/001.png"
+topic: "关于: Igor Pantic"
+title: "混合现实建造"
 description: "VAMX Master"
-author: "VAMX Community Team"
-resume: "TOPVERSE Shanghai HQ"
+author: "VAMX 社区团队"
+resume: "TOPVERSE 上海总部"
 publish: "10/06/2023"
 ---
 
-<h2>About</h2>
+<h2>关于Igor Pantic</h2>
 
-Igor Pantic is an architectural designer and educator based in London, and the founder of Studio Igor Pantic Ltd. He works at the convergence of computational design, digital fabrication and immersive AR/VR technologies, exploring the ways in which these disciplines influence how we design, make and perceive built and virtual environments.  
+Igor Pantic 是伦敦的建筑设计师和教育家，也是 Studio Igor Pantic Ltd 的创始人。他致力于计算设计、数字制造和沉浸式 AR/VR 技术的融合，探索这些学科如何影响我们的设计方式，制造和感知建筑和虚拟环境。  
 
-Igor is a Lecturer at The Bartlett School of Architecture UCL in London, where he is teaching at B-Pro Architectural Design (AD) program, leading the research which focuses on the application of Mixed Reality technologies in architectural design and fabrication, operating at the overlap between low-cost AR assisted fabrication and automation. He is also a Lecturer at the University of East London UEL, where he is teaching MArch Unit 6. In addition to this, he has lectured and taught computational design workshops and seminars internationally, and has previously co-directed the AA Visiting School in Vienna.  
+Igor 是伦敦大学学院巴特莱特建筑学院的讲师，他在 B-Pro 建筑设计 (AD) 项目任教，领导着重点研究混合现实技术在建筑设计和制造中的应用，在低成本 AR 辅助制造和自动化之间的重叠。他还是东伦敦大学 UEL 的讲师，教授建筑学硕士项目第 6 单元。除此之外，他还在国际范围内讲授和教授计算设计研讨会和研讨会，之前曾共同指导维也纳的AA(建筑联盟学院)访问学校。  
 
-Prior to establishing his own design studio, Igor spent 7 years with Zaha Hadid Architects in London, during which he worked on a large number of high-profile projects across scales. Igor holds a Master degree from the Architectural Association Design Research Lab (AADRL) in London, and the Faculty of Architecture, University of Belgrade, Serbia. 
+在建立自己的设计工作室之前，Igor 在伦敦的 Zaha Hadid Architects 工作了 7 年，在此期间他参与了大量备受瞩目的跨规模项目。 Igor 拥有伦敦建筑联盟学院数字研究实验室 (AADRL) 和塞尔维亚贝尔格莱德大学建筑学院的硕士学位。 
   
 ![Img](/imgs/Community/News/igorpantic/Steam_Odyssey_04_Exhibition_Photo-SoomeenHahm.jpg) 
 
@@ -22,24 +22,24 @@ Prior to establishing his own design studio, Igor spent 7 years with Zaha Hadid 
 
 ![Img](/imgs/Community/News/igorpantic/Steam_Odyssey_13_Construction_Photo-SD.jpg) 
 
-<h6>2021: A Steam Odyssey</h6> 
+<h6>2021: 蒸汽奥德赛</h6> 
 
-Project by: Igor Pantic and Soomeen Hahm Design Ltd  
-Design Team: Igor Pantic, Soomeen Hahm, Hanjun Kim  
-AR Construction Team: DaeWoong Kim, Shun Sasaki  
-AR App Design: MoFei Li  
-Video Edit: Yiguan Liu  
-Fabrication Contributors: Lou Xiao, Minxuo Qi, Ji Qi, Shelley Luo, Jiin Jeong, Kevin Foley, Ilaria Lu, Alexandeos Lewis, Jonah Klinghoffer, Burak Celik, SangHyun Suh, Eva Besmerti, Carlo Stuken  
-Engineering Consultants: Format Engineering (UK)  
-Photography: Joshua White, Soomeen Hahm  
+项目设计: Igor Pantic and Soomeen Hahm Design Ltd  
+设计团队: Igor Pantic, Soomeen Hahm, Hanjun Kim  
+混合现实搭建: DaeWoong Kim, Shun Sasaki  
+混合现实应用开发: MoFei Li  
+多媒体剪辑: Yiguan Liu  
+现场材料制造: Lou Xiao, Minxuo Qi, Ji Qi, Shelley Luo, Jiin Jeong, Kevin Foley, Ilaria Lu, Alexandeos Lewis, Jonah Klinghoffer, Burak Celik, SangHyun Suh, Eva Besmerti, Carlo Stuken  
+工程顾问: Format Engineering (UK)  
+摄影团队: Joshua White, Soomeen Hahm  
 
 ![Img](/imgs/Community/News/igorpantic/Hisense_NEM_07.jpg) 
 
 ![Img](/imgs/Community/News/igorpantic/Hisense_NEM_08.jpg) 
 
-<h6>Hisense Nature Exploration Museum</h6> 
+<h6>海信自然博物馆</h6> 
 
-Design by: Igor Pantic, Soomeen Hahm, Jakub Klaska  
-In collaboration with Atelier One and Many (AOM Beijing): Kuo Wang, Guang Guo, Yue Zhang, Wenze Liu, Jing Wu  
-Exhibition Design consultant: PTM - Derek Fan, Yun Zhang, Haijing Qiu  
-Lighting Consultant: Gradiant Lighting Design - Chloe Zhang  
+项目设计: Igor Pantic, Soomeen Hahm, Jakub Klaska  
+联合体单位：Atelier One and Many (AOM Beijing): Kuo Wang, Guang Guo, Yue Zhang, Wenze Liu, Jing Wu  
+策展顾问: PTM - Derek Fan, Yun Zhang, Haijing Qiu  
+灯光顾问: Gradiant Lighting Design - Chloe Zhang  
