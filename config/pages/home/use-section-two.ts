@@ -13,6 +13,11 @@ export function useSectionTwo() {
             title: 'China Tower',
           },
           {
+            img: '/imgs/Partners/500/CASCI.png',
+            href: 'https://weibo.com/u/7418885402?nick=%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E6%96%87%E5%88%9B&noscript=1&is_all=1',
+            title: 'CASCI',
+          },
+          {
             img: '/imgs/Partners/500/MUA.png',
             href: 'https://muadao.build/',
             title: 'MUA DAO',
@@ -23,6 +28,11 @@ export function useSectionTwo() {
             title: 'SoomeenHahm Design',
           },
           {
+            img: '/imgs/Partners/500/+-indecrease.png',
+            href: '#',
+            title: '[+][-]INDECREASE',
+          },
+          {
             img: '/imgs/Partners/500/archipocket.png',
             href: 'https://www.archipocket.com/',
             title: 'ArchiPocket',
@@ -31,11 +41,6 @@ export function useSectionTwo() {
             img: '/imgs/Partners/500/BrainUp.png',
             href: 'https://www.naolubrain.com/',
             title: 'BrainUp',
-          },
-          {
-            img: '/imgs/Partners/500/CASCI.png',
-            href: 'https://weibo.com/u/7418885402?nick=%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E6%96%87%E5%88%9B&noscript=1&is_all=1',
-            title: 'CASCI',
           },
         ],
       },
