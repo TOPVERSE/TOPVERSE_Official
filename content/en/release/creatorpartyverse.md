@@ -8,6 +8,14 @@ resume: "TOPVERSE® Studio Shanghai"
 publish: "07/10/2022"
 ---
 
+<p align="center"> 
+
+:model-content{src='/model/decentraland/creatorpartyverse.gltf'} 
+
+</p> 
+
+---
+
 "Creator Party-verse" is one of the two award-winning projects of TOPVERSE® participating in the global metaverse architectural design competition PARCEL Creatorverse, and it is sponsored by Decentraland and its officially recognized digital collections and virtual real estate transactions The platform Parcel will push the report jointly, and its chief operating officer Kelly Kim will give a dubbing explanation. The building will also be deployed on MUA 2049, a sub-event of the TOKEN 2049 series in Singapore, from September 25 to 28, 2022. It has received the attention and push of many leading Web 3.0 media, and is officially reported by Decentraland, the world's largest metaverse platform.  
   
   ![Img](/imgs/News/PARCELCreatorverse/AwardImage.jpg)
@@ -36,13 +44,8 @@ publish: "07/10/2022"
 
   The metaverse building "Creator Party-verse" designed by TOPVERSE serves as a Web 3.0 information platform TECH FLOW, a cryptocurrency trading platform with the largest transaction volume in the world (calculated in US dollars) and nearly 20 million global users KUCOIN and the P2E platform FitR are the main positions of the three leading project parties on the track, and the global Web 3.0 decentralized network platform users will hold the metaverse feast of TOKEN2049 together.
 
-<h2>Model</h2>
 
 
-<p align="center"> 
 
-:model-content{src='/model/decentraland/creatorpartyverse.gltf'} 
-
-</p>
 
  

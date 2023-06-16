@@ -8,6 +8,14 @@ resume: "TOPVERSE® Studio Shanghai"
 publish: "07/10/2022"
 ---
 
+<p align="center"> 
+
+:model-content{src='/model/decentraland/barsymphony.glb'} 
+
+</p>
+
+---
+
   ![Img](/imgs/News/BarSymphony/20230524175132.jpg)
 
 
@@ -31,12 +39,5 @@ The "stage jukebox" in the middle can hold parties of various music styles accor
 </p>
 In addition, we specially designed an NPC bartender-Hermit for this unique metaverse bar, which is the image of a sedentary hermit, and the red and blue energy rings are moving up and down regularly. I hope that people can maintain their inner peace while pursuing warm and intimate social interaction. 
 
-<h2>Model Detail</h2>
 
-
-<p align="center"> 
-
-:model-content{src='/model/decentraland/barsymphony.glb'} 
-
-</p>
  
