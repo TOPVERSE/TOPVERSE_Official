@@ -72,6 +72,8 @@ export default defineConfig({
     'i-ri-twitter-fill',
     'i-iconoir-brain-electricity',
     'i-material-symbols-shelf-auto-hide',
+    'i-medical-icon-i-medical-library',
+    'i-medical-icon-i-health-services',
   ],
   presets: [
     presetAnu(),

@@ -6,7 +6,7 @@ export function useSectionEight() {
       {
         title: 'home.sectionEight.content.title[0]',
         description: 'home.sectionEight.content.topic[0]',
-        icon: 'i-subway-basket',
+        icon: 'i-medical-icon-i-health-services',
       },
       {
         title: 'home.sectionEight.content.title[1]',
