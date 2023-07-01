@@ -130,7 +130,29 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: appDescription },
         { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
+        {
+          name: 'baidu-site-verification',
+          content: 'codeva-Kp2zJogRLy',
+        },
+        {
+          name: 'baidu-site-verification',
+          content: 'codeva-SHLbtRS3fs',
+        },
+        {
+          name: 'msvalidate.01',
+          content: '65342CA07E5F201B3D48569C2E706FDA',
+        },
       ],
+      // script: [{
+      //   innerHTML: `
+      //   (function(c,l,a,r,i,t,y){
+      //     c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      //     t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      //     y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      //   })(window, document, "clarity", "script", "hmbju0mzmd");
+      //   `,
+      //   type: 'text/javascript',
+      // }],
     },
   },
 

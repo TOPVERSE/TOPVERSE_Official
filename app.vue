@@ -8,8 +8,6 @@ useHead({
   },
 })
 const dark = usePreferredDark()
-
-console.log(dark)
 </script>
 
 <template>
