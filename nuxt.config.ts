@@ -139,6 +139,10 @@ export default defineNuxtConfig({
           content: 'codeva-SHLbtRS3fs',
         },
         {
+          name: 'baidu-site-verification',
+          content: 'codeva-lpuY2ux6I7',
+        },
+        {
           name: 'msvalidate.01',
           content: '65342CA07E5F201B3D48569C2E706FDA',
         },
