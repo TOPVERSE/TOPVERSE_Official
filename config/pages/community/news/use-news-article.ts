@@ -1,6 +1,17 @@
 export function useNewsArticle() {
   return [
     {
+      title: 'VAMX Seminar Seires 1: Architecture',
+      author: 'VAMX Community Team',
+      profession: 'UCL Bartlett School of Architecture',
+      img: '/imgs/Community/News/s1seminar/MainCover.jpg',
+      tags: ['Academy'],
+      href: '/community/news/vamxseminar_s1',
+      level: 2,
+      avatar: '/imgs/Community/Avatar/topverse.png',
+      createTime: '2023/7/25',
+    },
+    {
       title: 'VAMX Academy: Bartlett RC-9',
       author: 'VAMX Community Team',
       profession: 'UCL Bartlett School of Architecture',
