@@ -43,12 +43,15 @@ const footer = useFoot()
     <p class="text-center">
       {{ $t(footer.release) }}
     </p>
-    <p v-for="(record, i) in footer.record" :key="i" class="text-center">
+    <!-- <p v-for="(record, i) in footer.record" :key="i" class="text-center">
       {{ $t(record) }}
-    </p>
-    <p class="text-center">
+    </p> -->
+    <a class="text-center" href="https://beian.miit.gov.cn" target="_blank">
+      沪ICP备2023010651号-1
+    </a>
+    <a class="text-center" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502052580" target="_blank">
       <img src="https://pic3.zhimg.com/80/v2-d0289dc0a46fc5b15b3363ffa78cf6c7.png" class="inline scale-90 px-1">
       京公网安备 11010502052580号
-    </p>
+    </a>
   </div>
 </template>
