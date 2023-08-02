@@ -178,7 +178,7 @@ const sectionNine = useSectionNine()
         class="w-full text-center"
       >
         <div :class="content.icon" mb-5 h-60px w-full />
-        <h4 mb-1 text-h4 font-bold>
+        <h4 text-h4 mb-1 font-bold>
           {{ $t(content.title) }}
         </h4>
         <p text-h7>
