@@ -1,50 +1,16 @@
 <script setup lang="ts">
-import { useSectionSix } from '~/config/pages/home/use-section-six'
+import { useMixedReality } from '~/config/pages/solutions/use-mixed-reality'
 
-const sectionOne = {
-  topic: 'home.sectionOne.topic',
-  description: 'home.sectionOne.description',
-  content: [
-    {
-      title: 'home.sectionOne.content.title[0]',
-      subtext: 'home.sectionOne.content.subtext[0]',
-      description: 'home.sectionOne.content.description[0]',
-    },
-    {
-      title: 'home.sectionOne.content.title[1]',
-      subtext: 'home.sectionOne.content.subtext[1]',
-      description: 'home.sectionOne.content.description[1]',
-    },
-    {
-      title: 'home.sectionOne.content.title[2]',
-      subtext: 'home.sectionOne.content.subtext[2]',
-      description: 'home.sectionOne.content.description[2]',
-    },
-    {
-      title: 'home.sectionOne.content.title[2]',
-      subtext: 'home.sectionOne.content.subtext[2]',
-      description: 'home.sectionOne.content.description[2]',
-    },
-  ],
-}
-
-const data = {
-  img: '/imgs/Project/Metaverse-Build/MusicVenue.jpg',
-  topic: 'Never Drink Alone：The Bar Symphony',
-  title: 'Metaverse Space Design',
-  description: 'Award-Winning Project',
-}
-
-const sectionSix = useSectionSix()
+const mixedReality = useMixedReality()
 </script>
 
 <template>
-  <SectionBanner :img="data?.img" :title="data?.title" :topic="data?.topic" :description="data?.description" font-bold text-white />
+  <SectionBanner :img="mixedReality.head?.img" :title="mixedReality.head?.title" :topic="mixedReality.head?.topic" :description="mixedReality.head?.description" font-bold text-white />
 
   <Section>
-    <Typography :topic=" $t(sectionSix.topic) " :description=" $t(sectionSix.description) " />
+    <Typography :topic=" $t(mixedReality.solutions.topic) " :description=" $t(mixedReality.solutions.description) " />
 
-    <div v-for="(item, i) in sectionSix.content" :key="i" class="flex flex-wrap gap-6 py-10 md:flex-nowrap" :class="{ 'flex-row-reverse': i % 2 === 0 }">
+    <div v-for="(item, i) in mixedReality.solutions.content" :key="i" class="flex flex-wrap gap-6 py-10 md:flex-nowrap" :class="{ 'flex-row-reverse': i % 2 === 0 }">
       <div class="w-45% flex-grow">
         <div class="relative h-full w-full flex items-center justify-center overflow-hidden border-6px border-dark-50/10 rounded-xl dark:border-light-50/10" style="mask-image:linear-gradient(0deg, transparent, #000);-webkit-mask-image:linear-gradient(0deg, transparent, #000 60%);">
           <ImageLoading quality="20" :src="item.img" :err-src="item.errImg" class="h-full w-full" fit="cover" height="300" width="600" loading="lazy" />

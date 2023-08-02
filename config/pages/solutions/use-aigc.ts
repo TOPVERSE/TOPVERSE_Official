@@ -1,4 +1,4 @@
-export function useWeb3() {
+export function useAIGC() {
   return {
     head: {
       img: '/imgs/Project/Metaverse-Build/MusicVenue.jpg',
