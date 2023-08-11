@@ -1,7 +1,7 @@
 <template>
   <NuxtPage />
 
-  <Section>
+  <!-- <Section>
     <div class="grid-row rounded-lg from-violet-500 to-fuchsia-500 bg-gradient-to-r p-5 text-white shadow-lg lg:(grid-cols-2)">
       <ATypography
         class="text-white"
@@ -14,10 +14,10 @@
           <AInput placeholder="邮箱" class="col-start-1 w-full text-sm" input-wrapper-classes="bg-light-50" />
           <ABtn>test</ABtn>
         </div>
-        <!-- <ACheckbox>
+        <ACheckbox>
           <span>同意接收来自我们的消息</span>
-        </ACheckbox> -->
+        </ACheckbox>
       </div>
     </div>
-  </Section>
+  </Section> -->
 </template>
