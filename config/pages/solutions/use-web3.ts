@@ -2,10 +2,10 @@ export function useWeb3() {
   return {
     ending: 'Ajlksdjflajsd;lfja;ldf',
     head: {
-      img: '/imgs/Project/Metaverse-Build/MusicVenue.jpg',
-      topic: 'Never Drink Alone：The Bar Symphony',
-      title: 'Metaverse Space Design',
-      description: 'Award-Winning Project',
+      img: '/imgs/Solutions/Web3/web3blockchainheader.png',
+      topic: '互联网3.0内容及交互生态',
+      title: '元宇宙空间及数字经济',
+      description: '解决方案',
     },
     feature: {
       topic: 'home.sectionEight.topic',

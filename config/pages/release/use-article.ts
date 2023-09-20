@@ -1,6 +1,17 @@
 export function useArticle() {
   return [
     {
+      title: 'TOPVERSE获得2023首届全国数商大赛优胜奖',
+      subtitle: 'Sakura City 于2023全球人工智能大会线下路演',
+      img: '/imgs/News/gid2023/2023092018355800.jpg',
+      tags: ['Web 3.0'],
+      href: '/release/gid2023',
+      author: 'Metaverse & Interaction Studio',
+      profession: 'TOPVERSE Shanghai Studio',
+      avatar: '/imgs/Community/Avatar/topverse.png',
+      createTime: '2023/7/8',
+    },
+    {
       title: 'TOPVERSE与UCL Bartlett第九研究室共同成立VAMX数研组',
       subtitle: 'VR/AR/MR/XR工程师、设计师与开发者开放学术社区',
       img: '/imgs/Release/vamxlaunch/008.png',
