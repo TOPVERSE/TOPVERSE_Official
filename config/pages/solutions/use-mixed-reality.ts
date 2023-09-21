@@ -2,10 +2,10 @@ export function useMixedReality() {
   return {
     ending: 'Ajlksdjflajsd;lfja;ldf',
     head: {
-      img: '/imgs/Project/Metaverse-Build/MusicVenue.jpg',
-      topic: 'Never Drink Alone：The Bar Symphony',
-      title: 'Metaverse Space Design',
-      description: 'Award-Winning Project',
+      img: '/imgs/Solutions/Mixed Reality/virtual-1.jpg',
+      topic: '基于AR/VR/MR/XR技术的混合现实解决方案',
+      title: '打开行业元宇宙应用的大门',
+      description: 'Mixed Reality Metaverse Solution',
     },
     feature: {
       topic: 'home.sectionEight.topic',

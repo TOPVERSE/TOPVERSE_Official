@@ -159,6 +159,16 @@ export function useSectionTwo() {
             href: 'https://www.ieee.org/',
             title: 'IEEE',
           },
+          {
+            img: '/imgs/Partners/500/WMC.png',
+            href: 'https://www.worldmetaverseconference.com/',
+            title: 'World Metaverse Conference',
+          },
+          {
+            img: '/imgs/Partners/500/SHDW.png',
+            href: 'https://www.shdesignweek.com/',
+            title: 'Shanghai International Design Week',
+          },
 
         ],
       },
