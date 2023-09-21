@@ -1,6 +1,6 @@
 ---
 img: "/imgs/Community/News/s1seminar/Banner.jpg"
-topic: "VAMX数研组首期系列论坛：混合现实智能建造技术"
+topic: "VAMX数研组系列论坛第二期：混合现实智能建造技术"
 title: "混合现实智能建造技术及学术社区启动会"
 description: "VAMX Master"
 author: "VAMX 社区团队"
