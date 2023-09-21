@@ -1,6 +1,6 @@
 export function useMixedReality() {
   return {
-    ending: 'Ajlksdjflajsd;lfja;ldf',
+    ending: 'home.sectionMixedReality.ending',
     head: {
       img: '/imgs/Solutions/Mixed Reality/virtual-1.jpg',
       topic: '基于AR/VR/MR/XR技术的混合现实解决方案',
@@ -55,12 +55,12 @@ export function useMixedReality() {
       ],
     },
     solutions: {
-      title: 'home.sectionFour.title',
-      topic: 'home.sectionFour.topic',
-      description: 'home.sectionFour.description',
+      title: 'home.sectionMixedReality.title',
+      topic: 'home.sectionMixedReality.topic',
+      description: 'home.sectionMixedReality.description',
       link: {
-        name: 'home.sectionFour.link',
-        href: '#',
+        name: 'home.sectionMixedReality.link',
+        href: '/release',
       },
       content: [
         {
