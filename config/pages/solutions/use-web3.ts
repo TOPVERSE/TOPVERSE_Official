@@ -1,6 +1,6 @@
 export function useWeb3() {
   return {
-    ending: 'Ajlksdjflajsd;lfja;ldf',
+    ending: 'home.sectionWeb3.ending',
     head: {
       img: '/imgs/Solutions/Web3/web3blockchainheader.png',
       topic: '互联网3.0内容及交互生态',
