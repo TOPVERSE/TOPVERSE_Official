@@ -8,8 +8,8 @@ jobs:
     # container: catthehacker/ubuntu:act-latest
     container:
       image: ghcr.nju.edu.cn/catthehacker/ubuntu:act-latest
-      # volumes:
-      #   - /run/docker.sock:/run/docker.sock
+      volumes:
+        - /run/docker.sock:/run/docker.sock
     # env:
     #   DOCKER_ORG: gitea
     #   DOCKER_LATEST: latest
