@@ -5,6 +5,9 @@ on: [push]
 jobs:
   Explore-Gitea-Actions:
     runs-on: server
+    container:
+      volumes:
+        - /run/docker.sock:/run/docker.sock
     steps:
       - run: docker build --pull --rm -f "Dockerfile" -t website-v1:latest "."
       - run: docker rm -f website-v1 || true
