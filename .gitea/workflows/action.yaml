@@ -6,7 +6,7 @@ jobs:
   Explore-Gitea-Actions:
     runs-on: server
     container:
-      image: ghcr.io/catthehacker/ubuntu:act-latest
+      image: ghcr.nju.edu.cn/catthehacker/ubuntu:act-latest
       volumes:
         - /run/docker.sock:/run/docker.sock
     steps:
