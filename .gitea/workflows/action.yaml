@@ -20,7 +20,9 @@ jobs:
           git clone http://www.topverse.world:3000/huxin/TOPVERSE_Official /opt/website
 
       - name: Build
-        run: docker build -t website-v1:latest "."
+        run: |
+          cd /opt/website
+          docker build -t website-v1:latest "."
       
       - name: Deploy
         run: |
