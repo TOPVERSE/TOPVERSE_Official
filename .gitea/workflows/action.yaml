@@ -8,16 +8,31 @@ jobs:
     # container: catthehacker/ubuntu:act-latest
     container:
       image: ghcr.nju.edu.cn/catthehacker/ubuntu:act-latest
-      volumes:
-        - /run/docker.sock:/run/docker.sock
+      # volumes:
+      #   - /run/docker.sock:/run/docker.sock
     # env:
     #   DOCKER_ORG: gitea
     #   DOCKER_LATEST: latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # all history for all branches and tags
+      - name: Clone
+        run: |
+          rm -rf $CLONED_REPO_DIR
+          git clone $BARE_REPO_DIR $CLONED_REPO_DIR
+
+      - name: Build
+        run: docker build -t website-v1:latest "."
+      
+      - name: Deploy
+        run: |
+          docker stop website-v1 || true
+          docker rm -f website-v1 || true
+          docker run -d -p 19555:80 --restart=unless-stopped --name website-v1 website-v1
+          docker rmi $(docker images -f "dangling=true" -q) || true
+          docker ps
+      # - name: Checkout
+      #   uses: actions/checkout@v4
+      #   with:
+      #     fetch-depth: 0 # all history for all branches and tags
 
       # - name: Set up QEMU
       #   uses: docker/setup-qemu-action@v3
@@ -49,8 +64,8 @@ jobs:
       #     tags: |
       #       ${{ env.DOCKER_ORG }}/${{ steps.meta.outputs.REPO_NAME }}:${{ env.DOCKER_LATEST }}      
 
-      - run: docker build -t website-v1:latest "."
-      - run: docker rm -f website-v1 || true
-      - run: docker run -d -p 19555:80 --restart=unless-stopped --name website-v1 website-v1
-      - run: docker rmi $(docker images -f "dangling=true" -q) || true
-      - run: docker ps
+      # - run: docker build -t website-v1:latest "."
+      # - run: docker rm -f website-v1 || true
+      # - run: docker run -d -p 19555:80 --restart=unless-stopped --name website-v1 website-v1
+      # - run: docker rmi $(docker images -f "dangling=true" -q) || true
+      # - run: docker ps
