@@ -8,14 +8,15 @@ COPY . .
 
 
 # RUN npm config set registry https://mirrors.tuna.tsinghua.edu.cn/npm
-RUN npm install -g pnpm
+# RUN npm install -g pnpm
 # RUN pnpm config set registry https://mirrors.tuna.tsinghua.edu.cn/npm
 # 下载编译
-RUN pnpm i
+# RUN pnpm i
 # RUN pnpm build
-RUN pnpm generate 
+# RUN pnpm generate 
+RUN yarn
 # RUN yarn build
-# RUN yarn generate
+RUN yarn generate
 
 
 
