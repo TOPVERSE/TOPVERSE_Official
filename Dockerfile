@@ -14,6 +14,7 @@ COPY . .
 # RUN pnpm i
 # RUN pnpm build
 # RUN pnpm generate 
+RUN yarn config set registry https://registry.npmmirror.com
 RUN yarn
 # RUN yarn build
 RUN yarn generate
