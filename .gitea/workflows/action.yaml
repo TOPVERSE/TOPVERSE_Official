@@ -16,8 +16,8 @@ jobs:
     steps:
       - name: Clone
         run: |
-          rm -rf $CLONED_REPO_DIR
-          git clone $BARE_REPO_DIR $CLONED_REPO_DIR
+          rm -rf /opt/website
+          git clone http://www.topverse.world:3000/huxin/TOPVERSE_Official /opt/website
 
       - name: Build
         run: docker build -t website-v1:latest "."
