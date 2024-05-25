@@ -14,10 +14,12 @@ jobs:
     #   DOCKER_ORG: gitea
     #   DOCKER_LATEST: latest
     steps:
-      - name: Build & Deploy
+      - name: To Main
+        run: cd /opt/workspace/TOPVERSE_Official
+      - name: Git PULL
+        run: git pull
+      - name: Install & Build
         run: |
-          cd /opt/workspace/TOPVERSE_Official
-          git pull
           pnpm i 
           pnpm generate
       # - name: Build
