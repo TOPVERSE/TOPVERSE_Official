@@ -4,7 +4,7 @@ $defineProps<{
   topic: string
   description?: string
   href: string
-  imgClass: string
+  imgClass?: string
 }>()
 </script>
 
