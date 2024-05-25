@@ -5,7 +5,7 @@ on: [push]
 jobs:
   Explore-Gitea-Actions:
     runs-on: server
-    # container: catthehacker/ubuntu:act-latest
+    container: node:21
     # container:
     #   image: ghcr.nju.edu.cn/catthehacker/ubuntu:act-latest
       # volumes:
@@ -14,16 +14,16 @@ jobs:
     #   DOCKER_ORG: gitea
     #   DOCKER_LATEST: latest
     steps:
-      - run: echo "testseetsetsetstse"
+      # - run: echo "testseetsetsetstse"
       # - name: To Main
-        # run: cd /opt/workspace/TOPVERSE_Official
+      #   run: cd /opt/workspace/TOPVERSE_Official
       # - name: Git
       #   run: git clone http://127.0.0.1:3000/huxin/TOPVERSE_Official /opt/workspace/website
-      # - name: Install & Build
-      #   run: |
-      #     cd /opt/workspace/website
-      #     pnpm i 
-      #     pnpm generate
+      - name: Install & Build
+        run: |
+          cd /data/TOPVERSE_Official
+          pnpm i 
+          pnpm generate
       # - name: Build
       #   run: 
       
