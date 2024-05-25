@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   Explore-Gitea-Actions:
-    runs-on: linux_centos
+    runs-on: server
     # container: catthehacker/ubuntu:act-latest
     # container:
     #   image: ghcr.nju.edu.cn/catthehacker/ubuntu:act-latest
