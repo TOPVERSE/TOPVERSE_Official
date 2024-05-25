@@ -4,24 +4,23 @@ on: [push]
 
 jobs:
   Explore-Gitea-Actions:
-    runs-on: server
+    runs-on: ubuntu-latest
     # container: catthehacker/ubuntu:act-latest
-    container:
-      image: ghcr.nju.edu.cn/catthehacker/ubuntu:act-latest
+    # container:
+    #   image: ghcr.nju.edu.cn/catthehacker/ubuntu:act-latest
       # volumes:
       #   - /run/docker.sock:/run/docker.sock
     # env:
     #   DOCKER_ORG: gitea
     #   DOCKER_LATEST: latest
     steps:
-      - name: Clone
-        run: |
-          rm -rf /opt/website
-          git clone http://www.topverse.world:3000/huxin/TOPVERSE_Official /opt/website
+      # - name: Clone
+      #   run: |
+      #     rm -rf /opt/website
+      #     git clone http://www.topverse.world:3000/huxin/TOPVERSE_Official /opt/website
 
       - name: Build
         run: |
-          cd /opt/website
           docker build -t website-v1:latest "."
       
       - name: Deploy
