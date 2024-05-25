@@ -16,13 +16,13 @@ jobs:
     steps:
       # - run: echo "testseetsetsetstse"
       - name: To Main
-        run: cd /opt/workspace/TOPVERSE_Official
+        run: 
       # - name: Git
       #   run: git clone http://www.topverse.world:3000/huxin/TOPVERSE_Official /opt/workspace/website
       - name: Install
-        run: pnpm i
+        run: cd /opt/workspace/TOPVERSE_Official && pnpm i
       - name: Build
-        run: pnpm generate
+        run: cd /opt/workspace/TOPVERSE_Official && pnpm generate
       # - name: Build
       #   run: 
       
