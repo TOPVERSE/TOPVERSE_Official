@@ -19,11 +19,10 @@ jobs:
         run: cd /opt/workspace/TOPVERSE_Official
       # - name: Git
       #   run: git clone http://www.topverse.world:3000/huxin/TOPVERSE_Official /opt/workspace/website
-      - name: Install & Build
-        run: |
-          cd /opt/workspace/TOPVERSE_Official
-          pnpm i 
-          pnpm generate
+      - name: Install
+        run: pnpm i
+      - name: Build
+        run: pnpm generate
       # - name: Build
       #   run: 
       
