@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   Explore-Gitea-Actions:
-    runs-on: server
+    runs-on: linux_centos
     # container: catthehacker/ubuntu:act-latest
     # container:
     #   image: ghcr.nju.edu.cn/catthehacker/ubuntu:act-latest
@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Build & Deploy
         run: |
-          cd /data/TOPVERSE_Official
+          cd /opt/workspace/TOPVERSE_Official
           git pull
           
           docker build -t website-v1:latest "."
