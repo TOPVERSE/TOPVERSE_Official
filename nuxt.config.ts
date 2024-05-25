@@ -16,7 +16,7 @@ export default defineNuxtConfig({
     '@vue-macros/nuxt',
     '@nuxt/content',
     '@nuxtjs/color-mode',
-    '@vite-pwa/nuxt',
+    // '@vite-pwa/nuxt',
     // '@aceforth/nuxt-optimized-images',
     // '@vueuse/components',
     // '@nuxt/image',
@@ -160,7 +160,7 @@ export default defineNuxtConfig({
     },
   },
 
-  pwa,
+  // pwa,
 
   devtools: {
     enabled: true,

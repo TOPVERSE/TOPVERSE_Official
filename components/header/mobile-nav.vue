@@ -45,7 +45,7 @@ const flag: any = {
             {{ $t(nav.title) }}
           </div>
 
-          <div class="grid-row gap-1 sm:grid-cols-2">
+          <div class="grid gap-1 sm:grid-cols-2">
             <LocaleNuxtLink v-for="(item, index) in nav.child" :key="index" :href="item.href" class="w-full overflow-hidden rounded py-1 hover:(bg-primary/20)" active-class="bg-primary/20">
               <AListItem
                 class="[--a-spacing:1] max-w-300px"

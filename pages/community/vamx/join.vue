@@ -23,7 +23,7 @@ const { data } = await useAsyncData(`content-${path}`, () => {
           > -->
 
         <div class="a-card-body divide-y-1 divide-dark-50/10 a-card-spacer">
-          <div class="grid grid-rows-2 gap-y-3">
+          <div class="grid grids-2 gap-y-3">
             <ACheckbox
               v-for="tag in tags"
               :key="tag.value"
@@ -64,7 +64,7 @@ const { data } = await useAsyncData(`content-${path}`, () => {
           > -->
 
           <div class="a-card-body divide-y-1 divide-dark-50/10 a-card-spacer">
-            <div class="grid grid-rows-2 gap-y-3">
+            <div class="grid grids-2 gap-y-3">
               <ACheckbox
                 v-for="tag in tags"
                 :key="tag.value"

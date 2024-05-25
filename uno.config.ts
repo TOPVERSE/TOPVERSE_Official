@@ -10,7 +10,7 @@ import {
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
-import { presetAnu, presetIconExtraProperties } from 'anu-vue'
+import { presetAnu,  presetIconExtraProperties } from 'anu-vue'
 import { presetExtra } from 'unocss-preset-extra'
 import { presetScrollbar } from 'unocss-preset-scrollbar'
 import { presetScrollbarHide } from 'unocss-preset-scrollbar-hide'
@@ -104,10 +104,10 @@ export default defineConfig({
     presetAnu(),
     // default theme preset
     presetThemeDefault({
-      shortcutOverrides: {
-        'a-btn': 'ring-3 ring-primary',
-        'a-base-input-root': 'ring-3',
-      },
+      // shortcutOverrides: {
+        // 'a-btn': 'ring-3 ring-primary',
+        // 'a-base-input-root': 'ring-3',
+      // },
     }),
     presetUno(),
     presetMini(),

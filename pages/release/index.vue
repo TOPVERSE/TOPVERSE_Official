@@ -33,7 +33,7 @@ const list = computed(() => {
           > -->
 
         <div class="a-card-body a-card-spacer">
-          <div class="grid grid-rows-2 gap-y-3">
+          <div class="grid grids-2 gap-y-3">
             <ACheckbox
               v-for="tag in tags"
               :key="tag.value"
@@ -63,7 +63,7 @@ const list = computed(() => {
           > -->
 
           <div class="a-card-body a-card-spacer">
-            <div class="grid grid-rows-2 gap-y-3">
+            <div class="grid grids-2 gap-y-3">
               <ACheckbox
                 v-for="tag in tags"
                 :key="tag.value"
@@ -78,7 +78,7 @@ const list = computed(() => {
         </ACard>
       </div>
 
-      <div class="3xl:grid-cols-4 grid-row w-full pb-10 2xl:grid-cols-3 lg:grid-cols-2">
+      <div class="3xl:grid-cols-4 grid gap-4 w-full pb-10 2xl:grid-cols-3 lg:grid-cols-2">
         <!-- 👉 2nd card -->
         <Card
           v-for="(item, i) in list"

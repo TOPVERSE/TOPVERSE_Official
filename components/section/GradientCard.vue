@@ -21,7 +21,7 @@ const colors = [
 <template>
   <Section>
     <Typography :topic="$t(topic)" />
-    <div class="grid-row gap-10 pt-20 md:(grid-cols-2)" :class="`lg:grid-cols-${content.length}`">
+    <div class="grid gap-10 pt-20 md:(grid-cols-2)" :class="`lg:grid-cols-${content.length}`">
       <div
         v-for="(col, i) in content"
         :key="i"
