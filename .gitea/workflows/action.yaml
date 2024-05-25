@@ -22,7 +22,7 @@ jobs:
       - name: Install
         run: cd /opt/workspace/TOPVERSE_Official && pnpm i
       - name: Build
-        run: cd /opt/workspace/TOPVERSE_Official && pnpm generate
+        run: cd /opt/workspace/TOPVERSE_Official && pnpm build
       # - name: Build
       #   run: 
       
