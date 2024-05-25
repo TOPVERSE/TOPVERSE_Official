@@ -12,7 +12,7 @@ RUN npm install -g pnpm
 RUN pnpm config set registry https://registry.npmmirror.com
 # 下载编译
 RUN pnpm i
-RUN pnpm build
+# RUN pnpm build
 RUN pnpm generate 
 # RUN yarn config set registry https://registry.npmmirror.com
 # RUN yarn
