@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Build & Deploy
         run: |
-          cd /opt/workspace/TOPVERSE_Official
+          cd /data/TOPVERSE_Official
           git pull
           docker build -t website-v1:latest "."
           docker stop website-v1 || true
