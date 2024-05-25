@@ -14,7 +14,7 @@ jobs:
     #   DOCKER_ORG: gitea
     #   DOCKER_LATEST: latest
     steps:
-      - run echo "testseetsetsetstse"
+      - run: echo "testseetsetsetstse"
       # - name: To Main
         # run: cd /opt/workspace/TOPVERSE_Official
       # - name: Git
