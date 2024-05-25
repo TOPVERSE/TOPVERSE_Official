@@ -14,22 +14,23 @@ jobs:
     #   DOCKER_ORG: gitea
     #   DOCKER_LATEST: latest
     steps:
-      # - name: Clone
-      #   run: |
-      #     rm -rf /opt/website
-      #     git clone http://www.topverse.world:3000/huxin/TOPVERSE_Official /opt/website
+      - name: Clone
+        run: |
+          rm -rf /opt/website
+          git clone http://www.topverse.world:3000/huxin/TOPVERSE_Official /opt/website
 
-      # - name: Build
-      #   run: |
-      #     docker build -t website-v1:latest "."
+      - name: Build
+        run: |
+          cd /opt/website
+          docker build -t website-v1:latest "."
       
-      # - name: Deploy
-      #   run: |
-      #     docker stop website-v1 || true
-      #     docker rm -f website-v1 || true
-      #     docker run -d -p 19555:80 --restart=unless-stopped --name website-v1 website-v1
-      #     docker rmi $(docker images -f "dangling=true" -q) || true
-      #     docker ps
+      - name: Deploy
+        run: |
+          docker stop website-v1 || true
+          docker rm -f website-v1 || true
+          docker run -d -p 19555:80 --restart=unless-stopped --name website-v1 website-v1
+          docker rmi $(docker images -f "dangling=true" -q) || true
+          docker ps
       # - name: Checkout
       #   uses: actions/checkout@v4
       #   with:
@@ -65,8 +66,8 @@ jobs:
       #     tags: |
       #       ${{ env.DOCKER_ORG }}/${{ steps.meta.outputs.REPO_NAME }}:${{ env.DOCKER_LATEST }}      
 
-      - run: docker build -t website-v1:latest "."
-      - run: docker rm -f website-v1 || true
-      - run: docker run -d -p 19555:80 --restart=unless-stopped --name website-v1 website-v1
-      - run: docker rmi $(docker images -f "dangling=true" -q) || true
-      - run: docker ps
+      # - run: docker build -t website-v1:latest "."
+      # - run: docker rm -f website-v1 || true
+      # - run: docker run -d -p 19555:80 --restart=unless-stopped --name website-v1 website-v1
+      # - run: docker rmi $(docker images -f "dangling=true" -q) || true
+      # - run: docker ps
