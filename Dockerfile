@@ -7,17 +7,17 @@ COPY . .
 # ARG env_file
 
 
-# RUN npm config set registry https://mirrors.tuna.tsinghua.edu.cn/npm
-# RUN npm install -g pnpm
-# RUN pnpm config set registry https://mirrors.tuna.tsinghua.edu.cn/npm
+RUN npm config set registry https://registry.npmmirror.com
+RUN npm install -g pnpm
+RUN pnpm config set registry https://registry.npmmirror.com
 # 下载编译
-# RUN pnpm i
+RUN pnpm i
 # RUN pnpm build
-# RUN pnpm generate 
-RUN yarn config set registry https://registry.npmmirror.com
-RUN yarn
+RUN pnpm generate 
+# RUN yarn config set registry https://registry.npmmirror.com
+# RUN yarn
 # RUN yarn build
-RUN yarn generate
+# RUN yarn generate
 
 
 
