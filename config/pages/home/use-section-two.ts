@@ -13,6 +13,31 @@ export function useSectionTwo() {
             title: 'China Tower',
           },
           {
+            img: '/imgs/Partners/500/CNuclear.png',
+            href: 'https://www.cnnc.com.cn/',
+            title: 'China National Nuclear Corporation',
+          },
+          {
+            img: '/imgs/Partners/500/CADRG.png',
+            href: 'https://cadg.com.cn/',
+            title: 'China Architecture Design & Research Group',
+          },
+          {
+            img: '/imgs/Partners/500/ShandongPort.png',
+            href: 'http://www.sd-port.com/index.html',
+            title: 'Shandong Port Group',
+          },
+          {
+            img: '/imgs/Partners/500/DHYJY.png',
+            href: 'https://www.dha.ac.cn/',
+            title: '敦煌研究院',
+          },
+          {
+            img: '/imgs/Partners/500/PalaceMuseum.png',
+            href: 'https://www.dpm.org.cn/Home.html',
+            title: 'The Palace Museum',
+          },
+          {
             img: '/imgs/Partners/500/CASCI.png',
             href: 'https://weibo.com/u/7418885402?nick=%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E6%96%87%E5%88%9B&noscript=1&is_all=1',
             title: 'CASCI',
@@ -21,6 +46,22 @@ export function useSectionTwo() {
             img: '/imgs/Partners/500/MUA.png',
             href: 'https://muadao.build/',
             title: 'MUA DAO',
+          },
+          {
+            img: '/imgs/Partners/500/BrainUp.png',
+            href: 'https://www.naolubrain.com/',
+            title: 'BrainUp',
+          },
+        ],
+      },
+
+      {
+        title: 'home.sectionTwo.content.title[1]',
+        imgs: [
+          {
+            img: '/imgs/Partners/500/Hetu.png',
+            href: 'https://www.huaweicloud.com/product/live/dspace.html',
+            title: '华为河图',
           },
           {
             img: '/imgs/Partners/500/SoomeenHahm.png',
@@ -37,17 +78,6 @@ export function useSectionTwo() {
             href: 'https://www.archipocket.com/',
             title: 'ArchiPocket',
           },
-          {
-            img: '/imgs/Partners/500/BrainUp.png',
-            href: 'https://www.naolubrain.com/',
-            title: 'BrainUp',
-          },
-        ],
-      },
-
-      {
-        title: 'home.sectionTwo.content.title[1]',
-        imgs: [
           {
             img: '/imgs/Partners/500/Decentraland.png',
             href: 'https://decentraland.org',
@@ -160,6 +190,11 @@ export function useSectionTwo() {
             title: 'IEEE',
           },
           {
+            img: '/imgs/Partners/500/eCAADe_green.png',
+            href: 'https://ecaade.org/',
+            title: 'eCAADe',
+          },
+          {
             img: '/imgs/Partners/500/WMC.png',
             href: 'https://www.worldmetaverseconference.com/',
             title: 'World Metaverse Conference',
@@ -168,6 +203,21 @@ export function useSectionTwo() {
             img: '/imgs/Partners/500/SHDW.png',
             href: 'https://www.shdesignweek.com/',
             title: 'Shanghai International Design Week',
+          },
+          {
+            img: '/imgs/Partners/500/DigitalChina.png',
+            href: 'https://www.szzg.gov.cn/',
+            title: 'Digital China Summit',
+          },
+          {
+            img: '/imgs/Partners/500/WUPEN.png',
+            href: 'http://wupen.org/',
+            title: 'WUPEN City',
+          },
+          {
+            img: '/imgs/Partners/500/ZDTC.png',
+            href: 'https://taichu-web.ia.ac.cn/',
+            title: '紫东太初',
           },
 
         ],

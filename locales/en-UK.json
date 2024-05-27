@@ -43,7 +43,7 @@
     "sectionOne": {
       "topic": "World-Leading Web 3.0 Builders and AR/VR/MR Developers",
       "content": {
-        "title": ["80+", "20+", "2 Million+"],
+        "title": ["80+", "27", "20+ Million"],
         "subtext": ["Metaverse Experts & Engineers", "Completed Builds & Inventions", "Square Meters Developed"],
         "description": ["We have been developing in metaverse since 2021", "Architects, Developers, Producers, amd more", "in both virtual and IRL scales"]
 
@@ -51,7 +51,7 @@
     },
     "sectionTwo": {
       "content": {
-        "title": ["Client and Partner", "Digital Content Platform and Ecosystem", "Technical Development and Professional Association"]
+        "title": ["Our Clients", "Cooperation Ecosystem", "Technical Development and Professional Association"]
       },
       "title": "Our Partners & Cooperations",
       "description": "With WHOM and WHICH Platform We've Been Built"
