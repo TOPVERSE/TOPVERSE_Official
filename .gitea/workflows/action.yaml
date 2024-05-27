@@ -6,13 +6,13 @@ jobs:
   Explore-Gitea-Actions:
     runs-on: local
     steps:
-      - run: docker ps
-      # - name: Init Env
-      #   run: rm -rf /data/workspace/TOPVERSE_Official
-      # - name: Git
-      #   run: git clone http://127.0.0.1:3000/huxin/TOPVERSE_Official /data/workspace/TOPVERSE_Official
-      # - name: Install
-      #   run: cd /data/workspace/TOPVERSE_Official && ./deploy.sh
+      # - run: docker ps
+      - name: Init Env
+        run: rm -rf /opt/workspace/TOPVERSE_Official
+      - name: Git
+        run: git clone http://127.0.0.1:3000/huxin/TOPVERSE_Official /opt/workspace/TOPVERSE_Official
+      - name: Install
+        run: cd /opt/workspace/TOPVERSE_Official && ./deploy.sh
       # - name: Build
       #   run: cd /opt/workspace/TOPVERSE_Official && pnpm build
       # - name: Build
