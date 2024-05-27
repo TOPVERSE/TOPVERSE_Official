@@ -10,7 +10,7 @@ jobs:
       - name: Init Env
         run: rm -rf /opt/workspace/TOPVERSE_Official
       - name: Git
-        run: git clone http://127.0.0.1:3000/huxin/TOPVERSE_Official /opt/workspace/TOPVERSE_Official
+        run: git clone http://127.0.0.1:3000/topverse/TOPVERSE_Official /opt/workspace/TOPVERSE_Official
       - name: Install
         run: cd /opt/workspace/TOPVERSE_Official && ./deploy.sh
       # - name: Build
