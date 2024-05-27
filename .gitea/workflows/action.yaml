@@ -4,15 +4,7 @@ on: [push]
 
 jobs:
   Explore-Gitea-Actions:
-    runs-on: linux_server
-    # container: node:21
-    # container:
-    #   image: ghcr.nju.edu.cn/catthehacker/ubuntu:act-latest
-      # volumes:
-      #   - /run/docker.sock:/run/docker.sock
-    # env:
-    #   DOCKER_ORG: gitea
-    #   DOCKER_LATEST: latest
+    runs-on: local
     steps:
       - run: docker ps
       # - name: Init Env
