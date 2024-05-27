@@ -9,17 +9,11 @@ export default defineNuxtConfig({
   modules: [
     '@vueuse/nuxt',
     '@anu-vue/nuxt',
-    '@unocss/nuxt',
-    '@pinia/nuxt',
-    '@nuxtjs/i18n',
-    // '@nuxtjs/strapi',
+    '@unocss/nuxt', 
+    '@nuxtjs/i18n', 
     '@vue-macros/nuxt',
     '@nuxt/content',
-    '@nuxtjs/color-mode',
-    '@vite-pwa/nuxt',
-    // '@aceforth/nuxt-optimized-images',
-    // '@vueuse/components',
-    // '@nuxt/image',
+    '@nuxtjs/color-mode', 
     '@nuxt/devtools',
   ],
 
@@ -28,19 +22,19 @@ export default defineNuxtConfig({
   //     clientDB: true
   //   }
   // },
-  image: {
-    // provider:"static"
-  },
+  // image: {
+  //   // provider:"static"
+  // },
   // optimizedImages: {
   //   optimizeImages: true
   // },
-  experimental: {
-    // when using generate, payload js assets included in sw precache manifest
-    // but missing on offline, disabling extraction it until fixed
-    payloadExtraction: false,
-    inlineSSRStyles: false,
-    renderJsonPayloads: true,
-  },
+  // experimental: {
+  //   // when using generate, payload js assets included in sw precache manifest
+  //   // but missing on offline, disabling extraction it until fixed
+  //   payloadExtraction: false,
+  //   inlineSSRStyles: false,
+  //   renderJsonPayloads: true,
+  // },
 
   components: [{
     path: '~/components',
@@ -160,7 +154,7 @@ export default defineNuxtConfig({
     },
   },
 
-  pwa,
+  // pwa,
 
   devtools: {
     enabled: true,

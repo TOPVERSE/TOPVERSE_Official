@@ -62,7 +62,7 @@ const sectionNine = useSectionNine()
 
     <div ref="sectionThreeEl">
       <div
-        class="grid-row py-10 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionThree.contentPrimary.length}`"
+        class="grid py-10 gap-4 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionThree.contentPrimary.length}`"
       >
         <ImageHover
           v-for="(content, i) in sectionThree.contentPrimary"
@@ -74,7 +74,7 @@ const sectionNine = useSectionNine()
           }]"
         />
       </div>
-      <div class="grid-row pb-10 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionThree.contentSecondary.length}`">
+      <div class="grid gap-4 pb-10 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionThree.contentSecondary.length}`">
         <ImageHover
           v-for="(content, i) in sectionThree.contentSecondary"
           :key="i"
@@ -85,7 +85,7 @@ const sectionNine = useSectionNine()
           }]"
         />
       </div>
-      <div class="grid-row pb-20 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionThree.contentThird.length}`">
+      <div class="grid gap-4 pb-20 md:(grid-cols-2)" :class="`lg:grid-cols-${sectionThree.contentThird.length}`">
         <ImageHover
           v-for="(content, i) in sectionThree.contentThird"
           :key="i"
@@ -115,7 +115,7 @@ const sectionNine = useSectionNine()
   <!-- Section Five -->
   <Section class="bg-gradient-blue text-white">
     <Typography :title=" $t(sectionFive.title) " :topic=" $t(sectionFive.topic) " :description=" $t(sectionFive.description) " class="pb-20 text-start" />
-    <div class="grid-row gap-26 pb-10 lg:(grid-cols-3) md:(grid-cols-2)">
+    <div class="grid gap-26 pb-10 lg:(grid-cols-3) md:(grid-cols-2)">
       <div
         v-for="(content, i) in sectionFive.content"
         :key="i"
@@ -171,7 +171,7 @@ const sectionNine = useSectionNine()
 
   <!-- Section Eight -->
   <Section>
-    <div class="grid-row grid-cols-2 gap-20 pb-20 lg:(grid-cols-4)">
+    <div class="grid grid-cols-2 gap-20 pb-20 lg:(grid-cols-4)">
       <div
         v-for="(content, i) in sectionEight.content"
         :key="i"
@@ -187,7 +187,7 @@ const sectionNine = useSectionNine()
       </div>
     </div>
 
-    <!-- <div class="grid-row rounded-lg from-violet-500 to-fuchsia-500 bg-gradient-to-r p-5 text-white shadow-lg lg:(grid-cols-2)">
+    <!-- <div class="grid rounded-lg from-violet-500 to-fuchsia-500 bg-gradient-to-r p-5 text-white shadow-lg lg:(grid-cols-2)">
       <ATypography
         class="text-white"
         title="Awesome mobile"

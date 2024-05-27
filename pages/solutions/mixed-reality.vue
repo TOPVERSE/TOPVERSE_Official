@@ -9,7 +9,7 @@ const content = useMixedReality()
   <!-- <SectionGradientCard :content="content.feature.content" :topic="content.feature.topic" /> -->
 
   <Section>
-    <div class="grid-row grid-cols-2 gap-20 pb-20 lg:(grid-cols-4)">
+    <div class="grid grid-cols-2 gap-20 pb-20 lg:(grid-cols-4)">
       <div
         v-for="(item, i) in content.feature.content"
         :key="i"
@@ -41,7 +41,7 @@ const content = useMixedReality()
         </div>
       </div>
 
-      <div class="3xl:grid-cols-4 grid-row flex-grow pb-10 2xl:grid-cols-3 lg:grid-cols-2">
+      <div class="3xl:grid-cols-4 grid flex-grow pb-10 2xl:grid-cols-3 lg:grid-cols-2">
         <!-- 👉 2nd card -->
         <Card
           v-for="(item, i) in content.solutions.content"

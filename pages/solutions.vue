@@ -2,7 +2,7 @@
   <NuxtPage />
 
   <!-- <Section>
-    <div class="grid-row rounded-lg from-violet-500 to-fuchsia-500 bg-gradient-to-r p-5 text-white shadow-lg lg:(grid-cols-2)">
+    <div class="grid rounded-lg from-violet-500 to-fuchsia-500 bg-gradient-to-r p-5 text-white shadow-lg lg:(grid-cols-2)">
       <ATypography
         class="text-white"
         title="联系我们"

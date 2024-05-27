@@ -46,7 +46,7 @@ const status = [
           > -->
 
         <div class="a-card-body divide-y-1 divide-dark-50/10 a-card-spacer">
-          <div class="grid grid-rows-2 gap-y-3">
+          <div class="grid grids-2 gap-y-3">
             <ACheckbox
               v-for="tag in tags"
               :key="tag.value"
@@ -88,7 +88,7 @@ const status = [
           > -->
 
           <div class="a-card-body divide-y-1 divide-dark-50/10 a-card-spacer">
-            <div class="grid grid-rows-2 gap-y-3">
+            <div class="grid grids-2 gap-y-3">
               <ACheckbox
                 v-for="tag in tags"
                 :key="tag.value"
@@ -115,7 +115,7 @@ const status = [
         </ACard>
       </div>
 
-      <div class="3xl:grid-cols-4 grid-row w-full pb-10 2xl:grid-cols-3 lg:grid-cols-2">
+      <div class="3xl:grid-cols-4 gap-4 grid w-full pb-10 2xl:grid-cols-3 lg:grid-cols-2">
         <!-- 👉 2nd card -->
         <Card
           v-for="(item, i) in list"

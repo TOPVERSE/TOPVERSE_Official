@@ -91,7 +91,7 @@ const status = [
         </ACard>
       </div>
 
-      <div class="3xl:grid-cols-4 grid-row w-full pb-10 2xl:grid-cols-3 lg:grid-cols-2">
+      <div class="3xl:grid-cols-4 grid w-full gap-4 pb-10 2xl:grid-cols-3 lg:grid-cols-2">
         <!-- 👉 2nd card -->
         <Card
           v-for="(item, i) in list"
